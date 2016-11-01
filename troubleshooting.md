@@ -14,6 +14,10 @@ Locate 'Armory Build' section in 'Render' panel and hit 'Clean' button. Try runn
 ### Debug project in Kode Studio
 Locate 'Armory Build' section in 'Render' panel and hit 'Kode Studio' button. This will load the project in a dedicated IDE. Hit F5 to run and observe console output for potential error reports.
 
+### Select forward render path in camera data panel
+
+### Make sure you can run [browser demos](http://armory3d.org/download.html)
+
 ## Player runs slow
 ### Lower graphics settings
 By default, Armory uses a deferred render path. If you are running on older hardware, using a less demading forward path can help. Select active scene camera, locate 'Armory Props' in data panel, and choose 'forward_path' or 'forward_path_low' as render path.
