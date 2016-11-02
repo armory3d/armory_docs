@@ -25,20 +25,23 @@ Armory SDK can be used on **Windows, Linux and MacOS**. To learn about the web, 
 ## Getting started
 <!-- - [Intro](getting_started/intro.md) -->
 - [Setup](getting_started/setup.md)
-- [API](http://armory3d.org/api)
+- [Building a scene 1](essentials/buildscene.md)
 
 ## Essentials
+- [Armory API](http://armory3d.org/api)
 - [Blender essentials (CGCookie)](https://cgcookie.com/lesson/first-steps-with-blender/)
-- [Building a scene](essentials/buildscene.md)
+- [Blender manual](https://www.blender.org/manual/)
+- [Kha manual](https://github.com/KTXSoftware/Kha/wiki)
 <!--
 - [Shortcuts]()
 - [User Interface](essentials/ui.md)
 - [Assets management]()
 -->
 
-<!--
+
 ## Graphics
-- Render path
+- [Anti-aliasing](graphics/antialiasing.md)
+<!-- - Render path
 - Materials
 - Compositor
 - Global illumination
@@ -73,14 +76,27 @@ To make the scene interactive, logic nodes, Python, JavaScript or Haxe scripts a
 - Constraints
 - Navmeshes
 -->
-## Remarks
 
+<!--
+## Deploying
+- [Desktop]()
+- [Mobile]()
+- [Browser]()
+-->
+
+<!--
+## How to
+- [Avhieve best graphics]()
+- [Get best performance]()
+- [Optimize build size]()
+-->
+
+## Remarks
 <!--
 - Debugging
 - Efficiency
 - Publishing
 -->
-
 - [Troubleshooting](troubleshooting.md)
 - [Roadmap](roadmap.md)
 - [Contributing](contributing.md)
