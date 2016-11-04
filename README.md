@@ -1,4 +1,4 @@
-## Welcome
+# Welcome
 
 ![](getting_started/img/intro.jpg)
 
@@ -23,26 +23,27 @@ Armory SDK can be used on **Windows, Linux and MacOS**. To learn about the web, 
 - [Get Examples](https://github.com/armory3d/armory_examples/releases)
 
 ## Getting started
-<!-- - [Intro](getting_started/intro.md) -->
 - [Setup](getting_started/setup.md)
-- [Building a scene 1](essentials/buildscene.md)
+- [Scene building 1](getting_started/scene1.md)
 
 ## Essentials
 - [Armory API](http://armory3d.org/api)
 - [Blender essentials (CGCookie)](https://cgcookie.com/lesson/first-steps-with-blender/)
 - [Blender manual](https://www.blender.org/manual/)
 - [Kha manual](https://github.com/KTXSoftware/Kha/wiki)
-<!--
-- [Shortcuts]()
-- [User Interface](essentials/ui.md)
-- [Assets management]()
--->
+  
 
+- [User Interface](essentials/ui.md)
+- [Shortcuts](essentials/shortcuts.md)
+- [Workflow](essentials/workflow.md)
+- [Assets management](essentials/assetsmanagement.md)
 
 ## Graphics
 - [Anti-aliasing](graphics/antialiasing.md)
 <!-- - Render path
 - Materials
+- World
+- Lights and shadows
 - Compositor
 - Global illumination
 - Particles
@@ -72,6 +73,8 @@ To make the scene interactive, logic nodes, Python, JavaScript or Haxe scripts a
 ## Networking
 
 ## General
+- Project structure
+- Instanced rendering
 - Modifiers
 - Constraints
 - Navmeshes
@@ -84,9 +87,9 @@ To make the scene interactive, logic nodes, Python, JavaScript or Haxe scripts a
 - [Browser]()
 -->
 
-<!--
 ## How to
-- [Avhieve best graphics]()
+- [Achieve best graphics](howto/bestgraphics.md)
+<!--
 - [Get best performance]()
 - [Optimize build size]()
 -->
@@ -101,3 +104,4 @@ To make the scene interactive, logic nodes, Python, JavaScript or Haxe scripts a
 - [Roadmap](roadmap.md)
 - [Contributing](contributing.md)
 - [License](license.md)
+- [Edit docs](https://github.com/armory3d/armory_docs)

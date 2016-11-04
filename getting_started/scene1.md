@@ -1,3 +1,5 @@
+# Scene 1
+
 This page describes how to build a simple scene with rotating monkey and interactive camera.
 
 *Video version will be available soon.*

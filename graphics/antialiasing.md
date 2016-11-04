@@ -1,4 +1,4 @@
-## Anti-aliasing (AA)
+# Anti-aliasing (AA)
 
 Aliasing has a big impact on the image quality. To fight it, Armory comes pre-equipped with several solutions. Each has varying quality / performance ratio.
 

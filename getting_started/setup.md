@@ -1,6 +1,6 @@
 # Setup
 
-Armory bundle comes with everything you need. Currently, **Blender 2.78** is used with **Armory player** built in. If you do not require the built-in player, Armory can be used as add-on only (instructions available soon). Armory sources are available at [GitHub](https://github.com/armory3d/).
+Armory bundle comes with everything you need. Currently, **Blender 2.78** is used with **Armory player** built in. If you do not require the built-in player, Armory can be used as [add-on only](setupaddon.md). Armory sources are available at [GitHub](https://github.com/armory3d/).
 
 - Unpack **Armory_version.zip** to your preferred location. On Windows, prefer a short path like 'C:\Dev'.
 - Run Blender located in unpacked SDK. On Windows, you may need to enable it for the first time by clicking **More info** - **Run anyway**. 

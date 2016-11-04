@@ -1,20 +1,18 @@
+# User Interface
+
 This page lists all user interface elements added to Blender by Armory. If you are already comfortable with essentials of Blender, this page serves as a good overview of Armory additions.
 
-## Start
+## 3D View
 
-![](img/start0.png)
-
-Two buttons are located in the upper-right corner, in the info panel. Pressing the **Start** button, all elements will register and Armory will begin it's work. **Help** button opens the manual in browser.
-  
 At the bottom of 3D viewport is the **Play in Viewport** button. Pressing this button will start Armory if it's not already running, and then proceeds to render the opened scene in the 3D viewport.
 
-![](img/start1.png)
+<img src="img/start0.jpg" alt="Drawing" style="width: 600px;"/>
 
-When running the player, **Stop** and **Pause** buttons are available. If there is a message received from any of running scripts (using print() in Python, trace() in Haxe or console.log() in JavaScript)
+When running the player, **Stop** and **Pause** buttons are available. If there is a message received from any of the running scripts (using print() in Python, trace() in Haxe or console.log() in JavaScript), it will be displayed next to those buttons.
+
+<img src="img/start1.jpg" alt="Drawing" style="width: 600px;"/>
 
 ---
-
-<img src="img/window.jpg" alt="Drawing" style="width: 600px;"/>
 
 ## Render panel
 
