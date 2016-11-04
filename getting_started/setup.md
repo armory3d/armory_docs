@@ -17,6 +17,6 @@ Armory bundle comes with everything you need. Currently, **Blender 2.78** is use
 
 ![](img/setup2.jpg)
 
-- Continue to the [building a scene](../essentials/buildscene.md) tutorial. If you have any trouble setting things up, [contact us](http://armory3d.org/community.html)!
+- Continue to the [building a scene](scene1.md) tutorial. If you have any trouble setting things up, [contact us](http://armory3d.org/community.html)!
 
 ![](img/setup3.jpg)
