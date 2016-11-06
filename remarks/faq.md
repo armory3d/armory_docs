@@ -1,4 +1,4 @@
-# Troubleshooting
+# FAQ
 
 ## Unable to compile empty project
 Make sure SDK path is set up properly or that 'Bundled SDK' is enabled in add-on properties.
@@ -30,6 +30,14 @@ Locate render panel - dimensions - frame rate option. Make sure to select 60 fps
 ## Changes do not reflect in player
 
 In some cases the cache is kept even though the Blender data was modified. Cleaning the project will likely help. This will be fixed in the future.
+
+## Textures are black
+
+Make sure your mesh is unwrapped. Only .jpg, .png, and .hdr texture formats are supported at this time.
+
+## Multi-material meshes are not rendered properly
+
+Currently multi-material meshes may render wrong if materials are not coherent. Select object, enter Edit mode and hit **P - Split by Material**.
 
 ## Trouble persist
 [Post a new forum topic, report an issue, or contact us directly!](http://armory3d.org/support.html)
