@@ -5,11 +5,10 @@
 Please consider reading through this manual before purchasing preview. The main limitations are:
 
 - Use only the bundled Armory PBR node for materials. Node parser is currently being rewritten for more efficiency.
-- Armory player renders always on top, hiding popups as a result.
 - No open world data streaming / LOD support.
 - Minimal docs / API functionality out of the box.
 - Graphical effects require more tweaking.
-- Python / JS scripts not supported on native targets.
+- Limited Python / JS support.
 - Very few logic nodes implemented.
 - Likely breaking backward compatibility.
 

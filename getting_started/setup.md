@@ -18,5 +18,3 @@ Armory bundle comes with everything you need. Currently, **Blender 2.78** is use
 ![](img/setup3.jpg)
 
 - Continue to the [scene building](scene1.md) tutorials. If you have any trouble setting things up, [contact us](http://armory3d.org/community.html)!
-
-Note: On Linux, you may need to install following dependencies: libOpenImageIO.so.1.6, libboost_locale.so.1.58.0, libjemalloc.so.1

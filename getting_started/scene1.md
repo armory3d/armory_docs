@@ -1,8 +1,6 @@
-# Scene 1
+# Scene 1 - Basics
 
 This page describes how to build a simple scene with rotating monkey and interactive camera.
-
-*Video version will be available soon.*
 
 Boot up Blender located in Armory SDK and save the blend file.
 
@@ -26,11 +24,11 @@ Select Lamp and set **Emission** strength to 1000.
 
 Back in 3D view, place a plane under the monkey.
 
-To make monkey rotate, we will add a new trait. Select monkey and locate **Armory Traits** in object properties. Hit **+** to add empty trait. Set **Haxe Script** as type. Hit **New Script** and confirm. Next, hit **Edit Script** and Kode Studio opens.
+To make monkey rotate, we will add a new trait. Select monkey and locate **Armory Traits** in object properties. Hit **+** to add empty trait. Set **Haxe Script** as type. Hit **New Script** and confirm.
 
 ![](img/scene1/5.jpg)
 
-We want to rotate the monkey a bit every frame. Uncomment **notifyOnUpdate** function and make it look like this:
+Next, hit **Edit Script** and Kode Studio opens. We want to rotate the monkey a bit every frame. Uncomment **notifyOnUpdate** function and make it look like this:
 
 ```haxe
 notifyOnUpdate(function() {
@@ -40,7 +38,7 @@ notifyOnUpdate(function() {
 
 ![](img/scene1/6.jpg)
 
-If you want to use logic instead, switch to node editor and select logic nodes category. Click **New** and compose the node tree below. In **Armory Traits**, select **Logic Nodes** as type and set **Tree** entry.
+If you want to use logic nodes instead, switch to node editor. Select logic nodes category, click **New** and compose the node tree below. In **Armory Traits**, select **Logic Nodes** as type and set **Tree** entry.
 
 ![](img/scene1/7.jpg)
 
@@ -53,9 +51,9 @@ Switch back to 3D view, navigate to modifier properties and add **Subdivision Su
 
 In Render properties, locate **Armory Play** panel. Check **Viewport Camera** and select **Walk** as navigation. This will allow to control the camera with mouse and keyboard, similar to enabling walk navigation in viewport.
 
-Ready to go! Hit **Play in Viewport** to run.
+Ready to go! Hit **Play in Viewport** (shortcut P) to run.
 
-**Stop** the player and select **Browser** runtime in **Armory Play** panel. Hit **Play** and scene opens in the [browser](http://armory3d.org/demo/scene1)!
+**Stop** the player (shortcut ESC) and select **Browser** runtime in **Armory Play** panel. Hit **Play** (shortcut F5) and scene opens in the [browser](http://armory3d.org/demo/scene1)!
 
 ![](img/scene1/9.jpg)
 

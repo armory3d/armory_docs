@@ -1,5 +1,9 @@
 # FAQ
 
+## How can I see error output?
+
+On Windows, press **Window - Toggle System Console**. On Linux and Mac, Blender needs to be launched from console.
+
 ## Unable to compile empty project
 Make sure SDK path is set up properly or that 'Bundled SDK' is enabled in add-on properties.
   

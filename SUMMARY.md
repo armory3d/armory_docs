@@ -5,17 +5,14 @@
 
 - [Home](readme.md)
 - [Setup](getting_started/setup.md)
-- [Scene 1](getting_started/scene1.md)
+- [Setup as add-on](getting_started/setupaddon.md)
+- [Scene 1 - Basics](getting_started/scene1.md)
+- [Scene 2 - Physics](getting_started/scene2.md)
 
 
 ### Essentials
 
-- [Blender essentials](https://cgcookie.com/lesson/first-steps-with-blender/)
-- [Blender manual](https://www.blender.org/manual/)
-- [Kha manual](https://github.com/KTXSoftware/Kha/wiki)
 - [Armory API](http://armory3d.org/api)
-
-
 - [User Interface](essentials/ui.md)
 - [Shortcuts](essentials/shortcuts.md)
 - [Workflow](essentials/workflow.md)
@@ -80,6 +77,12 @@
 [//]: # - [Optimize build size]()
 
 
+### Engine Development
+
+- [Git version](enginedevelopment/gitversion.md)
+- [Logic nodes](enginedevelopment/logicnodes.md)
+
+
 ### Remarks
 
 [//]: # - Debugging
@@ -91,3 +94,10 @@
 - [Contributing](remarks/contributing.md)
 - [License](remarks/license.md)
 - [Edit docs](https://github.com/armory3d/armory_docs)
+
+
+### Links
+
+- [Blender essentials](https://cgcookie.com/lesson/first-steps-with-blender/)
+- [Blender manual](https://www.blender.org/manual/)
+- [Kha manual](https://github.com/KTXSoftware/Kha/wiki)
