@@ -13,7 +13,7 @@
 ### Essentials
 
 - [Armory API](http://armory3d.org/api)
-- [User Interface](essentials/ui.md)
+- [User interface](essentials/ui.md)
 - [Shortcuts](essentials/shortcuts.md)
 - [Workflow](essentials/workflow.md)
 - [Assets management](essentials/assetsmanagement.md)
@@ -22,6 +22,7 @@
 ### Graphics
 
 - [Anti-aliasing](graphics/antialiasing.md)
+- [Vertex colors](graphics/vertexcolors.md)
 [//]: # - Render path
 [//]: # - Materials
 [//]: # - World
@@ -46,8 +47,6 @@
 
 ### Scripting
 
-- [Haxe manual](https://haxe.org/manual/introduction.html)
-- [Haxe cookbook](http://code.haxe.org/category/beginner/)
 [//]: # - Scripting
 [//]: # - Logic nodes
 
@@ -101,3 +100,5 @@
 - [Blender essentials](https://cgcookie.com/lesson/first-steps-with-blender/)
 - [Blender manual](https://www.blender.org/manual/)
 - [Kha manual](https://github.com/KTXSoftware/Kha/wiki)
+- [Haxe manual](https://haxe.org/manual/introduction.html)
+- [Haxe cookbook](http://code.haxe.org/category/beginner/)
