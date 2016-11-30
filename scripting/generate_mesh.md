@@ -23,6 +23,7 @@ import armory.data.MeshData;
 import armory.data.MaterialData;
 import armory.system.Input;
 
+@:keep
 class BoxGenerator extends armory.Trait {
 
     var meshData:MeshData;
@@ -90,7 +91,7 @@ class BoxGenerator extends armory.Trait {
 }
 ```
 
-Hit **Play in Viewport** to verity [results](armory3d.org/demo/generate_mesh)!
+Hit **Play in Viewport** to verity [results](http://armory3d.org/demo/generate_mesh)!
 
 ![](img/generate_mesh/2.jpg)
 
