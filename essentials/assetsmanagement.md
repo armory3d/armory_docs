@@ -12,7 +12,7 @@ Referenced assets should be in the formats below. When building, assets get proc
 - Sounds - .wav
 - Videos - .mp4
 
-Eventually, more formats will be supported and converted internally using Blender.
+Note that if different format is provided, Armory will convert it internally to supported format using Blender.
 
 To process video, specify path to *ffmpeg binary* (not bundled with SDK) in add-on preferences.
 

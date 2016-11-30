@@ -47,6 +47,7 @@
 
 ### Scripting
 
+- [Generate mesh](scripting/generate_mesh.md)
 [//]: # - Scripting
 [//]: # - Logic nodes
 
