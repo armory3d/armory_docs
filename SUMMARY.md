@@ -8,6 +8,7 @@
 - [Setup as add-on](getting_started/setupaddon.md)
 - [Scene 1 - Basics](getting_started/scene1.md)
 - [Scene 2 - Physics](getting_started/scene2.md)
+- [Scene 3 - Animation](getting_started/scene3.md)
 
 
 ### Essentials

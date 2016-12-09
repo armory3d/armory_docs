@@ -5,7 +5,7 @@
 Please consider reading through this manual before purchasing preview. The main limitations are:
 
 - Use only the bundled Armory PBR node for materials. Node parser is currently being rewritten for more efficiency.
-- No open world data streaming / LOD support.
+- No open world data streaming.
 - Minimal docs / API functionality out of the box.
 - Graphical effects require more tweaking.
 - Limited Python / JS support.
