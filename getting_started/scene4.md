@@ -8,7 +8,7 @@ Start by adding an **Environment Texture** node in world nodes. For this tutoria
 
 ![](img/scene4/1.jpg)
 
-Add a new **UV Sphere**. Set segments to 64 and rings to 32 in Tools panel (T). Set shading to smooth in Tools panel - Edit - Shading.
+Add a new **UV Sphere**. Set segments to 64 and rings to 32 in Tools panel (T). Set shading to smooth in Tools panel - Edit - Shading. Make sure **UV map** is present by unwrapping the sphere using **Mesh - UV Unwrap... - Sphere Projection**.
 
 Create new material and switch to material editor. Select **Add - Group - Armory PBR** and connect **Surface socket** to the **Material Output**. Using **Armory PBR** node is recommended at all times. If we were to use Height maps for tessellated displacement, we would also connect Displacement sockets.
 
