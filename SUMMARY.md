@@ -9,11 +9,12 @@
 - [Scene 1 - Basics](getting_started/scene1.md)
 - [Scene 2 - Physics](getting_started/scene2.md)
 - [Scene 3 - Animation](getting_started/scene3.md)
+- [Scene 4 - Materials](getting_started/scene4.md)
 
 
 ### Essentials
 
-- [Armory API](http://armory3d.org/api)
+- [Armory API](http://armory3d.org/manual/api)
 - [User interface](essentials/ui.md)
 - [Shortcuts](essentials/shortcuts.md)
 - [Workflow](essentials/workflow.md)
