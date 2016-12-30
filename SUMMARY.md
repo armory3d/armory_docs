@@ -79,6 +79,11 @@
 [//]: # - [Optimize build size]()
 
 
+### Tooling
+
+- [Substance Painter](tooling/substancepainter.md)
+
+
 ### Engine Development
 
 - [Git version](enginedevelopment/gitversion.md)

@@ -4,13 +4,13 @@
 
 Please consider reading through this manual before purchasing preview. The main limitations are:
 
-- Use only the bundled Armory PBR node for materials. Node parser is currently being rewritten for more efficiency.
-- No open world data streaming.
-- Minimal docs / API functionality out of the box.
-- Graphical effects require more tweaking.
-- Limited Python / JS support.
-- Very few logic nodes implemented.
-- Likely breaking backward compatibility.
+- Limited material nodes support
+- No open world data streaming
+- Minimal docs / API functionality out of the box
+- Graphical effects require more tweaking
+- Limited Python / JS support
+- Very few logic nodes implemented
+- Likely breaking backward compatibility
 
 To reach the first release, all of these issues need to get resolved.
 
