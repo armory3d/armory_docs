@@ -1,0 +1,780 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Generate mesh · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../howto/bestgraphics.html" />
+    
+    
+    <link rel="prev" href="../graphics/vertexcolors.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Getting Started</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Home
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../getting_started/setup.html">
+            
+                <a href="../getting_started/setup.html">
+            
+                    
+                    Setup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../getting_started/setupaddon.html">
+            
+                <a href="../getting_started/setupaddon.html">
+            
+                    
+                    Setup as add-on
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../getting_started/scene1.html">
+            
+                <a href="../getting_started/scene1.html">
+            
+                    
+                    Scene 1 - Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../getting_started/scene2.html">
+            
+                <a href="../getting_started/scene2.html">
+            
+                    
+                    Scene 2 - Physics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../getting_started/scene3.html">
+            
+                <a href="../getting_started/scene3.html">
+            
+                    
+                    Scene 3 - Animation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../getting_started/scene4.html">
+            
+                <a href="../getting_started/scene4.html">
+            
+                    
+                    Scene 4 - Materials
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Essentials</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <a target="_blank" href="http://armory3d.org/manual/api">
+            
+                    
+                    Armory API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../essentials/ui.html">
+            
+                <a href="../essentials/ui.html">
+            
+                    
+                    User interface
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../essentials/shortcuts.html">
+            
+                <a href="../essentials/shortcuts.html">
+            
+                    
+                    Shortcuts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../essentials/workflow.html">
+            
+                <a href="../essentials/workflow.html">
+            
+                    
+                    Workflow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../essentials/assetsmanagement.html">
+            
+                <a href="../essentials/assetsmanagement.html">
+            
+                    
+                    Assets management
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Graphics</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../graphics/antialiasing.html">
+            
+                <a href="../graphics/antialiasing.html">
+            
+                    
+                    Anti-aliasing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../graphics/vertexcolors.html">
+            
+                <a href="../graphics/vertexcolors.html">
+            
+                    
+                    Vertex colors
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Animation</li>
+        
+        
+    
+
+    
+        
+        <li class="header">Physics</li>
+        
+        
+    
+
+    
+        
+        <li class="header">Scripting</li>
+        
+        
+    
+        <li class="chapter active" data-level="6.1" data-path="generate_mesh.html">
+            
+                <a href="generate_mesh.html">
+            
+                    
+                    Generate mesh
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Audio</li>
+        
+        
+    
+
+    
+        
+        <li class="header">UI</li>
+        
+        
+    
+
+    
+        
+        <li class="header">Networking</li>
+        
+        
+    
+
+    
+        
+        <li class="header">General</li>
+        
+        
+    
+
+    
+        
+        <li class="header">How To</li>
+        
+        
+    
+        <li class="chapter " data-level="11.1" data-path="../howto/bestgraphics.html">
+            
+                <a href="../howto/bestgraphics.html">
+            
+                    
+                    Achieve best graphics
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Tooling</li>
+        
+        
+    
+        <li class="chapter " data-level="12.1" data-path="../tooling/substancepainter.html">
+            
+                <a href="../tooling/substancepainter.html">
+            
+                    
+                    Substance Painter
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Engine Development</li>
+        
+        
+    
+        <li class="chapter " data-level="13.1" data-path="../enginedevelopment/gitversion.html">
+            
+                <a href="../enginedevelopment/gitversion.html">
+            
+                    
+                    Git version
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.2" data-path="../enginedevelopment/logicnodes.html">
+            
+                <a href="../enginedevelopment/logicnodes.html">
+            
+                    
+                    Logic nodes
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Remarks</li>
+        
+        
+    
+        <li class="chapter " data-level="14.1" data-path="../remarks/faq.html">
+            
+                <a href="../remarks/faq.html">
+            
+                    
+                    FAQ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="14.2" data-path="../remarks/roadmap.html">
+            
+                <a href="../remarks/roadmap.html">
+            
+                    
+                    Roadmap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="14.3" data-path="../remarks/contributing.html">
+            
+                <a href="../remarks/contributing.html">
+            
+                    
+                    Contributing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="14.4" data-path="../remarks/license.html">
+            
+                <a href="../remarks/license.html">
+            
+                    
+                    License
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="14.5" >
+            
+                <a target="_blank" href="https://github.com/armory3d/armory_docs">
+            
+                    
+                    Edit docs
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Links</li>
+        
+        
+    
+        <li class="chapter " data-level="15.1" >
+            
+                <a target="_blank" href="https://cgcookie.com/lesson/first-steps-with-blender/">
+            
+                    
+                    Blender essentials
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.2" >
+            
+                <a target="_blank" href="https://www.blender.org/manual/">
+            
+                    
+                    Blender manual
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.3" >
+            
+                <a target="_blank" href="https://github.com/KTXSoftware/Kha/wiki">
+            
+                    
+                    Kha manual
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.4" >
+            
+                <a target="_blank" href="https://haxe.org/manual/introduction.html">
+            
+                    
+                    Haxe manual
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.5" >
+            
+                <a target="_blank" href="http://code.haxe.org/category/beginner/">
+            
+                    
+                    Haxe cookbook
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Generate mesh</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="generate-mesh">Generate mesh</h1>
+<p>This page describes how to dynamically generate mesh object at runtime using a trait script.</p>
+<p>Setup a simple scene with single plane in the center. Assign default material and create a static rigid body for the plane.</p>
+<p><img src="img/generate_mesh/0.jpg" alt=""></p>
+<p>Now we can start writing a trait that will dynamically generate a mesh and spawn it in the scene. For this example Haxe is used.</p>
+<p>Select Camera and attach a new trait using <strong>Object tab - Armory Traits - +</strong>. Hit <strong>New Script</strong> and name it <strong>BoxGenerator</strong>.
+<img src="img/generate_mesh/1.jpg" alt=""></p>
+<p>Pressing <strong>Edit Script</strong> will open our new trait script in <strong>Kode Studio</strong>. Example code below will generate a simple box, attach a rigid body trait and spawn it on the plane after pressing input.</p>
+<pre><code class="lang-hx"><span class="hljs-keyword">package</span> arm;
+
+<span class="hljs-keyword">import</span> armory.Scene;
+<span class="hljs-keyword">import</span> armory.data.SceneFormat;
+<span class="hljs-keyword">import</span> armory.data.Data;
+<span class="hljs-keyword">import</span> armory.data.MeshData;
+<span class="hljs-keyword">import</span> armory.data.MaterialData;
+<span class="hljs-keyword">import</span> armory.system.Input;
+
+@:keep
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">BoxGenerator</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">armory</span>.<span class="hljs-title">Trait</span> </span>{
+
+    <span class="hljs-keyword">var</span> meshData:MeshData;
+    <span class="hljs-keyword">var</span> materials:haxe.ds.Vector&lt;MaterialData&gt;;
+
+    <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">new</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">super</span>();
+
+        <span class="hljs-keyword">var</span> pos:TVertexArray = {
+            attrib: <span class="hljs-string">&quot;position&quot;</span>,
+            size: <span class="hljs-number">3</span>,
+            values: [<span class="hljs-number">1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">1.0</span>]
+        };
+
+        <span class="hljs-keyword">var</span> nor:TVertexArray = {
+            attrib: <span class="hljs-string">&quot;normal&quot;</span>,
+            size: <span class="hljs-number">3</span>,
+            values: [<span class="hljs-number">0.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-0.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-0.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-0.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">-0.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">-0.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">-0.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">-0.0</span>,<span class="hljs-number">-1.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">-0.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">0.0</span>,<span class="hljs-number">1.0</span>,<span class="hljs-number">0.0</span>]
+        };
+
+        <span class="hljs-keyword">var</span> indices:TIndexArray = {
+            material: <span class="hljs-number">0</span>,
+            size: <span class="hljs-number">3</span>,
+            values: [<span class="hljs-number">0</span>,<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">0</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>,<span class="hljs-number">4</span>,<span class="hljs-number">6</span>,<span class="hljs-number">7</span>,<span class="hljs-number">8</span>,<span class="hljs-number">9</span>,<span class="hljs-number">10</span>,<span class="hljs-number">8</span>,<span class="hljs-number">10</span>,<span class="hljs-number">11</span>,<span class="hljs-number">12</span>,<span class="hljs-number">13</span>,<span class="hljs-number">14</span>,<span class="hljs-number">12</span>,<span class="hljs-number">14</span>,<span class="hljs-number">15</span>,<span class="hljs-number">16</span>,<span class="hljs-number">17</span>,<span class="hljs-number">18</span>,<span class="hljs-number">16</span>,<span class="hljs-number">18</span>,<span class="hljs-number">19</span>,<span class="hljs-number">20</span>,<span class="hljs-number">21</span>,<span class="hljs-number">22</span>,<span class="hljs-number">20</span>,<span class="hljs-number">22</span>,<span class="hljs-number">23</span>]
+        };
+
+        <span class="hljs-keyword">var</span> rawmesh:TMesh = {
+            primitive: <span class="hljs-string">&quot;triangles&quot;</span>,
+            vertex_arrays: [pos, nor],
+            index_arrays: [indices]
+        };
+
+        <span class="hljs-keyword">var</span> rawmeshData:TMeshData = { 
+            name: <span class="hljs-string">&quot;BoxMesh&quot;</span>,
+            mesh: rawmesh 
+        };
+
+        <span class="hljs-keyword">new</span> MeshData(rawmeshData, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(data:MeshData)</span> </span>{
+            <span class="hljs-comment">// Mesh data parsed</span>
+            meshData = data;
+            meshData.mesh.calculateAABB();
+
+            <span class="hljs-comment">// Fetch material from scene data</span>
+            Data.getMaterial(<span class="hljs-string">&quot;Scene&quot;</span>, <span class="hljs-string">&quot;Material&quot;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(data:MaterialData)</span> </span>{
+                <span class="hljs-comment">// Material loaded</span>
+                materials = haxe.ds.Vector.fromData([data]);
+                notifyOnUpdate(update);
+            });
+        });
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">update</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-comment">// Left mouse button was pressed / display touched / ..</span>
+        <span class="hljs-keyword">if</span> (Input.started) {
+            <span class="hljs-comment">// Create new object in active scene</span>
+            <span class="hljs-keyword">var</span> object = Scene.active.addMeshObject(meshData, materials);
+
+            <span class="hljs-comment">// Just for testing, add rigid body trait</span>
+            <span class="hljs-keyword">var</span> aabb = meshData.mesh.aabb;
+            object.transform.setDimensions(aabb.x, aabb.y, aabb.z);
+            object.transform.set(Math.random() * <span class="hljs-number">8</span> - <span class="hljs-number">4</span>, Math.random() * <span class="hljs-number">8</span> - <span class="hljs-number">4</span>, <span class="hljs-number">5</span>);
+            object.addTrait(<span class="hljs-keyword">new</span> armory.trait.internal.RigidBody());
+        }
+    }
+}
+</code></pre>
+<p>Hit <strong>Play in Viewport</strong> to verity <a href="http://armory3d.org/demo/generate_mesh" target="_blank">results</a>!</p>
+<p><img src="img/generate_mesh/2.jpg" alt=""></p>
+<p>Get the blend file at <a href="https://github.com/armory3d/armory_examples/tree/master/generate_mesh" target="_blank">GitHub</a>.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../graphics/vertexcolors.html" class="navigation navigation-prev " aria-label="Previous page: Vertex colors">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../howto/bestgraphics.html" class="navigation navigation-next " aria-label="Next page: Achieve best graphics">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Generate mesh","level":"6.1","depth":1,"next":{"title":"Achieve best graphics","level":"11.1","depth":1,"path":"howto/bestgraphics.md","ref":"howto/bestgraphics.md","articles":[]},"previous":{"title":"Vertex colors","level":"3.2","depth":1,"path":"graphics/vertexcolors.md","ref":"graphics/vertexcolors.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"scripting/generate_mesh.md","mtime":"2016-11-30T01:31:55.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-12-30T15:26:16.439Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
