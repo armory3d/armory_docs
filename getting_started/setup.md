@@ -15,6 +15,10 @@ Armory bundle comes with everything you need. Currently, **Blender 2.78** is use
 
 - To verify everything is working correctly, save your .blend file and hit **Play in viewport** button, located in the 3D view header.
 
+![](img/setup2.jpg)
+
+- And the result:
+
 ![](img/setup3.jpg)
 
 - Continue to the [scene building](scene1.md) tutorials. If you have any trouble setting things up, [contact us](http://armory3d.org/community.html)!
