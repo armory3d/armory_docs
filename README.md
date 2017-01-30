@@ -16,7 +16,7 @@ To reach the first release, all of these issues need to get resolved.
 
 ---
 
-Armory SDK can be used on **Windows, Linux and MacOS**. To learn about the web, desktop and mobile platforms you can target, see [publishing]() section.
+Armory SDK can be used on **Windows, Linux and MacOS**. To learn about the web, desktop and mobile targets you can build to, see platforms section.
 
 - [Get Armory SDK](http://armory3d.org/download.html)
 - [Get Examples](https://github.com/armory3d/armory_examples/releases)

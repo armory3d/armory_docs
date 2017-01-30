@@ -7,13 +7,7 @@ Armory bundle comes with everything you need. Currently, **Blender 2.78** is use
 
 ![](img/winrun.png)
 
-- In Blender, Select **File** - **User Preferences...** and navigate to **Add-ons** tab.
-- Search for **Armory** add-on and enable it.
-- Hit **Save User Settings** at the bottom. That's it!
-
-![](img/setup1.jpg)
-
-- To verify everything is working correctly, save your .blend file and hit **Play in viewport** button, located in the 3D view header.
+- To verify everything is working correctly, save your .blend file and hit **Play in Viewport** button, located in the 3D view header.
 
 ![](img/setup2.jpg)
 

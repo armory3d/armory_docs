@@ -3,7 +3,6 @@
 
 ### Getting Started
 
-- [Home](readme.md)
 - [Setup](getting_started/setup.md)
 - [Setup as add-on](getting_started/setupaddon.md)
 - [Scene 1 - Basics](getting_started/scene1.md)
@@ -72,6 +71,16 @@
 [//]: # - Navmeshes
 
 
+### Platforms
+
+- [Windows](platforms/windows.md)
+- [Linux](platforms/linux.md)
+- [MacOS](platforms/macos.md)
+- [HTML5](platforms/html5.md)
+- [Android](platforms/android.md)
+- [iOS](platforms/ios.md)
+
+
 ### How To
 
 - [Achieve best graphics](howto/bestgraphics.md)
@@ -92,10 +101,6 @@
 
 ### Remarks
 
-[//]: # - Debugging
-[//]: # - Efficiency
-[//]: # - Publishing
-
 - [FAQ](remarks/faq.md)
 - [Roadmap](remarks/roadmap.md)
 - [Contributing](remarks/contributing.md)
@@ -105,6 +110,7 @@
 
 ### Links
 
+- [Iron manual](http://armory3d.org/iron/)
 - [Blender essentials](https://cgcookie.com/lesson/first-steps-with-blender/)
 - [Blender manual](https://www.blender.org/manual/)
 - [Kha manual](https://github.com/KTXSoftware/Kha/wiki)
