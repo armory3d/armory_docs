@@ -80,4 +80,4 @@ To disable culling for material, select material - Armory Props - Advanced - Ove
 
 
 ## Trouble persists
-[Post a new forum topic, report an issue, or contact us directly!](http://armory3d.org/support.html)
+[Post a new forum topic, report an issue, or contact us directly!](http://armory3d.org/community.html)
