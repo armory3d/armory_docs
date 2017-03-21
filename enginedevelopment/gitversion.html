@@ -57,7 +57,7 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="logicnodes.html" />
+    <link rel="next" href="../remarks/faq.html" />
     
     
     <link rel="prev" href="../tooling/substancepainter.html" />
@@ -494,19 +494,6 @@
             
         </li>
     
-        <li class="chapter " data-level="14.2" data-path="logicnodes.html">
-            
-                <a href="logicnodes.html">
-            
-                    
-                    Logic nodes
-            
-                </a>
-            
-
-            
-        </li>
-    
 
     
         
@@ -714,11 +701,27 @@
 <ul>
 <li>Locate path where you unpacked Armory SDK and open <em>Armory/armsdk</em> on Windows and Linux, or Armory/blender.app/armsdk on MacOS</li>
 <li>Rename <em>iron</em> to <em>iron_backup</em> and <em>armory</em> to <em>armory_backup</em></li>
-<li>Open a terminal in this location</li>
+<li>Open a console/terminal in this location</li>
 <li>git clone <a href="https://github.com/armory3d/armory" target="_blank">https://github.com/armory3d/armory</a></li>
 <li>git clone <a href="https://github.com/armory3d/iron" target="_blank">https://github.com/armory3d/iron</a></li>
 </ul>
+<p>Optionally, cloning Kha repository is recommended. Armory often takes advantage of latest Kha features, and when this happens, using older Kha revisions may produce build errors.</p>
+<ul>
+<li>Locate <em>Armory/armsdk/win32/Kha</em> (alternatively /linux64/Kha and /KodeStudio.app/Contents/Kha)</li>
+<li>Rename <em>Kha</em> to <em>Kha_backup</em></li>
+<li>Open a console/terminal in this location</li>
+<li>git clone --recursive <a href="https://github.com/Kode/Kha" target="_blank">https://github.com/Kode/Kha</a></li>
+<li>cd Kha</li>
+<li>git submodule foreach --recursive git pull origin master</li>
+<li>git pull origin master</li>
+</ul>
 <p>There is no need to recompile any libraries, you are now using the latest version of Armory. This may not be stable at all times - in case of issues, revert back to the <em>_backup</em> versions.</p>
+<p>Going deeper:</p>
+<ul>
+<li>You may rebuild Krom: <a href="https://github.com/Kode/Krom" target="_blank">https://github.com/Kode/Krom</a></li>
+<li>You may rebuild Blender itself with integrated Krom: <a href="https://github.com/armory3d/blender_krom" target="_blank">https://github.com/armory3d/blender_krom</a></li>
+</ul>
+<p>Eventually, the plan is to provide a single command line script which will get all of this done automatically.</p>
 
                                 
                                 </section>
@@ -751,7 +754,7 @@
                 </a>
                 
                 
-                <a href="logicnodes.html" class="navigation navigation-next " aria-label="Next page: Logic nodes">
+                <a href="../remarks/faq.html" class="navigation navigation-next " aria-label="Next page: FAQ">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -762,7 +765,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Git version","level":"14.1","depth":1,"next":{"title":"Logic nodes","level":"14.2","depth":1,"path":"enginedevelopment/logicnodes.md","ref":"enginedevelopment/logicnodes.md","articles":[]},"previous":{"title":"Substance Painter","level":"13.1","depth":1,"path":"tooling/substancepainter.md","ref":"tooling/substancepainter.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"enginedevelopment/gitversion.md","mtime":"2017-01-07T23:31:38.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-01-30T17:48:01.644Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Git version","level":"14.1","depth":1,"next":{"title":"FAQ","level":"15.1","depth":1,"path":"remarks/faq.md","ref":"remarks/faq.md","articles":[]},"previous":{"title":"Substance Painter","level":"13.1","depth":1,"path":"tooling/substancepainter.md","ref":"tooling/substancepainter.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"enginedevelopment/gitversion.md","mtime":"2017-03-21T17:50:54.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-21T17:52:09.012Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
