@@ -81,12 +81,6 @@
 - [iOS](platforms/ios.md)
 
 
-### How To
-
-- [Achieve best graphics](howto/bestgraphics.md)
-[//]: # - [Get best performance]()
-[//]: # - [Optimize build size]()
-
 
 ### Tooling
 

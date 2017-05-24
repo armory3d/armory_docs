@@ -1,28 +1,98 @@
 # Using Git version
 
-The process of using Git version of Armory in SDK is not yet automated but is quite straightforward. To proceed, git installation is required.
+## Windows
+- Install [Git](https://git-scm.com/download/win)
+- Locate path where you unpacked Armory SDK and open *Armory/armsdk*
+- Rename *iron* to *iron_backup*, *armory* to *armory_backup* and *win32/Kha* to *win32/Kha_backup*
+- Open a command line at *Armory/armsdk*
 
-- Locate path where you unpacked Armory SDK and open *Armory/armsdk* on Windows and Linux, or Armory/blender.app/armsdk on MacOS
-- Rename *iron* to *iron_backup* and *armory* to *armory_backup*
-- Open a console/terminal in this location
-- git clone https://github.com/armory3d/armory
-- git clone https://github.com/armory3d/iron
+```
+git clone https://github.com/armory3d/armory
+git clone https://github.com/armory3d/iron
+cd win32
+git clone --recursive https://github.com/Kode/Kha
+cd Kha
+git submodule foreach --recursive git pull origin master
+git pull origin master
+```
 
-Optionally, cloning Kha repository is recommended. Armory often takes advantage of latest Kha features, and when this happens, using older Kha revisions may produce build errors.
+### Updating
 
-- Locate *Armory/armsdk/win32/Kha* (alternatively /linux64/Kha and /KodeStudio.app/Contents/Kha)
-- Rename *Kha* to *Kha_backup*
-- Open a console/terminal in this location
-- git clone --recursive https://github.com/Kode/Kha
-- cd Kha
-- git submodule foreach --recursive git pull origin master
-- git pull origin master
+- Open a command line at *Armory/armsdk*
 
-There is no need to recompile any libraries, you are now using the latest version of Armory. This may not be stable at all times - in case of issues, revert back to the *_backup* versions.
+```
+cd iron
+git pull
+cd ../armory
+git pull
+cd ../win32/Kha
+git submodule foreach --recursive git pull origin master
+git pull origin master
+```
+
+## Linux
+- Locate path where you unpacked Armory SDK and open *Armory/armsdk*
+- Rename *iron* to *iron_backup*, *armory* to *armory_backup* and *linux64/Kha* to *linux64/Kha_backup*
+- Open a terminal at *Armory/armsdk*
+
+```
+git clone https://github.com/armory3d/armory
+git clone https://github.com/armory3d/iron
+cd linux64
+git clone --recursive https://github.com/Kode/Kha
+cd Kha
+git submodule foreach --recursive git pull origin master
+git pull origin master
+```
+
+### Updating
+
+- Open a terminal at *Armory/armsdk*
+
+```
+cd iron
+git pull
+cd ../armory
+git pull
+cd ../linux64/Kha
+git submodule foreach --recursive git pull origin master
+git pull origin master
+```
+
+## MacOS
+
+- Locate path where you unpacked Armory SDK and open *Armory/blender.app/armsdk*
+- Rename *iron* to *iron_backup*, *armory* to *armory_backup* and *KodeStudio.app/Contents/Kha* to *KodeStudio.app/Contents/Kha_backup*
+- Open a terminal at *Armory/blender.app/armsdk*
+
+```
+git clone https://github.com/armory3d/armory
+git clone https://github.com/armory3d/iron
+cd KodeStudio.app/Contents
+git clone --recursive https://github.com/Kode/Kha
+cd Kha
+git submodule foreach --recursive git pull origin master
+git pull origin master
+```
+
+### Updating
+
+- Open a terminal at *Armory/blender.app/armsdk*
+
+```
+cd iron
+git pull
+cd ../armory
+git pull
+cd ../KodeStudio.app/Contents/Kha
+git submodule foreach --recursive git pull origin master
+git pull origin master
+```
+
+---
+You are now using the latest version of Armory. This may not be stable at all times - in case of issues, revert back to the *_backup* versions.
 
 Going deeper:
+
 - You may rebuild Krom: https://github.com/Kode/Krom
 - You may rebuild Blender itself with integrated Krom: https://github.com/armory3d/blender_krom
-
-
-Eventually, the plan is to provide a single command line script which will get all of this done automatically.

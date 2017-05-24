@@ -1,0 +1,775 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Scene 4 - Materials · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="scene3.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Getting Started</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="setup.html">
+            
+                <a href="setup.html">
+            
+                    
+                    Setup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="setupaddon.html">
+            
+                <a href="setupaddon.html">
+            
+                    
+                    Setup as add-on
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="scene1.html">
+            
+                <a href="scene1.html">
+            
+                    
+                    Scene 1 - Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="scene2.html">
+            
+                <a href="scene2.html">
+            
+                    
+                    Scene 2 - Physics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="scene3.html">
+            
+                <a href="scene3.html">
+            
+                    
+                    Scene 3 - Animation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.7" data-path="scene4.html">
+            
+                <a href="scene4.html">
+            
+                    
+                    Scene 4 - Materials
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Essentials</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <a target="_blank" href="http://armory3d.org/manual/api">
+            
+                    
+                    Armory API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../essentials/ui.html">
+            
+                <a href="../essentials/ui.html">
+            
+                    
+                    User interface
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../essentials/shortcuts.html">
+            
+                <a href="../essentials/shortcuts.html">
+            
+                    
+                    Shortcuts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../essentials/workflow.html">
+            
+                <a href="../essentials/workflow.html">
+            
+                    
+                    Workflow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../essentials/assetsmanagement.html">
+            
+                <a href="../essentials/assetsmanagement.html">
+            
+                    
+                    Assets management
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Graphics</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../graphics/antialiasing.html">
+            
+                <a href="../graphics/antialiasing.html">
+            
+                    
+                    Anti-aliasing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../graphics/vertexcolors.html">
+            
+                <a href="../graphics/vertexcolors.html">
+            
+                    
+                    Vertex colors
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Animation</li>
+        
+        
+    
+
+    
+        
+        <li class="header">Physics</li>
+        
+        
+    
+
+    
+        
+        <li class="header">Scripting</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../scripting/generate_mesh.html">
+            
+                <a href="../scripting/generate_mesh.html">
+            
+                    
+                    Generate mesh
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Audio</li>
+        
+        
+    
+
+    
+        
+        <li class="header">UI</li>
+        
+        
+    
+
+    
+        
+        <li class="header">Networking</li>
+        
+        
+    
+
+    
+        
+        <li class="header">General</li>
+        
+        
+    
+
+    
+        
+        <li class="header">Platforms</li>
+        
+        
+    
+        <li class="chapter " data-level="11.1" data-path="../platforms/windows.html">
+            
+                <a href="../platforms/windows.html">
+            
+                    
+                    Windows
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.2" data-path="../platforms/linux.html">
+            
+                <a href="../platforms/linux.html">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.3" data-path="../platforms/macos.html">
+            
+                <a href="../platforms/macos.html">
+            
+                    
+                    MacOS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.4" data-path="../platforms/html5.html">
+            
+                <a href="../platforms/html5.html">
+            
+                    
+                    HTML5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.5" data-path="../platforms/android.html">
+            
+                <a href="../platforms/android.html">
+            
+                    
+                    Android
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.6" data-path="../platforms/ios.html">
+            
+                <a href="../platforms/ios.html">
+            
+                    
+                    iOS
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Tooling</li>
+        
+        
+    
+        <li class="chapter " data-level="12.1" data-path="../tooling/substancepainter.html">
+            
+                <a href="../tooling/substancepainter.html">
+            
+                    
+                    Substance Painter
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Engine Development</li>
+        
+        
+    
+        <li class="chapter " data-level="13.1" data-path="../enginedevelopment/gitversion.html">
+            
+                <a href="../enginedevelopment/gitversion.html">
+            
+                    
+                    Git version
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Remarks</li>
+        
+        
+    
+        <li class="chapter " data-level="14.1" data-path="../remarks/faq.html">
+            
+                <a href="../remarks/faq.html">
+            
+                    
+                    FAQ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="14.2" data-path="../remarks/roadmap.html">
+            
+                <a href="../remarks/roadmap.html">
+            
+                    
+                    Roadmap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="14.3" data-path="../remarks/contributing.html">
+            
+                <a href="../remarks/contributing.html">
+            
+                    
+                    Contributing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="14.4" data-path="../remarks/license.html">
+            
+                <a href="../remarks/license.html">
+            
+                    
+                    License
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="14.5" >
+            
+                <a target="_blank" href="https://github.com/armory3d/armory_docs">
+            
+                    
+                    Edit docs
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Links</li>
+        
+        
+    
+        <li class="chapter " data-level="15.1" >
+            
+                <a target="_blank" href="http://armory3d.org/iron/">
+            
+                    
+                    Iron manual
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.2" >
+            
+                <a target="_blank" href="https://cgcookie.com/lesson/first-steps-with-blender/">
+            
+                    
+                    Blender essentials
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.3" >
+            
+                <a target="_blank" href="https://www.blender.org/manual/">
+            
+                    
+                    Blender manual
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.4" >
+            
+                <a target="_blank" href="https://github.com/KTXSoftware/Kha/wiki">
+            
+                    
+                    Kha manual
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.5" >
+            
+                <a target="_blank" href="https://haxe.org/manual/introduction.html">
+            
+                    
+                    Haxe manual
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.6" >
+            
+                <a target="_blank" href="http://code.haxe.org/category/beginner/">
+            
+                    
+                    Haxe cookbook
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Scene 4 - Materials</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="scene-4---materials">Scene 4 - Materials</h1>
+<p>This page describes how to work with Armory <strong>material system</strong> using the <strong>Cycles nodes</strong>.</p>
+<p><img src="img/scene4/0.jpg" alt=""></p>
+<p>Start by adding an <strong>Environment Texture</strong> node in world nodes. For this tutorial, we use <a href="http://www.hdrlabs.com/sibl/archive.html" target="_blank">Industrial Ruins from hdrlabs</a>. In 3D viewport, check Properties panel (N) - Display - World Background to preview environment map.</p>
+<p><img src="img/scene4/1.jpg" alt=""></p>
+<p>Add a new <strong>UV Sphere</strong>. Set segments to 64 and rings to 32 in Tools panel (T). Set shading to smooth in Tools panel - Edit - Shading. Make sure <strong>UV map</strong> is present by unwrapping the sphere using <strong>Mesh - UV Unwrap... - Sphere Projection</strong>.</p>
+<p>Create new material and switch to material editor. Select <strong>Add - Group - Armory PBR</strong> and connect <strong>Surface socket</strong> to the <strong>Material Output</strong>. Using <strong>Armory PBR</strong> node is recommended at all times. If we were to use Height maps for tessellated displacement, we would also connect Displacement sockets.</p>
+<p>With <strong>Armory PBR</strong> node, it is easy to use <strong>standard PBR materials</strong> present in other real-time rendering engines.
+For this tutorial, we use <a href="http://freepbr.com/materials/worn-scuffed-plastic-pbr-material/" target="_blank">Plastic Material from freepbr</a>. Drop textures into material editor and connect them to the <strong>Base Color, Occlusion, Roughness and Normal Map sockets</strong>.</p>
+<p><img src="img/scene4/2.jpg" alt=""></p>
+<p>We will create two more spheres. For the second sphere, same material setup is used with only <strong>Base Color</strong> texture changed. For the third sphere, <strong>Base Color</strong> texture is removed and <strong>solid color</strong> of (0.8, 0.8, 0.8) with <strong>Metallic</strong> set to 1.0 is used. Plenty of distinct materials can be achieved just by playing with these values.</p>
+<p><img src="img/scene4/3.jpg" alt=""></p>
+<p>It is also possible to build materials without the <strong>Armory PBR</strong> node. Note this setup is not yet calibrated and therefore the results may look different/wrong compared to <strong>Cycles output</strong>.</p>
+<p>Switch to <strong>second scene layer</strong> and create <strong>another 3 spheres</strong>. For the first one, we use a <strong>Diffuse BSDF</strong> node with <strong>Roughness</strong> of 0.3. For the second sphere, <strong>Glossy BSDF</strong> with <strong>Roughness</strong> of 0.0 is used. For the third sphere, both <strong>Diffuse BSDF</strong> and <strong>Glossy BSDF</strong> are used through <strong>Mix Shader</strong> node.</p>
+<p><img src="img/scene4/4.jpg" alt=""></p>
+<p>Switch to <strong>third scene layer</strong> and create another 3 spheres.</p>
+<p>We can quickly assemble non-metallic material using standard nodes. Connect <strong>Color, Roughness and Normal textures to Diffuse BSDF sockets</strong>. Note that <strong>Normal Map</strong> node is used to connect Normal texture.</p>
+<p><img src="img/scene4/5.jpg" alt=""></p>
+<p>To create <strong>translucent surfaces</strong>, connect texture color or alpha to the <strong>Opacity socket of Armory PBR</strong> node. Alternatively, connect standard shader like Diffuse BSDF with <strong>Transparent BSDF</strong> into <strong>Mix Shader</strong> node. Make sure to enable Camera - Properties - Data - Armory Render Path - Translucency and hit Set (this will get automated in the future). To cut out surface by texture alpha, drop in <strong>opacity texture</strong> and connect <strong>Alpha</strong> to the <strong>Fac socket</strong> of Mix Shader.</p>
+<p><img src="img/scene4/6.jpg" alt=""></p>
+<p>It is recommended to <strong>bake everything down to textures</strong> and keep materials as simple as possible. However, if required and your performance budget allows, it is possible to use <strong>fully procedural Cycles materials</strong>. For this tutorial, we build a simple camouflage material. </p>
+<p><img src="img/scene4/7.jpg" alt=""></p>
+<p>Get the blend file at <a href="https://github.com/armory3d/armory_examples/tree/master/scene4" target="_blank">GitHub</a>.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="scene3.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Scene 3 - Animation">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Scene 4 - Materials","level":"1.7","depth":1,"next":{"title":"Armory API","level":"2.1","depth":1,"url":"http://armory3d.org/manual/api","ref":"http://armory3d.org/manual/api","articles":[]},"previous":{"title":"Scene 3 - Animation","level":"1.6","depth":1,"path":"getting_started/scene3.md","ref":"getting_started/scene3.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"getting_started/scene4.md","mtime":"2017-05-24T12:07:15.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-24T12:15:22.333Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
