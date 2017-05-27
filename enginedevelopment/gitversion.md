@@ -90,9 +90,12 @@ git pull origin master
 ```
 
 ---
+
 You are now using the latest version of Armory. This may not be stable at all times - in case of issues, revert back to the *_backup* versions.
 
-Going deeper:
+### Going deeper:
 
+- Clone latest physics module into *armsdk/lib*: https://github.com/armory3d/haxebullet
+- Clone latest ui module into *armsdk/lib*: https://github.com/armory3d/zui
 - You may rebuild Krom: https://github.com/Kode/Krom
 - You may rebuild Blender itself with integrated Krom: https://github.com/armory3d/blender_krom
