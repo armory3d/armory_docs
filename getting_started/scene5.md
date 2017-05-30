@@ -20,9 +20,9 @@ The whole system consists of just 5 essential categories.
 
 Let's craft the simplest example - after pressing down mouse button, we will show a 'Hello world' message. Start up with a default scene, switch to **Node Editor** area and select **Logic Nodes** type. Press **New** to create a new node tree.
 
-You can browse all available nodes through **Add** menu item, or simply hit **Shift + A** to start searching. Search for **On Mouse** node and hit enter to place it. This is an event node that gets triggered when the mouse button is pressed. Next, place a **Print** node - an action node. Connect **Out** socket of the **On Mouse** node to the **In** socket of the **Print** node. As soon as the mouse gets pressed, **Print** node gets executed. Lastly, we need to tell the **Print** node what to print. Place a **String** node and set it's value to 'Hello world!' - this is a variable node. Connect **String** and **Value** sockets.
+You can browse all available nodes through **Add** menu item, or simply hit **Shift + A** to start searching. Search for **On Mouse** node and hit enter to place it. This is an event node that gets triggered when the mouse button is pressed. Next, place a **Print** node - an action node. Connect **Out** socket of the **On Mouse** node to the **In** socket of the **Print** node. As soon as the mouse gets pressed, **Print** node gets executed. Lastly, we need to tell the **Print** node what to print. Place a **String** node and set its value to 'Hello world!' - this is a variable node. Connect **String** and **Value** sockets.
 
-Each node tree has to be attached to an object using a trait system. Similar to the materials defining object looks, logic tree defines it's behaviour. Select cube and create new trait in *Properties - Object - Armory Traits*. Set type to Logic Nodes and enter our newly created node tree as Tree entry. That is it - press **P** to play in viewport and click the mouse in viewport area. You will notice a message in a viewport header.
+Each node tree has to be attached to an object using a trait system. Similar to the materials defining object looks, logic tree defines its behaviour. Select cube and create new trait in *Properties - Object - Armory Traits*. Set type to Logic Nodes and enter our newly created node tree as Tree entry. That is it - press **P** to play in viewport and click the mouse in viewport area. You will notice a message in a viewport header.
 
 ![](img/scene5/1.jpg)
 
@@ -32,7 +32,7 @@ Using node tree it is easy to interact directly with cube object. Delete all nod
 
 ![](img/scene5/2.jpg)
 
-We can easily limit the maximum distance allowed the cube to translate. Insert a **Gate** node between **On Mouse** node and **Translate Object** node. Set it's type to **Less**. Place a **Get Location** node - a value node. This will retrieve current location of cube object. Connect it to the **Separate XYZ** node. We want to limit the distance on Y axis - connect it to the first value socket of **Gate** node. Create **Float** - a variable node - and set it to 5.0. If you play the scene now, cube moves only 3 times and then stops.
+We can easily limit the maximum distance allowed the cube to translate. Insert a **Gate** node between **On Mouse** node and **Translate Object** node. Set its type to **Less**. Place a **Get Location** node - a value node. This will retrieve current location of cube object. Connect it to the **Separate XYZ** node. We want to limit the distance on Y axis - connect it to the first value socket of **Gate** node. Create **Float** - a variable node - and set it to 5.0. If you play the scene now, cube moves only 3 times and then stops.
 
 Get the full blend for this example:
 - https://github.com/armory3d/armory_examples/tree/master/logic_helloworld
@@ -75,7 +75,7 @@ As before, we do the same for **'backward'** event with translate vector reverse
 
 ![](img/scene5/11.jpg)
 
-Now that the tanks are fully controllable, we make them shoot bullets. To keep scene clear, bullet object is placed in the second scene layer with **Render disabled**. This ensures object will be exported but not visible on it's own.
+Now that the tanks are fully controllable, we make them shoot bullets. To keep scene clear, bullet object is placed in the second scene layer with **Render disabled**. This ensures object will be exported but not visible on its own.
 
 ![](img/scene5/12.jpg)
 
@@ -83,7 +83,7 @@ Selecting the red tank, an empty object is added as a child - the location of th
 
 ![](img/scene5/13.jpg)
 
-We attach another logic tree - handling response to the **'fire'** event. We spawn a new object - our bullet model from layer 2, and set it's location to the logic tree owner - in this case a bullet spawn point - defined as an empty object placed as a child of tank.
+We attach another logic tree - handling response to the **'fire'** event. We spawn a new object - our bullet model from layer 2, and set its location to the logic tree owner - in this case a bullet spawn point - defined as an empty object placed as a child of tank.
 
 ![](img/scene5/14.jpg)
 
@@ -103,7 +103,7 @@ That's it - feel free to experiment further! Get the full blend for this example
 
 - https://github.com/armory3d/armory_examples/tree/master/scene5
 
-The game can be instatnly played in the browser (and all the other targets) - including gamepad support:
+The game can be instantly played in the browser (and all the other targets) - including gamepad support:
 - http://armory3d.org/demo/scene5/
 
 ![](img/scene5/18.jpg)
