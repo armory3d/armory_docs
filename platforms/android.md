@@ -8,10 +8,6 @@ Before running on mobile device, make sure the project is optimized to run smoot
 
 ![](img/android/0.jpg)
 
-## Krom
-
-TBD
-
 ## Native (C++)
 
 Select *Android* in *Properties - Render - Armory Project - Target*. Hit *Build* to generate android project files.
@@ -26,8 +22,14 @@ Once the project is loaded, make sure to install *NDK* by opening up *SDK Manage
 
 ![](img/android/3.jpg)
 
-Android Studio may ask you to install additional tools. Continue till you resolve all dependencies. **Connect your device** and press *Run*. Build process can take up to several minutes when compiling for the first time. You may speed it up by selecting a specific platform from *Build Variants* menu.
+Android Studio may ask you to install additional tools. Continue till you resolve all dependencies. To speed up the build process, select 'armv7' target from the Build Variants tab. **Connect your device** and press *Run*. Build process can take up to several minutes when compiling for the first time.
+
+Note: If you experience build errors, make sure the 'armv7' build variant is selected.
 
 ![](img/android/4.jpg)
 
 Once compiled, the project will launch on your device!
+
+## Krom
+
+TBD
