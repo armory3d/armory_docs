@@ -5,11 +5,12 @@
 Please consider reading through this manual before purchasing preview. The main limitations are:
 
 - Limited material nodes support
-- No open world data streaming
-- Minimal docs / API functionality out of the box
+- Limited documentation
+- Limited open world streaming
+- Limited set of logic nodes implemented
 - Graphical effects require more tweaking
-- Limited Python / JS support
-- Very few logic nodes implemented
+- Animation system needs more work
+- UI system needs more work
 - Likely breaking backward compatibility
 
 To reach the first release, all of these issues need to get resolved.
