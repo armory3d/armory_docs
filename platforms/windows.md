@@ -14,7 +14,7 @@ To proceed, install [Visual Studio](https://www.visualstudio.com/vs/community/).
 
 ![](img/windows/1.jpg)
 
-Next, you can test, debug and profile your project in Visual Studio. Once you are ready to export final binary, switch to Release mode and build the project.
+Next, you can test, debug and profile your project in Visual Studio. When you are ready to export final binary, switch to Release mode and build the project.
 
 ![](img/windows/2.jpg)
 
