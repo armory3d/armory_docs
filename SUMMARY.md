@@ -91,6 +91,7 @@
 ### Engine Development
 
 - [Git version](enginedevelopment/gitversion.md)
+- [Logic Nodes](enginedevelopment/logicnodes.md)
 
 
 ### Remarks
