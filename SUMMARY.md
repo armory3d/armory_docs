@@ -96,6 +96,7 @@
 
 ### Remarks
 
+- [Supported Nodes](remarks/supported_nodes.md)
 - [FAQ](remarks/faq.md)
 - [Roadmap](remarks/roadmap.md)
 - [Contributing](remarks/contributing.md)
