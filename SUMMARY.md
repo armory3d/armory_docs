@@ -107,7 +107,7 @@
 ### Links
 
 - [Iron manual](http://armory3d.org/iron/)
-- [Blender essentials](https://cgcookie.com/lesson/first-steps-with-blender/)
+- [Blender essentials](https://www.youtube.com/watch?v=kes2qmijy7w&list=PLa1F2ddGya_8V90Kd5eC5PeBjySbXWGK1)
 - [Blender manual](https://www.blender.org/manual/)
 - [Kha manual](https://github.com/KTXSoftware/Kha/wiki)
 - [Haxe manual](https://haxe.org/manual/introduction.html)
