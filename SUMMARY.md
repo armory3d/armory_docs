@@ -80,6 +80,7 @@
 - [HTML5](platforms/html5.md)
 - [Android](platforms/android.md)
 - [iOS](platforms/ios.md)
+- [Xbox](platforms/xbox.md)
 
 
 
@@ -90,8 +91,8 @@
 
 ### Engine Development
 
-- [Git version](enginedevelopment/gitversion.md)
-- [Logic Nodes](enginedevelopment/logicnodes.md)
+- [Git version](dev/gitversion.md)
+- [Logic Nodes](dev/logicnodes.md)
 
 
 ### Remarks
