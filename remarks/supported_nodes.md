@@ -43,6 +43,7 @@
 - TEX_NOISE (Noise Texture)
 - TEX_GRADIENT (Gradient Texture)
 - TEX_VORONOI (Voronoi Texture)
+- MAPPING (Mapping)
 
 Planned:
 - BSDF_ANISOTROPIC
