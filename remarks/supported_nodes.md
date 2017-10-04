@@ -44,6 +44,7 @@
 - TEX_GRADIENT (Gradient Texture)
 - TEX_VORONOI (Voronoi Texture)
 - MAPPING (Mapping)
+- PARTICLE_INFO (Particle Info) - GPU particles
 
 Planned:
 - BSDF_ANISOTROPIC

@@ -31,3 +31,4 @@ To enable CPU particle simulation:
 - Render (Object)
 - Render - Dupli Object
 - Render - Size
+- Particle Info material node - GPU particles
