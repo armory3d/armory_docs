@@ -98,6 +98,7 @@
 ### Remarks
 
 - [Supported Nodes](remarks/supported_nodes.md)
+- [Supported Particles](remarks/supported_particles.md)
 - [FAQ](remarks/faq.md)
 - [Roadmap](remarks/roadmap.md)
 - [Contributing](remarks/contributing.md)
