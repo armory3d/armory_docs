@@ -44,7 +44,9 @@ If we play the scene now, dynamic objects will fall down and collide with static
 
 As the last step, let's make a **first person camera** that we can use to walk around and interact with objects.
 
-Create a shape which will represent the **body volume**. For simplicity, we use a **cube** and scale it along a Z axis. In **Physics tab**, enable rigid body and set **Capsule** as shape. Since we want to use this object for collision only, check **Restrict Render** property in **Object data - Armory Props - advanced**. This way the cube will not get rendered.
+Create a shape which will represent the **body volume**. For simplicity, we use a **cube** and scale it along a Z axis. In **Physics tab**, enable rigid body and set **Capsule** as shape. Since we want to use this object for collision only, click on its camera icon in the **Outliner**. This way the cube will not get rendered.
+
+![](img/scene2/5_.jpg)
 
 Switch to **Object data - Armory Traits** and create new trait. Choose **Bundled Script** as Type and select **FirstPersonController**.
 
