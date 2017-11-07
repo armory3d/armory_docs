@@ -1,6 +1,14 @@
 # Using Git version
 
-## Windows
+## Armory Updater
+
+Navigate to `File - User Preferences... - Add-ons - Armory`. Before cloning, you may need to install Git first - hit `Install Git` button to open the download page. Afterwards, select `Update SDK` and inspect the command line for details - the process should take just a few seconds. Once done, restart Blender for changes to take effect. If something goes wrong, use `Restore SDK` button to revert the changes.
+
+![](img/gitversion/updater.jpg)
+
+## Manual clone
+
+### Windows
 - Install [Git](https://git-scm.com/download/win)
 - Locate path where you unpacked Armory SDK and open *Armory/armsdk*
 - Rename *iron* to *iron_backup*, *armory* to *armory_backup* and *win32/Kha* to *win32/Kha_backup*
@@ -16,7 +24,7 @@ git submodule foreach --recursive git pull origin master
 git pull origin master
 ```
 
-### Updating
+#### Updating
 
 - Open a command line at *Armory/armsdk*
 
@@ -30,7 +38,7 @@ git submodule foreach --recursive git pull origin master
 git pull origin master
 ```
 
-## Linux
+### Linux
 - Locate path where you unpacked Armory SDK and open *Armory/armsdk*
 - Rename *iron* to *iron_backup*, *armory* to *armory_backup* and *linux64/Kha* to *linux64/Kha_backup*
 - Open a terminal at *Armory/armsdk*
@@ -45,7 +53,7 @@ git submodule foreach --recursive git pull origin master
 git pull origin master
 ```
 
-### Updating
+#### Updating
 
 - Open a terminal at *Armory/armsdk*
 
@@ -59,7 +67,7 @@ git submodule foreach --recursive git pull origin master
 git pull origin master
 ```
 
-## MacOS
+### MacOS
 
 - Locate path where you unpacked Armory SDK and open *Armory/blender.app/armsdk*
 - Rename *iron* to *iron_backup*, *armory* to *armory_backup* and *KodeStudio.app/Contents/Kha* to *KodeStudio.app/Contents/Kha_backup*
@@ -75,7 +83,7 @@ git submodule foreach --recursive git pull origin master
 git pull origin master
 ```
 
-### Updating
+#### Updating
 
 - Open a terminal at *Armory/blender.app/armsdk*
 
