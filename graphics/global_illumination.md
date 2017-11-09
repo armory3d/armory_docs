@@ -140,7 +140,7 @@ Locate `Armory Render Props - SSR` for settings.
 
 Timings performed on GTX 1060. Rendering [curio shop](https://github.com/armory3d/armory_calibration/tree/master/curio_shop) scene, 498k tris, 104 objects, 64x64x32 voxel volume.
 
-|           	| RTGI 	| VoxelAO     	| VoxelGI     	| Frame                	|
+|           	| RTGI 	| VoxelAO     	| VoxelGI     	| Frame (ms)           	|
 |-----------	|------	|-------------	|-------------	|----------------------	|
 | 1920x1080 	| 2.2  	| 2.1 / 4.0 * 	| 4.0 / 6.1 * 	| 5.0 / 11.2 / 13.3 ** 	|
 
