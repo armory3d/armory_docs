@@ -26,7 +26,7 @@ To enable global illumination in your scene using default settings, set `Propert
 
 Set `Render - Armory Render Path - Global Illumination` to `Voxel AO`.
 
-The cheapest way of utilizing voxels, usable for **ambient occlusion and shadows**. Runs faster and consumes less memory.
+The cheapest way of utilizing voxels, usable for **ambient occlusion and shadows**. Runs faster and consumes less memory compared to Voxel GI.
 
 Locate `Armory Render Props - Voxel GI` for settings.
 
@@ -138,9 +138,14 @@ Locate `Armory Render Props - SSR` for settings.
 
 ## Performance
 
-Timings performed on GTX 1060. Rendering [curio shop](https://github.com/armory3d/armory_calibration/tree/master/curio_shop) scene, 0 tris, 0 objects.
+Timings performed on GTX 1060. Rendering [curio shop](https://github.com/armory3d/armory_calibration/tree/master/curio_shop) scene, 498k tris, 104 objects, 64x64x32 voxel volume.
 
-TBD
+|           	| RTGI 	| VoxelAO     	| VoxelGI     	| Frame                	|
+|-----------	|------	|-------------	|-------------	|----------------------	|
+| 1920x1080 	| 2.2  	| 2.1 / 4.0 * 	| 4.0 / 6.1 * 	| 5.0 / 11.2 / 13.3 ** 	|
+
+- `*` Revoxelized per frame
+- `**` Base(deferred + temporal AA) / Base + RTGI + VoxelGI / + Revoxelized per frame
 
 <img src="img/gi/ssgi.jpg" width="50%">
 
@@ -152,8 +157,6 @@ There are still severe limitations to be resolved.
 - Only one lamp affects global illumination for now
 - Only one bounce for now
 - No multiple voxel volumes to handle big distances yet
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Q6hlGmZfHk0?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ## Baked lighting
 
