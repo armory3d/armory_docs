@@ -25,12 +25,12 @@
 
 - [Anti-aliasing](graphics/antialiasing.md)
 - [Vertex colors](graphics/vertexcolors.md)
+- [Global illumination](graphics/global_illumination.md)
 [//]: # - Render path
 [//]: # - Materials
 [//]: # - World
 [//]: # - Lights and shadows
 [//]: # - Compositor
-[//]: # - Global illumination
 [//]: # - Particles
 [//]: # - Writing shaders
 
