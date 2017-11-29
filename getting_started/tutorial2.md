@@ -1,4 +1,4 @@
-# Scene 2 - Physics
+# Tutorial 2 - Physics
 
 This page describes how to build a scene with **physics** and basic **first person camera**.
 
