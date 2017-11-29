@@ -1,4 +1,4 @@
-# Scene 1 - Basics
+# Tutorial 1 - Basics
 
 This page describes how to build a simple scene with rotating monkey and interactive camera.
 
