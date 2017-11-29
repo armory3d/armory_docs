@@ -5,11 +5,11 @@
 
 - [Setup](getting_started/setup.md)
 - [Setup as add-on](getting_started/setupaddon.md)
-- [Scene 1 - Basics](getting_started/scene1.md)
-- [Scene 2 - Physics](getting_started/scene2.md)
-- [Scene 3 - Animation](getting_started/scene3.md)
-- [Scene 4 - Materials](getting_started/scene4.md)
-- [Scene 5 - Logic](getting_started/scene5.md)
+- [Tutorial 1 - Basics](getting_started/tutorial1.md)
+- [Tutorial 2 - Physics](getting_started/tutorial2.md)
+- [Tutorial 3 - Animation](getting_started/tutorial3.md)
+- [Tutorial 4 - Materials](getting_started/tutorial4.md)
+- [Tutorial 5 - Logic](getting_started/tutorial5.md)
 
 
 ### Essentials
