@@ -1,4 +1,4 @@
-# Scene 3 - Animation
+# Tutorial 3 - Animation
 
 This page describes how to **animate objects** in the scene and setup **skinned characters**.
 
