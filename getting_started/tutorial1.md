@@ -10,7 +10,7 @@ Delete the cube and add monkey.
 
 ![](img/scene1/1.jpg)
 
-Create a new material for the monkey. Switch to node editor, delete the default **Diffuse BSDF** node and select **Add** - **Group** - **Armory PBR**. Preview version is still very limited and this node is recommended for all materials for now.
+Create a new material for the monkey. Switch to node editor, delete the default **Diffuse BSDF** node and select **Add** - **Group** - **Armory PBR**. This node is recommended for the PBR workflow.
 
 ![](img/scene1/2.jpg)
 
@@ -42,19 +42,16 @@ If you want to use logic nodes instead, switch to node editor. Select logic node
 
 ![](img/scene1/7.jpg)
 
-<!--If you want to use Python instead.
-![](img/scene1/7_.jpg)-->
-
 Switch back to 3D view, navigate to modifier properties and add **Subdivision Surface** modifier. Set Render subdivisions to 1.
 
 ![](img/scene1/8.jpg)
 
-In Render properties, locate **Armory Play** panel. Check **Viewport Camera** and select **Walk** as navigation. This will allow to control the camera with mouse and keyboard, similar to enabling walk navigation in viewport.
+In Render properties, locate **Armory Player** panel. Set **Camera** to **Viewport**. This will allow to control the camera with mouse and keyboard, similar to enabling walk navigation in viewport.
 
 Ready to go! Hit **Play in Viewport** (shortcut P) to run.
 
-**Stop** the player (shortcut ESC) and select **Browser** runtime in **Armory Play** panel. Hit **Play** (shortcut F5) and scene opens in the [browser](http://armory3d.org/demo/scene1)!
+**Stop** the player (shortcut ESC) and select **Browser** runtime in **Armory Player** panel. Hit **Play** (shortcut F5) and scene opens in the [browser](http://armory3d.org/demo/scene1)!
 
 ![](img/scene1/9.jpg)
 
-Get the blend file at [GitHub](https://github.com/armory3d/armory_examples/tree/master/scene1).
+Get the blend file at [GitHub](https://github.com/armory3d/armory_examples/tree/master/tutorial1).
