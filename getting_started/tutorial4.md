@@ -2,8 +2,6 @@
 
 This page describes how to work with Armory **material system** using the **Cycles nodes**.
 
-![](img/scene4/0.jpg)
-
 Start by adding an **Environment Texture** node in world nodes. For this tutorial, we use [Industrial Ruins from hdrlabs](http://www.hdrlabs.com/sibl/archive.html). In 3D viewport, check Properties panel (N) - Display - World Background to preview environment map.
 
 ![](img/scene4/1.jpg)
@@ -33,12 +31,8 @@ We can quickly assemble non-metallic material using standard nodes. Connect **Co
 
 ![](img/scene4/5.jpg)
 
-To create **translucent surfaces**, connect texture color or alpha to the **Opacity socket of Armory PBR** node. Alternatively, connect standard shader like Diffuse BSDF with **Transparent BSDF** into **Mix Shader** node. Make sure to enable Camera - Properties - Data - Armory Render Path - Translucency and hit Set (this will get automated in the future). To cut out surface by texture alpha, drop in **opacity texture** and connect **Alpha** to the **Fac socket** of Mix Shader.
-
-![](img/scene4/6.jpg)
-
 It is recommended to **bake everything down to textures** and keep materials as simple as possible. However, if required and your performance budget allows, it is possible to use **fully procedural Cycles materials**. For this tutorial, we build a simple camouflage material. 
 
 ![](img/scene4/7.jpg)
 
-Get the blend file at [GitHub](https://github.com/armory3d/armory_examples/tree/master/scene4).
+Get the blend file at [GitHub](https://github.com/armory3d/armory_examples/tree/master/tutorial4).
