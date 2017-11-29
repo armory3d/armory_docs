@@ -1,4 +1,4 @@
-# Scene 5 - Logic
+# Tutorial 5 - Logic
 
 This page describes how to work with **logic node system** in Armory. Logic nodes provide a visual way of creating interactive scenes. When you build your project, created node trees are automatically compiled down to scripts.
 
