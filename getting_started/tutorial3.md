@@ -32,10 +32,6 @@ By default, Blender will use **Bezier** interpolation mode. However, we want to 
 
 Clone one more cube and clear it's animation data. Select frame 0, move cube forward to Y = 2 and **Insert keyframes**. Select frame 60, move cube back to Y = -2 and **Insert keyframes**.
 
-Switch to Object tab in Properties, locate Armory Props and enable **Edit Clips** option. This allows us to make further adjustments to animation when running in Armory. Add new clip using **+** button and double click to rename this clip to Move. Enable **Reflect** option to let animation play both forward and backwards in succession.
-
-![](img/scene3/7.jpg)
-
 And that is it! [Play the scene](http://armory3d.org/demo/scene3) to observe animations in real-time.
 
 Get the blend file at [GitHub](https://github.com/armory3d/armory_examples/tree/master/tutorial3).
