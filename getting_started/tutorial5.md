@@ -101,7 +101,7 @@ Even though Armory culls out of screen objects, it is important to keep resource
 
 That's it - feel free to experiment further! Get the full blend for this example:
 
-- https://github.com/armory3d/armory_examples/tree/master/scene5
+- https://github.com/armory3d/armory_examples/tree/master/tutorial5
 
 The game can be instantly played in the browser (and all the other targets) - including gamepad support:
 - http://armory3d.org/demo/scene5/
