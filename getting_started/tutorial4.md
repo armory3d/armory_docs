@@ -1,4 +1,4 @@
-# Scene 4 - Materials
+# Tutorial 4 - Materials
 
 This page describes how to work with Armory **material system** using the **Cycles nodes**.
 
