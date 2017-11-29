@@ -37,7 +37,3 @@ Used in Deferred High path. For dynamic scenes, velocity buffer is required for 
 ### Super-sampling
 Very costly method producing very good results.
 ![](img/aa/taa_smaa_2x.jpg)
-
-To enable super sampling, set screen scale in render nodes to 2.0. This effectively renders the scene at double the resolution.
-
-<img src="img/aa/screenscale.png" alt="Drawing" style="width: 260px;"/>
