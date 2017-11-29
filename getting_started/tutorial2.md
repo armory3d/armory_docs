@@ -10,7 +10,7 @@ Delete default cube and connect **Sky Texture** to **Background** in world nodes
 
 ![](img/scene2/0.jpg)
 
-We will prepare a checker-textured ground  that we will walk on.
+We will prepare a checker-textured ground that we will walk on.
 
 Add a new **plane object** and scale it by a factor of 12. Enter **edit mode** and **unwrap** the plane. While still in edit mode, enter **UV/Image Editor** and scale the UV map by a factor of 10. Assign a new material to our plane and connect images to **Color** and **Roughness** sockets.
 
@@ -50,7 +50,7 @@ Create a shape which will represent the **body volume**. For simplicity, we use 
 
 Switch to **Object data - Armory Traits** and create new trait. Choose **Bundled Script** as Type and select **FirstPersonController**.
 
-Lastly, select **camera** and rename it to "Head" (silly limitation that will be eventually resolved). Make camera a **child of body** and set it to preferable position.
+Lastly, select **camera**, make it a **child of body** and set it to preferable position.
 
 ![](img/scene2/6.jpg)
 
@@ -58,4 +58,4 @@ Hit **Play in Viewport** and [push some objects around](http://armory3d.org/demo
 
 ![](img/scene2/7.jpg)
 
-Get the blend file at [GitHub](https://github.com/armory3d/armory_examples/tree/master/scene2).
+Get the blend file at [GitHub](https://github.com/armory3d/armory_examples/tree/master/tutorial2).
