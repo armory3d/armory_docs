@@ -36,32 +36,6 @@ Switch to Object tab in Properties, locate Armory Props and enable **Edit Clips*
 
 ![](img/scene3/7.jpg)
 
-We can also add **rigged and animated** models to the scene (you can import ArmBallie object from [final blend file](https://github.com/armory3d/armory_examples/tree/master/scene3)). Similarly, **Edit Clips** option can be used to quickly select frame portions that we are interested in. With armature object selected, it is also possible to include multiple actions using **Properties - Data - Armory Props - Edit Actions**.
-
-![](img/scene3/8.jpg)
-
-Object animation also affects all of it's children. We can use this fact to easily orbit lamp object around a certain point in the scene. Add **new empty object** at the center and make it a **parent of lamp**.
-
-![](img/scene3/9.jpg)
-
-With empty object selected, set frame to 0 and hit **Insert keyframes**. Rotate empty object 360 degrees on the Z axis and **Insert keyframes**. Set interpolation to **linear**, as discussed previously for cube 2. Add **new clip** for empty object and set **speed** to 0.05.
-
-![](img/scene3/10.jpg)
-
-To step it up further, let's **animate the camera**. Set active frame to 0. In 3D View header, select **View - Cameras - Active Camera** and then **View - Navigation - Walk Navigation** (shortcut shift+f). Set starting camera position and hit **Insert keyframes**.
-
-![](img/scene3/11.jpg)
-
-Set active frame to 30 and navigate camera to second position and **Insert keyframes**.
-
-![](img/scene3/12.jpg)
-
-Set frame to 60, navigate camera to final position and **Insert keyframes**. Create a **new clip** for camera, set **speed** to 0.15 and enable **Reflect**.
-
-![](img/scene3/13.jpg)
-
 And that is it! [Play the scene](http://armory3d.org/demo/scene3) to observe animations in real-time.
 
-![](img/scene3/14.jpg)
-
-Get the blend file at [GitHub](https://github.com/armory3d/armory_examples/tree/master/scene3).
+Get the blend file at [GitHub](https://github.com/armory3d/armory_examples/tree/master/tutorial3).
