@@ -11,10 +11,9 @@ Armory features a fully dynamic global illumination technique based on a combina
 
 ## Requirements
 
-- A graphics card with **OpenGL 4.5** support for voxelization.
-- **Windows** (C++ and Krom targets) is supported, Linux coming up next.
+- A graphics card with **OpenGL 4.5** support (for voxelization).
+- Windows & Linux (C++ & Krom targets) are supported.
 - For Blender 2.79, launch project in **stand-alone window** (F5). In Blender 2.8 the global illumination also runs directly in viewport. 
-- Fetch the latest Armory using the built-in [Armory Updater](http://armory3d.org/manual/dev/gitversion.html).
 
 ## Quick start
 
