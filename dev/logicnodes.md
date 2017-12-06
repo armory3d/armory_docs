@@ -6,9 +6,7 @@
 
 We will make a new library to store the sources of custom logic nodes and keep them portable with no modifications to engine sources.
 
-Locate your blend file and create a new `Libraries` folder alongside it. Navigate to the `Libraries` folder and create a new `mynodes` folder in it. In Blender, add a new library entry named `mynodes` in *Properties - Render - Armory Project - Libraries*.
-
-![](img/logicnodes/0.png)
+Locate your blend file and create a new `Libraries` folder alongside it. Navigate to the `Libraries` folder and create a new `mynodes` folder in it.
 
 ### Python
 
