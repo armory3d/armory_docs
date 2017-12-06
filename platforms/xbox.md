@@ -6,11 +6,9 @@ This section covers Xbox specific topics.
 
 ## UWP (Universal Windows Platform)
 
-Select *WindowsApp* in *Properties - Render - Armory Project - Target*. Hit *Build* to generate Visual Studio project files.
+Create a new preset in *Properties - Render - Armory Exporter* and select WindowsApp target. Hit *Publish* to export Visual Studio project files.
 
-![](img/xbox/0.png)
-
-To proceed, install [Visual Studio](https://www.visualstudio.com/vs/community/). Make sure to install components for developing UWP applications. Once installed, open the project located at *your_blend_file_location/build/windowsapp-build/your_project_name.sln*.
+To proceed, install [Visual Studio](https://www.visualstudio.com/vs/community/). Make sure to install components for developing UWP applications. Once installed, open the project located at *blend_file_location/build_projectname/windowsapp-build/projectname.sln*.
 
 ![](img/xbox/1.png)
 
