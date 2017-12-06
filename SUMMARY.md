@@ -18,6 +18,7 @@
 - [User interface](essentials/ui.md)
 - [Shortcuts](essentials/shortcuts.md)
 - [Workflow](essentials/workflow.md)
+- [Multi-User](essentials/workflow_multiuser.md)
 - [Assets management](essentials/assetsmanagement.md)
 
 
@@ -26,32 +27,17 @@
 - [Anti-aliasing](graphics/antialiasing.md)
 - [Vertex colors](graphics/vertexcolors.md)
 - [Global illumination](graphics/global_illumination.md)
-[//]: # - Render path
-[//]: # - Materials
-[//]: # - World
-[//]: # - Lights and shadows
-[//]: # - Compositor
-[//]: # - Particles
-[//]: # - Writing shaders
 
 
 ### Animation
 
-[//]: # - Timeline
-[//]: # - Skinning
-[//]: # - Scripting
-
 
 ### Physics
-
-[//]: # - Rigid bodies
 
 
 ### Scripting
 
 - [Generate mesh](scripting/generate_mesh.md)
-[//]: # - Scripting
-[//]: # - Logic nodes
 
 
 ### Audio
@@ -65,12 +51,6 @@
 
 ### General
 
-[//]: # - Project structure
-[//]: # - Instanced rendering
-[//]: # - Modifiers
-[//]: # - Constraints
-[//]: # - Navmeshes
-
 
 ### Platforms
 
@@ -83,12 +63,6 @@
 - [Xbox](platforms/xbox.md)
 
 
-
-### Tooling
-
-- [Substance Painter](tooling/substancepainter.md)
-
-
 ### Engine Development
 
 - [Git version](dev/gitversion.md)
@@ -99,8 +73,6 @@
 
 - [Supported Nodes](remarks/supported_nodes.md)
 - [Supported Particles](remarks/supported_particles.md)
-- [FAQ](remarks/faq.md)
-- [Roadmap](remarks/roadmap.md)
 - [Contributing](remarks/contributing.md)
 - [License](remarks/license.md)
 - [Edit docs](https://github.com/armory3d/armory_docs)
