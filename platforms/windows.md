@@ -6,11 +6,9 @@ This section covers Windows specific topics.
 
 ## Native (C++)
 
-Select *Windows* in *Properties - Render - Armory Project - Target*. Hit *Build* to generate Visual Studio project files.
+Create a new preset in *Properties - Render - Armory Exporter* and select Windows target. Hit *Publish* to export Visual Studio project files.
 
-![](img/windows/0.jpg)
-
-To proceed, install [Visual Studio](https://www.visualstudio.com/vs/community/). Make sure to install components for compiling C++ code. Once installed, open the project located at *your_blend_file_location/build/windows-build/your_project_name.sln*.
+To proceed, install [Visual Studio](https://www.visualstudio.com/vs/community/). Make sure to install components for compiling C++ code. Once installed, open the project located at *blend_file_location/build_projectname/windows-build/project_name.sln*.
 
 ![](img/windows/1.jpg)
 
@@ -22,7 +20,7 @@ Once the build process finishes, copy the resulting binary from *Release* folder
 
 ![](img/windows/3.jpg)
 
-- to the *your_blend_file_location/build/windows* folder which also contains game assets.
+- to the *blend_file_location/build_projectname/windows* folder which also contains game assets.
 
 ![](img/windows/4.jpg)
 
