@@ -4,17 +4,13 @@ This section covers Android specific topics.
 
 # Building for Android
 
-Before running on mobile device, make sure the project is optimized to run smooth on your target hardware. It is recommended to select *Forward Low* preset in  *Camera - Properties - Camera Data - Armory Render Path*. Additionally, simplifying **materials, textures and geometry** may be needed.
-
-![](img/android/0.jpg)
+Before running on mobile device, make sure the project is optimized to run smooth on your target hardware. It is recommended to select *Mobile* preset in  *Properties - Render - Armory Render Path*. Additionally, simplifying **materials, textures and geometry** may be needed. To run on the lower than the maximum available resolution, set *Armory Render Path - Resolution* property.
 
 ## Native (C++)
 
-Select *Android* in *Properties - Render - Armory Project - Target*. Hit *Build* to generate android project files.
+Create a new preset in *Properties - Render - Armory Exporter* and select Android target. Hit *Publish* to generate android project files.
 
-![](img/android/1.jpg)
-
-To proceed, install and run [Android Studio](https://developer.android.com/studio/index.html). Select *Open an existing Android Studio project*. The project is located at *your_blend_file_location/build/android-native-build/your_project_name*
+To proceed, install and run [Android Studio](https://developer.android.com/studio/index.html). Select *Open an existing Android Studio project*. The project is located at *blend_file_location/build_projectname/android-native-build/projectname*.
 
 ![](img/android/2.jpg)
 
