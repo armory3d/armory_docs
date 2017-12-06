@@ -6,8 +6,6 @@ This section covers Linux specific topics.
 
 For the C++ compilation to succeed you might need to install some additional packages - read more at [Kha/Wiki](https://github.com/Kode/Kha/wiki/Linux).
 
-Select *Linux* in *Properties - Render - Armory Project - Target*. Hit *Build* to generate project files.
+Create a new preset in *Properties - Render - Armory Exporter* and select Linux target. Hit *Publish* to export build files.
 
-![](img/linux/0.jpg)
-
-Afterwards, you can compile the project using the generated makefile or using the [Code::Blocks](http://codeblocks.org) project located at *your_blend_file_location/build/linux-build*
+Afterwards, you can compile the project using the generated makefile or using the [Code::Blocks](http://codeblocks.org) project located at *blend_file_location/build_projectname/linux-build*
