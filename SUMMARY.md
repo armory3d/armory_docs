@@ -20,6 +20,7 @@
 - [Workflow](essentials/workflow.md)
 - [Multi-User](essentials/workflow_multiuser.md)
 - [Assets management](essentials/assetsmanagement.md)
+- [Traits](essentials/traits.md)
 
 
 ### Graphics
