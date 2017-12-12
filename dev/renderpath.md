@@ -1,0 +1,116 @@
+# Render Path
+
+*This page is work in progress - most of the manual labor described here is to be automated.*
+
+Armory is powered by a scriptable render path system. This allows us to manage both forward & deferred renderers and easily extend it with addional passes while introducing the least possible overhead and reusing existing resources. The engine is also prepared for adding new renderer types.
+
+Render path is built when the game itself is being compiled. When a specific pass is disabled, it's completely gone to save resources.
+
+## Extending compositor
+
+If possible, perform additional post processing directly in compositor. This way everything is kept in a single pass. See [LUT-based-color-grading](https://github.com/armory3d/armory/commit/42b0aaadeda67b2eabde0344ebbb100f18bd8e0d). It is possible to access pre-tonemaped color, depth, normals,..
+
+## Adding post-processing pass
+
+- In [make_renderpath.py](https://github.com/armory3d/armory/blob/master/blender/arm/make_renderpath.py) - include additonal shader files(`assets.add_shader2()`) and add defines(`assets.add_khafile_def()`)
+
+- In [RenderPathCreator.hx](https://github.com/armory3d/armory/blob/master/Sources/armory/renderpath/RenderPathCreator.hx) - load shaders (`path.loadShader()`), create render targets(`path.createRenderTarget()`) and add new commands
+
+
+
+## Custom geometry pass
+
+See [material_shaders](https://github.com/armory3d/armory_examples/tree/master/material_shaders) example.
+
+- Create new [material definition](https://github.com/armory3d/armory_examples/blob/master/material_shaders/Bundled/MyMaterial/MyMaterial.arm) in `blend_root/Bundled/your_material`
+- In Blender, select material and set `Properties - Material - Armory Props - Custom Material` to `your_material`
+- Create `your_material.vert.glsl` and `your_material.frag.glsl` shaders (.geom, .tesc, .tese are optional) in `blend_root/Shaders`
+
+### Forward
+
+Minimal vertex shader:
+
+```glsl
+#version 450
+in vec3 pos;
+in vec3 nor;
+uniform mat4 WVP;
+void main() {
+	gl_Position = WVP * vec4(pos, 1.0);
+}
+```
+
+Minimal fragment shader:
+
+```glsl
+#version 450
+out vec4 fragColor;
+void main() {
+	fragColor = vec4(1.0);
+}
+```
+
+### Deferred
+
+For deferred renderer, we need to encode fragment shader output into gbuffer layout.
+
+Minimal vertex shader:
+
+```glsl
+#version 450
+in vec3 pos;
+in vec3 nor;
+out vec3 wnormal;
+uniform mat3 N;
+uniform mat4 WVP;
+void main() {
+	wnormal = normalize(N * nor);
+	gl_Position = WVP * vec4(pos, 1.0);
+}
+```
+
+Minimal fragment shader:
+
+```glsl
+#version 450
+#include "../../Shaders/std/gbuffer.glsl"
+in vec3 wnormal;
+out vec4[2] fragColor;
+void main() {
+	// Pack normal into 2 components
+	vec3 n = normalize(wnormal);
+	n /= (abs(n.x) + abs(n.y) + abs(n.z));
+	n.xy = n.z >= 0.0 ? n.xy : octahedronWrap(n.xy);
+	// Define material values
+	vec3 basecol = vec3(1.0);
+	float roughness = 0.0;
+	float metallic = 0.0;
+	float occlusion = 1.0;
+	// Store in gbuffer
+	fragColor[0] = vec4(n.xy, packFloat(metallic, roughness), 1.0 - gl_FragCoord.z);
+	fragColor[1] = vec4(basecol.rgb, occlusion);
+}
+```
+
+## Writing custom render path
+
+Create a new `blend_root/Sources/arm/renderpath/RenderPathCreator.hx`. This will make Armory overwrite the internal render path with your own.
+
+```hx
+package arm.renderpath;
+
+class RenderPathCreator {
+
+	public static function get():RenderPath {
+		var path = new iron.RenderPath();
+		path.commands = function() {
+			path.setTarget(""); // Draw to framebuffer
+			path.clearTarget(0xffffffff, 1.0); // Clear color & depth
+			path.drawMeshes("mesh"); // Draw all visible meshes
+		};
+		return path;
+	}
+}
+```
+
+It is also possible to replace/manipulate render path at runtime using the `iron.RenderPath.setActive(path)` command.
