@@ -12,11 +12,33 @@ If possible, perform additional post processing directly in compositor. This way
 
 ## Adding post-processing pass
 
+For effects which do not fit into a single pass
+
 - In [make_renderpath.py](https://github.com/armory3d/armory/blob/master/blender/arm/make_renderpath.py) - include additonal shader files(`assets.add_shader2()`) and add defines(`assets.add_khafile_def()`)
 
-- In [RenderPathCreator.hx](https://github.com/armory3d/armory/blob/master/Sources/armory/renderpath/RenderPathCreator.hx) - load shaders (`path.loadShader()`), create render targets(`path.createRenderTarget()`) and add new commands
+- In [RenderPathCreator.hx](https://github.com/armory3d/armory/blob/master/Sources/armory/renderpath/RenderPathCreator.hx) - load shaders (`path.loadShader()`), create render targets(`path.createRenderTarget()`) and [add new commands](https://github.com/armory3d/armory/blob/master/Sources/armory/renderpath/RenderPathCreator.hx#L891)
 
-
+```hx
+#if rp_custom_pass
+{
+	// Draw into helper 'buf' render target
+	path.setTarget("buf"); 
+	// Bind current screen color
+	path.bindTarget("tex");
+	
+	// Draw full-screen quad(actually triangle) using custom shader
+	// file_name/shader_name/context_name
+	path.drawShader("custom_pass/custom_pass/custom_pass");
+	
+	// NOTE: this step is temporary till the interface for adding custom passes improves
+	// Copy results of custom_pass back to the "tex" render target,
+	// which will then get picked up be compositor pass
+	path.setTarget("tex");
+	path.bindTarget("buf", "tex");
+	path.drawShader("copy_pass/copy_pass/copy_pass");
+}
+#end
+```
 
 ## Custom geometry pass
 
