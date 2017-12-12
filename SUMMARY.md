@@ -66,8 +66,9 @@
 
 ### Engine Development
 
-- [Git version](dev/gitversion.md)
+- [Git Version](dev/gitversion.md)
 - [Logic Nodes](dev/logicnodes.md)
+- [Render Path](dev/renderpath.md)
 
 
 ### Remarks
