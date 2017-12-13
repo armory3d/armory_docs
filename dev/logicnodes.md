@@ -13,6 +13,10 @@ Locate your blend file and create a new `Libraries` folder alongside it. Navigat
 Start by creating the logic node definition for Blender. Create a file named `blender.py` in `Libraries/mynodes` folder. Armory automatically picks this file up once the library is loaded. Define a simple node with single in/out socket.
 
 ```py
+from bpy.types import Node
+from arm.logicnode.arm_nodes import *
+import arm.nodes_logic
+
 class TestNode(Node, ArmLogicTreeNode):
     '''Test node'''
     bl_idname = 'LNTestNode'
@@ -39,6 +43,8 @@ Restarting Blender and loading the project again, the new logic node is availabl
 Before the project can be run, we need to implement the actual node logic in Haxe. When the node gets executed, we let it print a 'Hello, World!' string.
 
 ```hx
+package armory.logicnode;
+
 class TestNode extends LogicNode {
 
 	public function new(tree:LogicTree) {
