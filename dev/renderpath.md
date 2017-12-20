@@ -95,7 +95,7 @@ Minimal fragment shader:
 
 ```glsl
 #version 450
-#include "../../Shaders/std/gbuffer.glsl"
+#include "std/gbuffer.glsl"
 in vec3 wnormal;
 out vec4[2] fragColor;
 void main() {
