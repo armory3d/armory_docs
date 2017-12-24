@@ -45,6 +45,8 @@
 * [Mouse](logic-nodes/mouse.md)
 * [Keyboard](logic-nodes/keyboard.md)
 * [Mouse Cords](logic-nodes/mouse-cords.md)
+* [Alternate](logic-nodes/alternate.md)
+* [Gate](logic-nodes/gate.md)
 
 ## Audio
 
