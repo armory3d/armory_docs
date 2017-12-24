@@ -42,6 +42,9 @@
 * [On Keyboard](logic-nodes/on-keyboard.md)
 * [On Mouse](logic-nodes/on-mouse.md)
 * [On Timer](logic-nodes/on-timer.md)
+* [Mouse](logic-nodes/mouse.md)
+* [Keyboard](logic-nodes/keyboard.md)
+* [Mouse Cords](logic-nodes/mouse-cords.md)
 
 ## Audio
 
