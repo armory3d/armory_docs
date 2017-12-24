@@ -47,6 +47,7 @@
 * [Mouse Cords](logic-nodes/mouse-cords.md)
 * [Alternate](logic-nodes/alternate.md)
 * [Gate](logic-nodes/gate.md)
+* [Not](logic-nodes/not.md)
 
 ## Audio
 
