@@ -26,6 +26,7 @@
 * [Anti-aliasing](graphics/antialiasing.md)
 * [Vertex colors](graphics/vertexcolors.md)
 * [Global illumination](graphics/global_illumination.md)
+* [Screen Effects](graphics/screen-effects.md)
 
 ## Animation
 
@@ -89,4 +90,3 @@
 * [Kha manual](https://github.com/KTXSoftware/Kha/wiki)
 * [Haxe manual](https://haxe.org/manual/introduction.html)
 * [Haxe cookbook](http://code.haxe.org/category/beginner/)
-
