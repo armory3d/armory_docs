@@ -49,6 +49,9 @@
 * [Alternate](logic-nodes/alternate.md)
 * [Gate](logic-nodes/gate.md)
 * [Not](logic-nodes/not.md)
+* [Sleep](logic-nodes/sleep.md)
+* [Branch](logic-nodes/branch.md)
+* [Is True/False](logic-nodes/is-truefalse.md)
 
 ## Audio
 
@@ -90,3 +93,4 @@
 * [Kha manual](https://github.com/KTXSoftware/Kha/wiki)
 * [Haxe manual](https://haxe.org/manual/introduction.html)
 * [Haxe cookbook](http://code.haxe.org/category/beginner/)
+
