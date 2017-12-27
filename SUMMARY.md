@@ -52,6 +52,7 @@
 * [Sleep](logic-nodes/sleep.md)
 * [Branch](logic-nodes/branch.md)
 * [Is True/False](logic-nodes/is-truefalse.md)
+* [Merge](logic-nodes/merge.md)
 
 ## Audio
 
