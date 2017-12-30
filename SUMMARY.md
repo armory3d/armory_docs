@@ -60,6 +60,9 @@
   * [Global Object](logic-nodes/global-object.md)
   * [Set Property](logic-nodes/set-property.md)
   * [Get Property](logic-nodes/get-property.md)
+  * [Integer](logic-nodes/integer.md)
+  * [Float](logic-nodes/float.md)
+  * [Boolean](logic-nodes/boolean.md)
 
 ## Audio
 
