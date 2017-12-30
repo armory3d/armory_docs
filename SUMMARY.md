@@ -65,8 +65,7 @@
   * [Boolean](logic-nodes/boolean.md)
 * Actions
   * [Set Variable](logic-nodes/set-variable.md)
-  * Translate Object
-## Audio
+  * [Translate Object](logic-nodes/translate-object.md)
 
 ## UI
 
