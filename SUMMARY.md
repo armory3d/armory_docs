@@ -45,19 +45,21 @@
   * [On Keyboard](logic-nodes/on-keyboard.md)
   * [On Update](logic-nodes/on-update.md)
 * Logic
+  * [Alternate](logic-nodes/alternate.md)
+  * [Gate](logic-nodes/gate.md)
+  * [Not](logic-nodes/not.md)
+  * [Sleep](logic-nodes/sleep.md)
+  * [Branch](logic-nodes/branch.md)
+  * [Is True/False](logic-nodes/is-truefalse.md)
+  * [Merge](logic-nodes/merge.md)
+* States
   * [Mouse](logic-nodes/mouse.md)
   * [Keyboard](logic-nodes/keyboard.md)
   * [Mouse Cords](logic-nodes/mouse-cords.md)
-* [Alternate](logic-nodes/alternate.md)
-* [Gate](logic-nodes/gate.md)
-* [Not](logic-nodes/not.md)
-* [Sleep](logic-nodes/sleep.md)
-* [Branch](logic-nodes/branch.md)
-* [Is True/False](logic-nodes/is-truefalse.md)
-* [Merge](logic-nodes/merge.md)
-* [Global Object](logic-nodes/global-object.md)
-* [Set Property](logic-nodes/set-property.md)
-* [Get Property](logic-nodes/get-property.md)
+* Values and Variables
+  * [Global Object](logic-nodes/global-object.md)
+  * [Set Property](logic-nodes/set-property.md)
+  * [Get Property](logic-nodes/get-property.md)
 
 ## Audio
 
