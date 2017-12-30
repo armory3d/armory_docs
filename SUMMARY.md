@@ -53,6 +53,9 @@
 * [Branch](logic-nodes/branch.md)
 * [Is True/False](logic-nodes/is-truefalse.md)
 * [Merge](logic-nodes/merge.md)
+* [Global Object](logic-nodes/global-object.md)
+* [Set Property](logic-nodes/set-property.md)
+* [Get Property](logic-nodes/get-property.md)
 
 ## Audio
 
