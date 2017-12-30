@@ -38,11 +38,12 @@
 
 ## Logic Nodes
 
-* [On Init](logic-nodes/on-init.md)
-* [On Update](logic-nodes/on-update.md)
-* [On Keyboard](logic-nodes/on-keyboard.md)
-* [On Mouse](logic-nodes/on-mouse.md)
-* [On Timer](logic-nodes/on-timer.md)
+* Activators
+  * [On Init](logic-nodes/on-init.md)
+  * [On Timer](logic-nodes/on-timer.md)
+  * [On Mouse](logic-nodes/on-mouse.md)
+  * [On Keyboard](logic-nodes/on-keyboard.md)
+  * [On Update](logic-nodes/on-update.md)
 * [Mouse](logic-nodes/mouse.md)
 * [Keyboard](logic-nodes/keyboard.md)
 * [Mouse Cords](logic-nodes/mouse-cords.md)
