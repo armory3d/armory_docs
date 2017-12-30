@@ -38,19 +38,34 @@
 
 ## Logic Nodes
 
-* [On Init](logic-nodes/on-init.md)
-* [On Update](logic-nodes/on-update.md)
-* [On Keyboard](logic-nodes/on-keyboard.md)
-* [On Mouse](logic-nodes/on-mouse.md)
-* [On Timer](logic-nodes/on-timer.md)
-* [Mouse](logic-nodes/mouse.md)
-* [Keyboard](logic-nodes/keyboard.md)
-* [Mouse Cords](logic-nodes/mouse-cords.md)
-* [Alternate](logic-nodes/alternate.md)
-* [Gate](logic-nodes/gate.md)
-* [Not](logic-nodes/not.md)
-
-## Audio
+* [Activators](logic-nodes/activators.md)
+  * [On Init](logic-nodes/on-init.md)
+  * [On Timer](logic-nodes/on-timer.md)
+  * [On Mouse](logic-nodes/on-mouse.md)
+  * [On Keyboard](logic-nodes/on-keyboard.md)
+  * [On Update](logic-nodes/on-update.md)
+* [Logic](logic-nodes/logic.md)
+  * [Alternate](logic-nodes/alternate.md)
+  * [Gate](logic-nodes/gate.md)
+  * [Not](logic-nodes/not.md)
+  * [Sleep](logic-nodes/sleep.md)
+  * [Branch](logic-nodes/branch.md)
+  * [Is True/False](logic-nodes/is-truefalse.md)
+  * [Merge](logic-nodes/merge.md)
+* [States](logic-nodes/states.md)
+  * [Mouse](logic-nodes/mouse.md)
+  * [Keyboard](logic-nodes/keyboard.md)
+  * [Mouse Cords](logic-nodes/mouse-cords.md)
+* [Values and Variables](logic-nodes/values-and-variables.md)
+  * [Global Object](logic-nodes/global-object.md)
+  * [Set Property](logic-nodes/set-property.md)
+  * [Get Property](logic-nodes/get-property.md)
+  * [Integer](logic-nodes/integer.md)
+  * [Float](logic-nodes/float.md)
+  * [Boolean](logic-nodes/boolean.md)
+* Actions
+  * [Set Variable](logic-nodes/set-variable.md)
+  * [Translate Object](logic-nodes/translate-object.md)
 
 ## UI
 
@@ -90,3 +105,4 @@
 * [Kha manual](https://github.com/KTXSoftware/Kha/wiki)
 * [Haxe manual](https://haxe.org/manual/introduction.html)
 * [Haxe cookbook](http://code.haxe.org/category/beginner/)
+
