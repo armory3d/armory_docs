@@ -38,13 +38,13 @@
 
 ## Logic Nodes
 
-* Activators
+* [Activators](logic-nodes/activators.md)
   * [On Init](logic-nodes/on-init.md)
   * [On Timer](logic-nodes/on-timer.md)
   * [On Mouse](logic-nodes/on-mouse.md)
   * [On Keyboard](logic-nodes/on-keyboard.md)
   * [On Update](logic-nodes/on-update.md)
-* Logic
+* [Logic](logic-nodes/logic.md)
   * [Alternate](logic-nodes/alternate.md)
   * [Gate](logic-nodes/gate.md)
   * [Not](logic-nodes/not.md)
@@ -52,11 +52,11 @@
   * [Branch](logic-nodes/branch.md)
   * [Is True/False](logic-nodes/is-truefalse.md)
   * [Merge](logic-nodes/merge.md)
-* States
+* [States](logic-nodes/states.md)
   * [Mouse](logic-nodes/mouse.md)
   * [Keyboard](logic-nodes/keyboard.md)
   * [Mouse Cords](logic-nodes/mouse-cords.md)
-* Values and Variables
+* [Values and Variables](logic-nodes/values-and-variables.md)
   * [Global Object](logic-nodes/global-object.md)
   * [Set Property](logic-nodes/set-property.md)
   * [Get Property](logic-nodes/get-property.md)
