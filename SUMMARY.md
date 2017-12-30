@@ -64,7 +64,7 @@
   * [Float](logic-nodes/float.md)
   * [Boolean](logic-nodes/boolean.md)
 * Actions
-  * Set Variable
+  * [Set Variable](logic-nodes/set-variable.md)
 
 ## Audio
 

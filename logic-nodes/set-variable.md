@@ -6,5 +6,3 @@ When activated, updates the first plugged in Variable to the Value of the second
 
 ![](/assets/set variable.JPG)
 
-
-
