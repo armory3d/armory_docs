@@ -44,9 +44,10 @@
   * [On Mouse](logic-nodes/on-mouse.md)
   * [On Keyboard](logic-nodes/on-keyboard.md)
   * [On Update](logic-nodes/on-update.md)
-* [Mouse](logic-nodes/mouse.md)
-* [Keyboard](logic-nodes/keyboard.md)
-* [Mouse Cords](logic-nodes/mouse-cords.md)
+* Logic
+  * [Mouse](logic-nodes/mouse.md)
+  * [Keyboard](logic-nodes/keyboard.md)
+  * [Mouse Cords](logic-nodes/mouse-cords.md)
 * [Alternate](logic-nodes/alternate.md)
 * [Gate](logic-nodes/gate.md)
 * [Not](logic-nodes/not.md)
