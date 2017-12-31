@@ -62,6 +62,8 @@
   * [Get Scale](logic-nodes/get-scale.md)
   * [Get Object](logic-nodes/get-object.md)
   * [Get Visibile](logic-nodes/get-visibility.md)
+  * [Get Child](logic-nodes/get-child.md)
+  * [Get Children](logic-nodes/get-children.md)
 * [Values and Variables](logic-nodes/values-and-variables.md)
   * [Global Object](logic-nodes/global-object.md)
   * [Set Property](logic-nodes/set-property.md)
