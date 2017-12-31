@@ -80,7 +80,7 @@
   * [Integer](logic-nodes/integer.md)
   * [Float](logic-nodes/float.md)
   * [Boolean](logic-nodes/boolean.md)
-* [Actions](logic-nodes/actions.md)
+* Actions
   * [Set Variable](logic-nodes/set-variable.md)
   * [Translate Object](logic-nodes/translate-object.md)
 
