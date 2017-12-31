@@ -64,6 +64,8 @@
   * [Get Visibile](logic-nodes/get-visibility.md)
   * [Get Child](logic-nodes/get-child.md)
   * [Get Children](logic-nodes/get-children.md)
+  * [Get Group](logic-nodes/get-group.md)
+  * [Group](logic-nodes/group.md)
 * [Values and Variables](logic-nodes/values-and-variables.md)
   * [Global Object](logic-nodes/global-object.md)
   * [Set Property](logic-nodes/set-property.md)
