@@ -57,6 +57,8 @@
   * [Keyboard](logic-nodes/keyboard.md)
   * [Mouse Cords](logic-nodes/mouse-cords.md)
   * [Get Transform](logic-nodes/get-transform.md)
+  * [Get Rotation](logic-nodes/get-rotation.md)
+  * [Get Scale](logic-nodes/get-scale.md)
 * [Values and Variables](logic-nodes/values-and-variables.md)
   * [Global Object](logic-nodes/global-object.md)
   * [Set Property](logic-nodes/set-property.md)
