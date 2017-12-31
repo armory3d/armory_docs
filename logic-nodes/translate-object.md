@@ -4,5 +4,5 @@
 
 Moves the set object every frame it is activated by the given Vector.
 
-![](/assets/translate object.JPG)
+![](/assets/translate-object.JPG)
 

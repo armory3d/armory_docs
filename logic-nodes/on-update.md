@@ -4,7 +4,7 @@
 
 Activates the node\(s\) being connected to it every frame.
 
-![](/assets/On Update.JPG)
+![](/assets/On-Update.JPG)
 
 
 

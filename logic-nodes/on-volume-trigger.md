@@ -10,5 +10,5 @@ Leave-mode: Activates the connected nodes on the frame the object leaves the vol
 
 Overlap-mode: Activates the connected nodes on the frame the object overlaps with the volume, on all other frames it doesn't do that.
 
-![](/assets/on volume trigger.JPG)
+![](/assets/on-volume-trigger.JPG)
 

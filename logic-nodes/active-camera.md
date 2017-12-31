@@ -4,7 +4,7 @@
 
 Outputs the current active Camera in your game as object.
 
-![](/assets/active camera.JPG)
+![](/assets/active-camera.JPG)
 
 
 

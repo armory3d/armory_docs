@@ -4,5 +4,5 @@
 
 Outputs the current rotation of the set Object as a Vector.
 
-![](/assets/get rotation.JPG)
+![](/assets/get-rotation.JPG)
 

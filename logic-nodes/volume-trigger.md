@@ -10,5 +10,5 @@ Leave-mode: Outputs true on the frame the object leaves the volume, on all other
 
 Overlap-mode: Outputs true on the frames the object overlaps with the volume, on all other frames it outputs false.
 
-![](/assets/Volume trigger.JPG)
+![](/assets/Volume-trigger.JPG)
 

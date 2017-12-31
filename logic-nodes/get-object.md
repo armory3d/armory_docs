@@ -4,7 +4,7 @@
 
 Searches for an object with the set name in the scene and outputs it.
 
-![](/assets/get object.JPG)
+![](/assets/get-object.JPG)
 
 
 
