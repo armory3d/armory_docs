@@ -66,6 +66,8 @@
   * [Get Children](logic-nodes/get-children.md)
   * [Get Group](logic-nodes/get-group.md)
   * [Group](logic-nodes/group.md)
+  * [Get Distance](logic-nodes/get-distance.md)
+  * [Get Trait](logic-nodes/get-trait.md)
 * [Values and Variables](logic-nodes/values-and-variables.md)
   * [Global Object](logic-nodes/global-object.md)
   * [Set Property](logic-nodes/set-property.md)
