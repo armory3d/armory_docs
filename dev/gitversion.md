@@ -106,4 +106,4 @@ You are now using the latest version of Armory. This may not be stable at all ti
 - Clone latest physics module into *armsdk/lib*: https://github.com/armory3d/haxebullet
 - Clone latest ui module into *armsdk/lib*: https://github.com/armory3d/zui
 - You may rebuild Krom: https://github.com/Kode/Krom
-- You may rebuild Blender itself with integrated Krom: https://github.com/armory3d/blender_krom
+- You may rebuild Blender itself with integrated Krom: https://github.com/armory3d/krom_blender
