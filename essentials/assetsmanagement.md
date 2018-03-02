@@ -16,12 +16,12 @@ Note that if different format is provided, Armory will convert it internally to 
 
 To process video, specify path to *ffmpeg binary* (not bundled with SDK) in add-on preferences.
 
-![](img/videotex.jpg)
+![](/essentials/img/videotex.jpg)
 
 ## Packed assets
 Armory supports assets packed directly in Blender. When building, the assets are unpacked to build folder automatically. This way you can pack your project into single .blend file with no external dependencies.
 
-![](img/assets_packed.jpg)
+![](/essentials/img/assets_packed.jpg)
 
 ## Texture dimensions
 
@@ -30,6 +30,6 @@ At least *4096x4096* texture sizes can be used on most modern systems.
 For HTML5 target, power of 2 textures are required in some cases:
 - Using *repeat* texture mode. *Clip* mode can be safely used with non-power of 2 sizes.
 
-![](img/texrepeat.jpg)
+![](/essentials/img/texrepeat.jpg)
 
 In the future Armory will handle this internally.

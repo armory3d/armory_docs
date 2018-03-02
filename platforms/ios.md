@@ -12,6 +12,6 @@ Create a new preset in *Properties - Render - Armory Exporter* and select iOS ta
 
 To proceed, install and run *XCode* from MacOS App Store. Launch XCode by opening the generated project located at *blend_file_location/build_projectname/ios-build/projectname.xcodeproj*. Connect your iOS device and press *Run*.
 
-![](img/ios/2.jpg)
+![](/platforms/img/ios/2.jpg)
 
 Once compiled, the project will launch on your device!

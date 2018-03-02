@@ -4,12 +4,12 @@ This page describes how to dynamically generate mesh object at runtime using a t
 
 Setup a simple scene with single plane in the center. Assign default material and create a static rigid body for the plane.
 
-![](img/generate_mesh/0.jpg)
+![](/scripting/img/generate_mesh/0.jpg)
 
 Now we can start writing a trait that will dynamically generate a mesh and spawn it in the scene. For this example Haxe is used.
 
 Select Camera and attach a new trait using **Object tab - Armory Traits - +**. Hit **New Script** and name it **BoxGenerator**.
-![](img/generate_mesh/1.jpg)
+![](/scripting/img/generate_mesh/1.jpg)
 
 Pressing **Edit Script** will open our new trait script in **Kode Studio**. Example code below will generate a simple box, attach a rigid body trait and spawn it on the plane after pressing input.
 
@@ -58,7 +58,6 @@ class BoxGenerator extends iron.Trait {
 
 		var indices:TIndexArray = {
 			material: 0,
-			size: 3,
 			values: toU32([0,1,2,0,2,3,4,5,6,4,6,7,8,9,10,8,10,11,12,13,14,12,14,15,16,17,18,16,18,19,20,21,22,20,22,23])
 		};
 
@@ -102,6 +101,6 @@ class BoxGenerator extends iron.Trait {
 
 Hit **Play in Viewport** to verity [results](http://armory3d.org/demo/generate_mesh)!
 
-![](img/generate_mesh/2.jpg)
+![](/scripting/img/generate_mesh/2.jpg)
 
 Get the blend file at [GitHub](https://github.com/armory3d/armory_examples/tree/master/generate_mesh).

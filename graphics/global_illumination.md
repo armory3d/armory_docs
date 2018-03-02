@@ -7,7 +7,7 @@ Armory features a fully dynamic global illumination technique based on a combina
 - Download stand-alone demo [available soon].
 - Example .blend available on [GitHub](https://github.com/armory3d/armory_calibration/tree/master/curio_shop).
 
-![](img/gi/comp.jpg)
+![](/graphics/img/gi/comp.jpg)
 
 ## Requirements
 
@@ -33,7 +33,7 @@ Locate `Armory Render Props - Voxel GI` for settings.
 - Control the intensity using `Occlusion` property.
 - Tweak tracing parameters using `Step, Range, Diffuse Offset` properties.
 
-<img src="img/gi/ao.jpg" width="50%">
+<img src="/graphics/img/gi/ao.jpg" width="50%">
 
 ### Voxel GI
 
@@ -51,7 +51,7 @@ Locate `Armory Render Props - Voxel GI` for settings.
 
 Teapots .blend available on [GitHub](https://github.com/armory3d/armory_examples/tree/master/voxelgi_teapots).
 
-<img src="img/gi/game.jpg" width="50%">
+<img src="/graphics/img/gi/game.jpg" width="50%">
 
 ### Voxel Emission
 
@@ -59,7 +59,7 @@ Using `Voxel GI`, enable `Render - Armory Render Path - Emission Voxels`. **Emis
 
 Example .blend available on [GitHub](https://github.com/armory3d/armorbench1).
 
-<img src="img/gi/emi.jpg" width="50%">
+<img src="/graphics/img/gi/emi.jpg" width="50%">
 
 ### Voxel Refraction
 
@@ -79,7 +79,7 @@ Locate `Armory Render Props - Voxel GI` for settings.
 
 Chess .blend available on [GitHub](https://github.com/armory3d/chess_example).
 
-<img src="img/gi/chess.jpg" width="50%">
+<img src="/graphics/img/gi/chess.jpg" width="50%">
 
 ### Volume setup
 
@@ -146,7 +146,7 @@ Timings performed on GTX 1060. Rendering [curio shop](https://github.com/armory3
 - `*` Revoxelized per frame
 - `**` Base(deferred + temporal AA) / Base + RTGI + VoxelGI / + Revoxelized per frame
 
-<img src="img/gi/ssgi.jpg" width="50%">
+<img src="/graphics/img/gi/ssgi.jpg" width="50%">
 
 ## Limitations
 
@@ -161,7 +161,7 @@ There are still severe limitations to be resolved.
 
 With Blender we have a fully integrated path-tracing engine at hand. For static scenes, you can pre-bake lighting down into lightmaps using **Cycles**.
 
-<img src="img/gi/bake.jpg" width="50%">
+<img src="/graphics/img/gi/bake.jpg" width="50%">
 
 ## Light probes
 

@@ -9,4 +9,4 @@ This page lists additional Blender shortcuts added by Armory.
 
 ---
 
-![](img/blender_infographic.png)
+![](/essentials/img/blender_infographic.png)

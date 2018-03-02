@@ -36,7 +36,7 @@ def register():
 
 Restarting Blender and loading the project again, the new logic node is available for placement.
 
-![](img/logicnodes/1.png)
+![](/dev/img/logicnodes/1.png)
 
 ### Haxe
 
