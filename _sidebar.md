@@ -1,8 +1,7 @@
+
 * Getting Started
 
-  * [Home](/)
   * [Setup](getting_started/setup.md)
-  * [Setup as add-on](getting_started/setupaddon.md)
   * [Tutorial 1 - Basics](getting_started/tutorial1.md)
   * [Tutorial 2 - Physics](getting_started/tutorial2.md)
   * [Tutorial 3 - Animation](getting_started/tutorial3.md)
@@ -12,7 +11,6 @@
 * Essentials
 
   * [Armory API](http://armory3d.org/manual/api)
-  * [User interface](essentials/ui.md)
   * [Shortcuts](essentials/shortcuts.md)
   * [Workflow](essentials/workflow.md)
   * [Multi-User](essentials/workflow_multiuser.md)
@@ -59,6 +57,10 @@
   * [Git Version](dev/gitversion.md)
   * [Logic Nodes](dev/logicnodes.md)
   * [Render Path](dev/renderpath.md)
+
+* Tooling
+
+  * [Substance Painter](tooling/substancepainter.md)
 
 * Remarks
 
