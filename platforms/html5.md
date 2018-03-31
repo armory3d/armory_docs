@@ -1,8 +1,4 @@
-# Contents
-
-This section covers HTML5 specific topics.
-
-# Building for HTML5
+# Deploying to HTML5
 
 ## Browser
 

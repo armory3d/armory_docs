@@ -1,8 +1,4 @@
-# Contents
-
-This section covers iOS specific topics.
-
-# Building for iOS
+# Deploying to iOS
 
 Before running on mobile device, make sure the project is optimized to run smooth on your target hardware. It is recommended to select *Mobile* preset in  *Properties - Render - Armory Render Path*. Additionally, simplifying **materials, textures and geometry** may be needed. To run on the lower than the maximum available resolution, set *Armory Render Path - Resolution* property.
 

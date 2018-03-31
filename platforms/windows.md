@@ -1,8 +1,10 @@
-# Contents
+# Deploying to Windows
 
-This section covers Windows specific topics.
+## Krom
 
-# Building for Windows
+- Create a new preset in `Armory Exporter` and select `Windows (Krom)` target.
+- Press `Publish`.
+- That's it! Press `Triangle - Open Folder` to view exported files.
 
 ## Native (C++)
 
@@ -27,9 +29,5 @@ Once the build process finishes, copy the resulting binary from *Release* folder
 You can now package and distribute this folder!
 
 ## UWP (Universal Windows Platform)
-
-TBD
-
-## Krom
 
 TBD

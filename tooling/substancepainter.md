@@ -18,10 +18,8 @@ Locate exported textures in specified destination.
 
 ![](./tooling/img/subst/2.jpg)
 
-In Blender, select painted model and enter **material editor**. Choose **Add - Group - Armory PBR** and connect it to the **Material Output**. Drop exported textures from Substance Painter into material and connect them to the appropriate sockets (base color, occlusion, normal, roughness, metallic..). Eventually, we plan to automate this step using a PBR material importer.
-
-![](./tooling/img/subst/3.jpg)
+In Blender, select painted model and enter **material editor**. Choose **Add - Group - Armory PBR** and connect it to the **Material Output**. Drop exported textures from Substance Painter into material and connect them to the appropriate sockets (base color, occlusion, normal, roughness, metallic..). 
 
 With materials & lighting set and playing the scene, you will be presented with the output similar to the Substance Painter viewport.
 
-![](./tooling/img/subst/4.jpg)
+![](./tooling/img/subst/3.jpg)

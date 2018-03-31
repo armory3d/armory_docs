@@ -9,7 +9,6 @@ Aliasing has a big impact on the image quality. To fight it, Armory comes pre-eq
 - [Temporal AA](#taa)
 - [Super sampling](#super-sampling)
 
-**Problem:** Big degradation of quality because of jagged lines. **Solution:** anti-aliasing or super sampling.
 ![](/graphics/img/aa/noaa_taa.jpg)
 
 ### No AA

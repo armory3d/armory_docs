@@ -103,4 +103,4 @@ Hit **Play in Viewport** to verity [results](http://armory3d.org/demo/generate_m
 
 ![](/scripting/img/generate_mesh/2.jpg)
 
-Get the blend file at [GitHub](https://github.com/armory3d/armory_examples/tree/master/generate_mesh).
+Get the blend file at [GitHub](https://github.com/armory3d/armory_examples/tree/master/script_genmesh).

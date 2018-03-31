@@ -1,6 +1,10 @@
-# Contents
+# Deploying to macOS
 
-This section covers MacOS specific topics.
+## Krom
+
+- Create a new preset in `Armory Exporter` and select `MacOS (Krom)` target.
+- Press `Publish`.
+- That's it! Press `Triangle - Open Folder` to view exported files.
 
 ## Native (C++)
 

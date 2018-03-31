@@ -1,8 +1,10 @@
 # Supported Nodes
 
+While the plan is to support all of the nodes, not all of them work yet. Currently Armory implements the following ones.
+
 ## Cycles material nodes
 
-- BSDF_PRINCIPLED (Principled BSDF)
+- BSDF_PRINCIPLED (Principled BSDF) - not all sockets yet
 - MIX_SHADER (Mix Shader)
 - ADD_SHADER (Add Shader)
 - BSDF_DIFFUSE (Diffuse BSDF)
@@ -45,10 +47,3 @@
 - TEX_VORONOI (Voronoi Texture)
 - MAPPING (Mapping)
 - PARTICLE_INFO (Particle Info) - GPU particles
-
-Planned:
-- BSDF_ANISOTROPIC
-- BSDF_HAIR
-- BSDF_TOON
-- Remaining procedural textures
-- ...!
