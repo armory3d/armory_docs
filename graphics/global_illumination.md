@@ -28,7 +28,7 @@ The cheapest way of utilizing voxels, usable for **ambient occlusion and shadows
 - Control the intensity using the `Occlusion` property.
 - Tweak tracing parameters using the `Step, Range, Offset` properties.
 
-<img src="/graphics/img/gi/ao.jpg" width="50%">
+<img src="./graphics/img/gi/ao.jpg" width="50%">
 
 ## Voxel GI
 
@@ -41,7 +41,7 @@ Voxel GI enables **indirect diffuse and specular lighting**. This is still a per
 - Tweak tracing parameters using the `Step, Range, Offset` properties.
 - Control environment map contribution to indirect lighting using `Env Map` property.
 
-<img src="/graphics/img/gi/game.jpg" width="50%">
+<img src="./graphics/img/gi/game.jpg" width="50%">
 
 ## Voxel Volume Setup
 
@@ -101,7 +101,7 @@ There are still severe limitations to be resolved.
 
 With Blender, we have a fully integrated path-tracing engine at hand. For static scenes, you can pre-bake lighting down into lightmaps using the built-in `Armory Bake` tool.
 
-<img src="/graphics/img/gi/bake.jpg" width="50%">
+<img src="./graphics/img/gi/bake.jpg" width="50%">
 
 ## Light probes
 

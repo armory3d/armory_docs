@@ -5,7 +5,7 @@ Armory bundle comes with everything you need. **Blender 2.79** is used with **Ar
 - Unpack **Armory_version.zip** to your preferred location. *(On Windows, prefer a short path like 'C:\Dev' or unpack with [7-zip](http://www.7-zip.org) to prevent long path errors and speed-up the extraction.)*
 - Run Blender located in the unpacked SDK. *(On Windows, you may need to enable it for the first time by clicking **More info** - **Run anyway**.)*
 
-<img src="/getting_started/img/winrun.png" width="50%">
+<img src="./getting_started/img/winrun.png" width="50%">
 
 - To verify everything is working correctly, save your .blend file, switch to `Cycles Render` or `Eevee` engine (using a drop down located in the info header) and hit **Play in Viewport** (P) button, located in the 3D view header.
 
