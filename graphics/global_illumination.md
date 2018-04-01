@@ -6,7 +6,7 @@ Armory features a fully dynamic global illumination technique based on a combina
 
 - Get the teapots [.blend scene](https://github.com/armory3d/armory_examples/tree/master/voxelgi_teapots) (troll not included!).
 
-![](/graphics/img/gi/teapot.jpg)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8KavBpfLLtY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Requirements
 
@@ -101,7 +101,17 @@ There are still severe limitations to be resolved.
 
 With Blender, we have a fully integrated path-tracing engine at hand. For static scenes, you can pre-bake lighting down into lightmaps using the built-in `Armory Bake` tool.
 
-<img src="./graphics/img/gi/bake.jpg" width="50%">
+- Locate `Properties - Render - Armory Bake` panel.
+- Add objects to be baked or click `Triangle - Add All`.
+- Hit `Bake` to generate lightmaps for all listed objects.
+- Once done, hit `Apply` to restore materials and pack lightmaps.
+- Optionally, set `Armory Render Path - Preset` to `Lightmap`.
+- Run(F5)! Armory picks up baked materials.
+
+
+- Get [example .blend scene](https://github.com/armory3d/archviz_templates/tree/master/baked).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RM2gkM95Kuk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Light probes
 

@@ -9,11 +9,7 @@ Armory bundle comes with everything you need. **Blender 2.79** is used with **Ar
 
 - To verify everything is working correctly, save your .blend file, switch to `Cycles Render` or `Eevee` engine (using a drop down located in the info header) and hit **Play in Viewport** (P) button, located in the 3D view header.
 
-![](/getting_started/img/setup2.jpg)
-
-- Now you should be presented with an Armory rendered cube.
-
-![](/getting_started/img/setup3.jpg)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1Ey1MAIRPm4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 - Continue to the [Playground tutorial](./getting_started/playground.md) to learn more. If you have any trouble setting things up, [let us know](http://armory3d.org/community.html)!
 
