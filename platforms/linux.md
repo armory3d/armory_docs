@@ -14,6 +14,8 @@ Create a new preset in *Properties - Render - Armory Exporter* and select Linux 
 
 Afterwards, you can compile the project using the generated makefile in *blend_file_location/build_projectname/linux-build/Relesase* or using the [Code::Blocks](http://codeblocks.org) project located at *blend_file_location/build_projectname/linux-build*.
 
-In order for the resources to load correctly you will need to copy the contents of *blend_file_location/build_projectname/linux* into where the compiled executable file *projectname* is.
+In order for the resources to load correctly you will need to copy the contents of *blend_file_location/build_projectname/linux* into where the compiled executable file *projectname* is located.
 
-If built using the makefile running `cp -a build_projectname/linux/. build_projectname/linux-build/Relesase/` where your Blender file is will do this.
+If built using the makefile running `cp -a build_projectname/linux/. build_projectname/linux-build/Release/` where your Blender file is will do this.
+
+You can now package and run your game!
