@@ -18,6 +18,6 @@ In order for the resources to load correctly you will need to copy the executabl
 
 To do this simply copy the executable from *blend_file_location/build_projectname/linux-build/Relesase* into *blend_file_location/build_projectname/linux*.
 
-![](/platforms/img/linux/1.jpg)
+![](/platforms/img/linux/1.png)
 
 You can now run and package your game!
