@@ -18,13 +18,14 @@
   * [Post-Processing](graphics/screen-effects.md)
   * [Vertex Colors](graphics/vertexcolors.md)
 
-* Scripting
+* Code
 
-  * [Generate Mesh](scripting/generate_mesh.md)
+  * [WebAssembly](code/wasm.md)
+  * [Generate Mesh](code/generate_mesh.md)
 
 * Logic Nodes
 
-  * [Nodes](logic_nodes/nodes.md)
+  * [Reference](logic_nodes/reference.md)
 
 * Platforms
 
