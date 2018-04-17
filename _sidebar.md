@@ -56,5 +56,6 @@
 * Links
 
   * [Blender Essentials](https://www.youtube.com/watch?v=kes2qmijy7w&list=PLa1F2ddGya_8V90Kd5eC5PeBjySbXWGK1)
+  * [Iron Manual](http://armory3d.org/iron)
   * [Kha Manual](https://github.com/KTXSoftware/Kha/wiki)
   * [Haxe Cookbook](http://code.haxe.org/category/beginner/)
