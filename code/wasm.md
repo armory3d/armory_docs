@@ -8,9 +8,7 @@
 
 [WebAssembly](http://webassembly.org/) (`Wasm`) is a binary instruction format for a stack-based virtual machine, designed as a portable target for compilation of languages like `C`/`C++`/`Rust`.
 
-Armory can be programmed with `Wasm` for high-performance code execution. Use a language with manual memory management to write computation-heavy logic.
-
-Including WebAssembly modules is supported on `HTML5` and `Desktop (Windows, Linux, macOS)` platforms using [Krom](https://github.com/Kode/Krom).
+Armory can be programmed with `Wasm` for high-performance code execution. Including WebAssembly modules is supported on `HTML5` and `Desktop (Windows, Linux, macOS)` platforms using [Krom](https://github.com/Kode/Krom).
 
 ## Programming Armory in C
 
