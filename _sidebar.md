@@ -13,6 +13,7 @@
 
 * Graphics
 
+  * [Materials](graphics/materials.md)
   * [Global Illumination](graphics/global_illumination.md)
   * [Anti-Aliasing](graphics/antialiasing.md)
   * [Post-Processing](graphics/screen-effects.md)
