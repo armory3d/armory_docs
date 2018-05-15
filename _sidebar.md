@@ -22,6 +22,7 @@
 * Code
 
   * [WebAssembly](code/wasm.md)
+  * [Machine Learning](code/machine_learning.md)
   * [Generate Mesh](code/generate_mesh.md)
 
 * Logic Nodes
