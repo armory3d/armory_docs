@@ -46,8 +46,9 @@
 
 * Tooling
 
-  * [RenderDoc](tooling/renderdoc.md)
+  * [ArmorPaint](http://armorpaint.org/manual)
   * [Substance Painter](tooling/substancepainter.md)
+  * [RenderDoc](tooling/renderdoc.md)
 
 * Remarks
 
