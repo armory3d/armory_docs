@@ -44,8 +44,43 @@ Select cube and navigate to `Properties - Object - Armory Traits`. Create a new 
 
 <a href="./code/img/wasm/1.jpg">![](./code/img/wasm/1.jpg)</a>
 
-
 - Example at [GitHub](https://github.com/armory3d/armory_examples/tree/master/web_assembly/c_trait)
+
+
+## Programming Armory in Rust
+
+Similar to the previous example, rotating a cube in `Rust`.
+
+```rust
+extern {
+  fn notify_on_update(f: extern fn() -> ()) -> ();
+  fn get_object(name: *const i8) -> i32;
+  fn set_transform(object: i32, x: f32, y: f32, z: f32, rx: f32, ry: f32, rz: f32, sx: f32, sy: f32, sz: f32) -> ();
+}
+
+#[no_mangle]
+pub extern "C" fn update() -> () {
+  unsafe {
+    let name = std::ffi::CString::new("Cube").unwrap();
+    let object = get_object(name.as_ptr());
+    static mut rot: f32 = 0.1;
+    rot += 0.01;
+    set_transform(object, 0.0, 0.0, 0.0, 0.0, 0.0, rot, 1.0, 1.0, 1.0);
+  }
+}
+
+#[no_mangle]
+pub extern "C" fn main() -> i32 {
+  unsafe {
+    notify_on_update(update);
+  }
+  return 0;
+}
+```
+
+You can compile this `Rust` source into `Wasm` live at [webassembly.studio](https://webassembly.studio/?f=qi0imd4j9t).
+
+- Example at [GitHub](https://github.com/armory3d/armory_examples/tree/master/web_assembly/rust_trait)
 
 
 ## Call Wasm from Haxe
