@@ -8,7 +8,7 @@ Armory bundle comes with everything you need.
 
 <img src="./getting_started/img/winrun.png" width="50%">
 
-- To verify everything is working correctly, save your .blend file, switch to `Cycles Render` or `Eevee` engine (using a drop down located in the info header) and hit `Play` (F5) button, located in the `Properties - Render - Armory Player` panel.
+- To verify everything is working correctly, save your .blend file, switch to `Cycles Render` or `Eevee` engine (using a drop down located in the info header) and hit `Play` (F5) button, located in the `Properties - Render - Armory Player` panel. *(On Windows, save your .blend in a safe path like `C:\Users\user_name\Documents\test` in case of issues.)*
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4FPKCUYjpP0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
