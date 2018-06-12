@@ -126,6 +126,8 @@ Each node tree has to be attached to an object. Select Cylinder and create new t
 
 <a href="./getting_started/img/playground/12.jpg">![](./getting_started/img/playground/12.jpg)</a>
 
+Note: To see the output of `Print` node, enable `Armory Project - Debug Console`.
+
 ### Haxe Scripts
 
 We can program the object traits directly using the `Haxe` programming language. Let's create a trait which spawns a box after pressing a key.
