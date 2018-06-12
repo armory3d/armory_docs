@@ -14,11 +14,12 @@ Armory bundle comes with everything you need.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4FPKCUYjpP0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Troubleshooting:
+## Troubleshooting
 
 - To see error messages, start Blender from console or press `Blender - Window - Toggle System Console` on Windows.
 - When naming things, prefer unaccented alphabetical letters `A-Z`.
 - If `MSVCP140.dll` is missing, install [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145).
+- For old graphics cards, select `Low` preset in `Blender - Properties - Render - Armory Render Path`.
 - If you have any trouble setting things up, [let us know](http://armory3d.org/community.html)!
 
 ## Using Armory as add-on
