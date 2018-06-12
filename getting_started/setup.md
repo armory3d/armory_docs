@@ -10,13 +10,13 @@ Armory bundle comes with everything you need.
 
 - To verify everything is working correctly, save your .blend file, switch to `Cycles Render` or `Eevee` engine (using a drop down located in the info header) and hit `Play` (F5) button, located in the `Properties - Render - Armory Player` panel. *(On Windows, save your .blend in a safe path like `C:\Users\user_name\Documents\test` in case of issues.)*
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4FPKCUYjpP0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 - Continue to the [Playground tutorial](./getting_started/playground.md) to learn more.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4FPKCUYjpP0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Troubleshooting:
 
-- To see error messages, start Blender from console or press `Window - Toggle System Console` on Windows.
+- To see error messages, start Blender from console or press `Blender - Window - Toggle System Console` on Windows.
 - When naming things, prefer unaccented alphabetical letters `A-Z`.
 - If `MSVCP140.dll` is missing, install [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145).
 - If you have any trouble setting things up, [let us know](http://armory3d.org/community.html)!
