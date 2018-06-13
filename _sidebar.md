@@ -4,6 +4,7 @@
   * [Setup](getting_started/setup.md)
   * [Playground](getting_started/playground.md)
   * [Tanks](getting_started/tanks.md)
+  * [Video Tutorials](getting_started/video_tutorials.md)
 
 * Essentials
 
