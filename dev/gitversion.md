@@ -33,5 +33,5 @@ git pull origin master
 
 ### Going deeper:
 
-- You may rebuild Krom: https://github.com/Kode/Krom
-- You may rebuild Blender itself with integrated Krom: https://github.com/armory3d/krom_blender
+- Build Krom: https://github.com/Kode/Krom
+- Build Blender with integrated Krom: https://github.com/armory3d/blender_v8
