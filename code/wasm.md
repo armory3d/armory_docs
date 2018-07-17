@@ -31,6 +31,7 @@ void update() {
 	set_transform(get_object("Cube"), 0, 0, 0, 0, 0, rot, 1, 1, 1); // Set cube rotation
 }
 
+// Include main function, Armory calls it when trait is instantiated
 WASM_EXPORT
 int main() {
 	notify_on_update(update); // Register callback
