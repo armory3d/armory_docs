@@ -16,9 +16,7 @@ Armory bundle comes with everything you need.
 
 ## Troubleshooting
 
-To see error messages, start Blender from console. 
-- Or on Windows press `Blender - Window - Toggle System Console`.
-- Or on Mac OS launch terminal then use the open command example `open /Applications/Armory/blender.app/Contents/MacOS/blender`.
+-  To see error messages, start Blender from console or press `Blender - Window - Toggle System Console` on Windows. On macOS launch terminal and type `/path/to/Armory/blender.app/Contents/MacOS/blender`.
 - When naming things, prefer unaccented alphabetical letters `A-Z`.
 - If `MSVCP140.dll` is missing, install [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145).
 - For old graphics cards, select `Low` preset in `Blender - Properties - Render - Armory Render Path`.
