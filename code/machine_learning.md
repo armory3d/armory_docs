@@ -1,7 +1,5 @@
 # Machine Learning
 
-*Note: This feature requires Armory 0.4/git. Use [Armory Updater](http://armory3d.org/manual/#/dev/gitversion) to get it now.*
-
 ## Intro
 
 - Example at [GitHub](https://github.com/armory3d/tensorflow_example)

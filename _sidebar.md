@@ -23,6 +23,8 @@
 * Code
 
   * [WebAssembly](code/wasm.md)
+  * [JS](code/js.md)
+  * [C++](code/cpp.md)
   * [Machine Learning](code/machine_learning.md)
   * [Generate Mesh](code/generate_mesh.md)
 

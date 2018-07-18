@@ -2,8 +2,6 @@
 
 ![](/code/img/wasm/0.jpg)
 
-*Note: This feature requires Armory 0.4/git. Use [Armory Updater](http://armory3d.org/manual/#/dev/gitversion) to get it now.*
-
 ## Intro
 
 [WebAssembly](http://webassembly.org/) (`Wasm`) is a binary instruction format for a stack-based virtual machine, designed as a portable target for compilation of languages like `C`/`C++`/`Rust`.
