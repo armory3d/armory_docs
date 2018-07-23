@@ -2,8 +2,6 @@
 
 <img src="./graphics/img/materials.jpg">
 
-*Draft*
-
 Materials are built with [Cycles nodes](https://docs.blender.org/manual/en/dev/render/cycles/nodes/index.html).
 
 ## Displacement
@@ -24,3 +22,17 @@ When using a height texture map, you can place an `Armory PBR` node and connect 
 Examples:
 - https://github.com/armory3d/armory_examples/tree/master/material_displace
 - https://github.com/armory3d/armory_examples/tree/master/material_tessellation
+
+## Blending
+
+To enable additive blending for specific material, set `Armory Render Path - Blending` to `On` and check the `Blending` property in `Material - Armory Props`.
+
+Examples:
+- https://github.com/armory3d/armory_examples/blob/master/particles/particle_info.blend
+
+## Material parameters
+
+`RGB`, `Value` and `Image Texture` material nodes can be controlled at run-time using script or logic nodes. To expose material node, enable `Parameter` property in `Node Editor - Properties - Armory Material Node`.
+
+Examples:
+- https://github.com/armory3d/armory_examples/tree/master/material_params
