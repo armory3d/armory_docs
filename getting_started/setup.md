@@ -8,7 +8,7 @@ Armory bundle comes with everything you need.
 
 <img src="./getting_started/img/winrun.png" width="50%">
 
-- To verify everything is working correctly, save your .blend file, switch to `Cycles Render` or `Eevee` engine (using a drop down located in the info header) and hit `Play` (F5) button, located in the `Properties - Render - Armory Player` panel. *(On Windows, save your .blend in a safe path like `C:\Users\user_name\Documents\test` in case of issues.)*
+- To verify everything is working correctly, save your .blend file, switch to `Cycles Render` or `Eevee` engine (using a drop down located in the info header) and hit `Play` (F5) button, located in the `Properties - Render - Armory Player` panel.
 
 - Continue to the [Playground tutorial](./getting_started/playground.md) to learn more.
 
@@ -23,6 +23,7 @@ Armory bundle comes with everything you need.
 ### Windows
 
 - To see error messages, start Blender from console or press `Blender - Window - Toggle System Console`.
+- `Type not found : Main` error - save your .blend in a safe path like `C:\Users\user_name\Documents\test`, otherwise Windows may prevent writing the files.
 - If `MSVCP140.dll` is missing, install [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145).
 
 ### Linux
