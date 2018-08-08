@@ -18,6 +18,8 @@ Android Studio may ask you to install additional tools. Continue till you resolv
 
 Note: If you experience build errors, make sure the 'armv7' build variant is selected.
 
+Note: For command line builds, see [Build your app from the command line](https://developer.android.com/studio/build/building-cmdline)
+
 ![](/platforms/img/android/4.jpg)
 
 Once compiled, the project will launch on your device!
