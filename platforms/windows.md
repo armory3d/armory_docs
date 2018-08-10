@@ -1,14 +1,14 @@
 # Deploying to Windows
 
-## Krom
+## Krom (V8)
 
-- Create a new preset in `Armory Exporter` and select `Windows (Krom)` target.
+- Create a new preset in `Properties - Render - Armory Exporter` and select `Windows (Krom)` target.
 - Press `Publish`.
 - That's it! Press `Triangle - Open Folder` to view exported files.
 
 ## Native (C++)
 
-Create a new preset in *Properties - Render - Armory Exporter* and select Windows target. Hit *Publish* to export Visual Studio project files.
+Create a new preset in `Properties - Render - Armory Exporter` and select `Windows (C++)` target. Hit `Publish` to export Visual Studio project files.
 
 To proceed, install [Visual Studio](https://www.visualstudio.com/vs/community/). Make sure to install components for compiling C++ code. Once installed, open the project located at *blend_file_location/build_projectname/windows-build/project_name.sln*.
 
@@ -28,6 +28,10 @@ Once the build process finishes, copy the resulting binary from *Release* folder
 
 You can now package and distribute this folder!
 
-## UWP (Universal Windows Platform)
+## HashLink (C)
 
-TBD
+Create a new preset in `Properties - Render - Armory Exporter` and select `Windows (HashLink)` target. Hit `Publish` to export Visual Studio project files. Afterwads, open the exported project and compile.
+
+## Windows App (UWP)
+
+Create a new preset in `Properties - Render - Armory Exporter` and select `Windows App` target. Hit `Publish` to export Visual Studio project files. Afterwads, open the exported project and compile.
