@@ -68,10 +68,13 @@ Done!
 - Example project:
 https://github.com/armory3d/armory_examples/tree/master/dev_logicnode
 
+- Example on adding a `Contains String` node into Armory:
+https://github.com/armory3d/armory/commit/094c0e9597023025eca525d173e6f6d29b5201b6
+
 When implementing new logic nodes, it is easy to browse the sources of existing nodes as a reference.
 
 - Python definitions of Armory nodes:
 https://github.com/armory3d/armory/tree/master/blender/arm/logicnode
 
- - Haxe counterparts:
+- Haxe counterparts:
 https://github.com/armory3d/armory/tree/master/Sources/armory/logicnode
