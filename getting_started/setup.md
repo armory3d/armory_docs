@@ -17,8 +17,9 @@ Armory bundle comes with everything you need.
 ## Troubleshooting
 
 - For old graphics cards, select `Low` preset in `Blender - Properties - Render - Armory Render Path`.
-- If you have any trouble setting things up, [let us know](http://armory3d.org/community.html)!
 - When naming things, prefer unaccented alphabetical letters `A-Z`.
+- If you wish to isolate config for the bundled Blender, create empty `config` folder in `Armory/2.80`.
+- If you have any trouble setting things up, [let us know](http://armory3d.org/community.html)!
 
 ### Windows
 
