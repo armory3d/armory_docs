@@ -4,16 +4,10 @@ Particle systems are currently in experimental stage and will be further improve
 
 ## Setup
 
-CPU simulation is effective to emit high-poly meshes, while GPU is effective to simulate hordes of lower poly meshes or accessing `Particle Info`s. The rendering itself is always done using GPU instancing.
-
-To enable GPU particle simulation:
-- Check `Properties - Particle System - Armory Props - GPU Simulation`.
-- Select referenced *Dupli Object* (object being emitted) and set `Properties - Materials - Armory Props - Particle` to `GPU`.
-- This setup will be eventually automated
-
-To enable CPU particle simulation:
-- Select referenced *Dupli Object* (object being emitted) and set `Properties - Materials - Armory Props - Particle` to `CPU`.
-- This setup will be eventually automated
+- Armory defaults to GPU particle simulation
+- Accessing `Particle Info` material node requires GPU simulation
+- To use CPU simulation, set `Properties - Armory Render Path - Particles` to `CPU`
+- The rendering is always performed using GPU instancing
 
 ## Features
 
