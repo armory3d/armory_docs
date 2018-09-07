@@ -25,7 +25,7 @@ Armory bundle comes with everything you need.
 
 - To see error messages, start Blender from console or press `Blender - Window - Toggle System Console`.
 - `Type not found : Main` error - save your .blend in a safe path like `C:\Users\user_name\Documents\test`, otherwise Windows may prevent writing the files.
-- If `MSVCP140.dll` is missing, install [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145).
+- If you get missing .dll errors, try installing [Visual C++ Redistributable for Visual Studio 2017](https://go.microsoft.com/fwlink/?LinkId=746572).
 
 ### Linux
 
