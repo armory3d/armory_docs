@@ -13,7 +13,7 @@ Select Camera and attach a new trait using **Object tab - Armory Traits - +**. H
 
 Pressing **Edit Script** will open our new trait script in **Kode Studio**. Example code below will generate a simple box, attach a rigid body trait and spawn it on the plane after pressing input.
 
-```hx
+```haxe
 package arm;
 
 import iron.Scene;

@@ -42,7 +42,7 @@ Restarting Blender and loading the project again, the new logic node is availabl
 
 Before the project can be run, we need to implement the actual node logic in Haxe. When the node gets executed, we let it print a 'Hello, World!' string.
 
-```hx
+```haxe
 package armory.logicnode;
 
 class TestNode extends LogicNode {

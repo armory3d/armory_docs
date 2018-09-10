@@ -18,7 +18,7 @@ For effects which do not fit into a single pass
 
 - In [RenderPathCreator.hx](https://github.com/armory3d/armory/blob/master/Sources/armory/renderpath/RenderPathCreator.hx) - load shaders (`path.loadShader()`), create render targets(`path.createRenderTarget()`) and [add new commands](https://github.com/armory3d/armory/blob/master/Sources/armory/renderpath/RenderPathCreator.hx#L891)
 
-```hx
+```haxe
 #if rp_custom_pass
 {
 	// Draw into helper 'buf' render target
@@ -118,7 +118,7 @@ void main() {
 
 Create a new `blend_root/Sources/arm/renderpath/RenderPathCreator.hx`. This will make Armory overwrite the internal render path with your own.
 
-```hx
+```haxe
 package arm.renderpath;
 
 class RenderPathCreator {
