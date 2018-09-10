@@ -11,6 +11,7 @@
   * [Armory API](http://armory3d.org/manual/api)
   * [Traits](essentials/traits.md)
   * [Multi-User](essentials/multiuser.md)
+  * [Optimize](essentials/optimize.md)
 
 * Graphics
 
