@@ -12,6 +12,7 @@
   * [Traits](essentials/traits.md)
   * [Multi-User](essentials/multiuser.md)
   * [Optimize](essentials/optimize.md)
+  * [Krom](essentials/krom.md)
 
 * Graphics
 
