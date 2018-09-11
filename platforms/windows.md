@@ -6,6 +6,8 @@
 - Press `Publish`.
 - That's it! Press `Triangle - Open Folder` to view exported files.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GVw3B5e4Rjs?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## Native (C++)
 
 Create a new preset in `Properties - Render - Armory Exporter` and select `Windows (C++)` target. Hit `Publish` to export Visual Studio project files.
