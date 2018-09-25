@@ -14,6 +14,7 @@
   * [Optimize](essentials/optimize.md)
   * [Krom](essentials/krom.md)
   * [Physics](essentials/physics.md)
+  * [Navmesh](essentials/navmesh.md)
   * [UI Editor](essentials/ui_editor.md)
   * [Debug](essentials/debug.md)
 
@@ -24,6 +25,7 @@
   * [Anti-Aliasing](graphics/antialiasing.md)
   * [Post-Processing](graphics/screen-effects.md)
   * [Vertex Colors](graphics/vertexcolors.md)
+  * [Instancing](graphics/instancing.md)
 
 * Code
 

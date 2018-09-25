@@ -19,12 +19,13 @@ Depending on the CPU, the repeated builds of scenes like the [first_person](http
 - Enable `Armory Project - Minimize Data`
 - Enable `Armory Project - Asset Compression`
 - Disable `Armory Project - Compiler Inline`
+- If unused, disable `Armory Project - Audio`
 
 Inspect `Armory Render Path` to ensure features which are not in use are off. Disabling particles, skinning, shadows, decals, translucency or certain post-processing features will bring the size further down.
 
 Use `Armory Exporter - Publish` to export the project. This will allow to perform DCE (dead code elimination).
 
-For Krom/HTML5 targets, use a tool like [jscompress.com](https://jscompress.com/) to further minimize `krom.js`/`kha.js` files. Default scene containing a single cube should fit into 349KB/88KB(zip) using a low forward path.
+For Krom/HTML5 targets, use a tool like [jscompress.com](https://jscompress.com/) to further minimize `krom.js`/`kha.js` files. Default scene containing a single cube should fit into 290KB/71KB(zip) using a low forward path.
 
 Armory supports multiple physics engines - see [oimo_module](https://github.com/armory3d/oimo_module).
 
