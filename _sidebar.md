@@ -66,6 +66,7 @@
 * Remarks
 
   * [Roadmap](https://github.com/armory3d/armory/projects)
+  * [Project History](remarks/history.md)
   * [Supported Nodes](remarks/supported_nodes.md)
   * [Supported Particles](remarks/supported_particles.md)
 
