@@ -6,6 +6,10 @@
 
 <iframe width="711" height="400" src="https://www.youtube.com/embed/videoseries?list=PLS9MbmO_ssyCROCpMk98E_Pf7fgMCm5-n" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+## [Armory Logic Nodes](https://www.youtube.com/playlist?list=PLCRDzlGnyXOOCrpCXlkezMTj9GTa7B0zu)
+
+<iframe width="711" height="400" src="https://www.youtube.com/embed/videoseries?list=PLCRDzlGnyXOOCrpCXlkezMTj9GTa7B0zu" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## [Jayanam](https://www.youtube.com/playlist?list=PLboXykqtm8dyWWJ2UkC_8jRpDN4zW1s52)
 
 <iframe width="711" height="400" src="https://www.youtube.com/embed/videoseries?list=PLboXykqtm8dyWWJ2UkC_8jRpDN4zW1s52" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
