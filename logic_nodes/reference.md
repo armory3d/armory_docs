@@ -52,6 +52,12 @@ Overlap-mode: Activates the connected nodes on the frame the object overlaps wit
 
 ## Logic
 
+### Array loop
+
+Its loop through each item assingned in array."Value" give item specified by index's value."Done" calls connectors when its is done looping through array.
+
+![](/assests/array-loop.JPG)
+
 ### Alternate
 
 Alternates between its activated outputs to pass through its input when it is being re-activated.  
