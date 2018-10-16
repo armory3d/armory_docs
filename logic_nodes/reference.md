@@ -56,7 +56,14 @@ Overlap-mode: Activates the connected nodes on the frame the object overlaps wit
 
 Its loop through each item assingned in array."Value" give item specified by index's value."Done" calls connectors when its is done looping through array.
 
-![](/assests/array-loop.JPG)
+![](/assets/array-loop.JPG)
+
+
+### Loop
+
+Its is basically for(i in from...to) loop. "Index" give value specified by index value."Done" is called when it is done looping.
+
+![](/assets/Loop.JPG)
 
 ### Alternate
 
@@ -72,6 +79,34 @@ Logic nodes way to do "if" statements. When activated, it compares if its two in
 "And" and "Or" are being used for booleans only, and pass through the input when both bools are true \(and\) or at least one \(or\).
 
 ![](/assets/Gate.JPG)
+
+
+### Is None
+
+Give bool value of null i.e., If it is null then its output true(Doesn't have value), if it is not null then it output false(Have value).
+
+![](/assets/is-none.JPG)
+
+
+### Is Not None
+
+Give opposite bool value of null i.e., If it is not null then its output true(Have value), if it is null then it output false(Doesn't have value).
+
+![](/assets/is-not-none.JPG)
+
+
+### Sequence
+
+Its call output in sequential order.
+
+![](/assets/Sequence.JPG)
+
+
+### While
+
+Its loop through as long as bool specified in "Condition" is same.(i.e., like  while(jumping == true){do domething}).
+
+![](/assets/While.JPG)
 
 
 ### Not
@@ -105,7 +140,6 @@ Passes through its activation only if the plugged in boolean is "True"/"False", 
 The "New" button creates new inputs, the "X" one deletes the most bottom one. If it receives on activation from any of its inputs, it will activate its output.
 
 ![](/assets/Merge.JPG)
-
 
 ## States
 
