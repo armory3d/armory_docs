@@ -1,6 +1,6 @@
 # Materials
 
-<img src="./graphics/img/materials.jpg">
+<img src="/graphics/img/materials.jpg">
 
 Materials are built with [Cycles nodes](https://docs.blender.org/manual/en/dev/render/cycles/nodes/index.html).
 
@@ -17,7 +17,7 @@ Note: Vertices are displaced in normals direction. Use smooth shading (`Space - 
 
 When using a height texture map, you can place an `Armory PBR` node and connect the height map to the `Height` socket. Make sure to also connect the `Displacement` sockects.
 
-<img src="./graphics/img/displace.png">
+<img src="/graphics/img/displace.png">
 
 Examples:
 - https://github.com/armory3d/armory_examples/tree/master/material_displace

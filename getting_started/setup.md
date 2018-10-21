@@ -6,11 +6,11 @@ Armory bundle comes with everything you need.
 - Unpack `Armory_version.zip` to your preferred location. *(On Windows, prefer a short path like `C:\Dev` or unpack with [7-zip](http://www.7-zip.org) to prevent long path errors and speed-up the extraction.)*
 - Run Blender located in the unpacked SDK. *(On Windows, you may need to enable it for the first time by clicking **More info** - **Run anyway**. On Linux, open terminal in the extracted folder and type `./blender`. On macOS, see `instructions.txt` file.)*
 
-<img src="./getting_started/img/winrun.png" width="50%">
+<img src="/getting_started/img/winrun.png" width="50%">
 
 - To verify everything is working correctly, save your .blend file, switch to `Cycles Render` or `Eevee` engine (using a drop down located in the info header) and hit `Play` (F5) button, located in the `Properties - Render - Armory Player` panel.
 
-- Continue to the [Playground tutorial](./getting_started/playground.md) to learn more.
+- Continue to the [Playground tutorial](/getting_started/playground.md) to learn more.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4FPKCUYjpP0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 

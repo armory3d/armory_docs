@@ -8,7 +8,7 @@ This tutorial walks you through the Armory basics. We will create a playground-l
 
 ### Hello World
 
-Pick-up where we left in the [setup tutorial](./getting_started/setup.md). Open Blender, save the project and select `Cycles Render` or `Eevee` engine in the header. Press `Armory Player - Run (F5)` to play in window.
+Pick-up where we left in the [setup tutorial](/getting_started/setup.md). Open Blender, save the project and select `Cycles Render` or `Eevee` engine in the header. Press `Armory Player - Run (F5)` to play in window.
 
 You can select a runtime in the `Armory Player` panel:
 - Select `Krom` to quickly play the scene.
@@ -22,7 +22,7 @@ You can also select camera mode in the `Armory Player` panel:
 
 Additionally, you can tweak the `Dimensions - Resolution` for window size. To run in fullscreen, select `Armory Project - Window Mode - Fullscreen`.
 
-<a href="./getting_started/img/playground/1.jpg">![](./getting_started/img/playground/1.jpg)</a>
+<a href="/getting_started/img/playground/1.jpg">![](/getting_started/img/playground/1.jpg)</a>
 
 ### Objects
 
@@ -37,46 +37,46 @@ We will start with some Blender basics on how to manipulate scene objects:
 
 Blender has a variety of modifiers which apply procedural effects on the active object. Select Cube, navigate to the `Modifiers` tab and add `Bevel` modifier to make the cube edges look polished.
 
-<a href="./getting_started/img/playground/1b.jpg">![](./getting_started/img/playground/1b.jpg)</a>
+<a href="/getting_started/img/playground/1b.jpg">![](/getting_started/img/playground/1b.jpg)</a>
 
 ### Materials
 
 Select Cube and switch to `Node Editor`. Go to `Shader Nodes` and enable `Use Nodes`. Now you can tweak the material color and roughness using the default `Diffuse BSDF` node.
 
-<a href="./getting_started/img/playground/2.jpg">![](./getting_started/img/playground/2.jpg)</a>
+<a href="/getting_started/img/playground/2.jpg">![](/getting_started/img/playground/2.jpg)</a>
 
 Next, switch back to `3D View` and select Plane. We want to put a texture on it. Press `Tab` to enter edit mode, hit `Space` and type `Unwrap` to create UV coords for the plane.
 
 In Material tab, create a new material. Switch to Node Editor like we did before. Select `Diffuse BSDF` node and press `X` to delete it. In header, press `Add - Group - Armory PBR` and place in on the canvas. Connect the `Surface` socket to the `Material Output` node. For best results, prefer to use the `Armory PBR` node when working with materials in Armory.
 
-![](./getting_started/img/playground/grid_base.png)
-![](./getting_started/img/playground/grid_rough.png)
+![](/getting_started/img/playground/grid_base.png)
+![](/getting_started/img/playground/grid_rough.png)
 
 Save the images above and simply drag-and-drop the files onto the node canvas in Blender. Connect the `Image Texture` nodes to the `Base Color` and `Roughness` sockets.
 
-<a href="./getting_started/img/playground/3.jpg">![](./getting_started/img/playground/3.jpg)</a>
+<a href="/getting_started/img/playground/3.jpg">![](/getting_started/img/playground/3.jpg)</a>
 
 Following these steps, a basic scene is already shaping up. Hit `F5` to play the scene in Armory!
 
-<a href="./getting_started/img/playground/5.jpg">![](./getting_started/img/playground/5.jpg)</a>
+<a href="/getting_started/img/playground/5.jpg">![](/getting_started/img/playground/5.jpg)</a>
 
 ### Animation
 
 Let's create an animation rotating the cube. Locate the `Timeline` and go to frame 1. Select Cube and press `I - Rotation` to insert keyframes for the rotation. Next, go to frame 60 in the timeline. With Cube selected, press `R` to rotate it desired amount and press `I - Rotation` again.
 
-<a href="./getting_started/img/playground/6.jpg">![](./getting_started/img/playground/6.jpg)</a>
+<a href="/getting_started/img/playground/6.jpg">![](/getting_started/img/playground/6.jpg)</a>
 
 ### Lights
 
 Select lamp object from hierarchy and switch to `Data` tab. You can set the lamp type and tweak the lamp color and strength.
 
-<a href="./getting_started/img/playground/9.jpg">![](./getting_started/img/playground/9.jpg)</a>
+<a href="/getting_started/img/playground/9.jpg">![](/getting_started/img/playground/9.jpg)</a>
 
 ### Environment
 
 World nodes are used to setup the environment. Switch to `Node Editor - World Nodes` to access the nodes. In this tutorial, we use `Sky Texture` node to render procedural sky. If we were to add an environment map, we would use the `Environment Texture` node with `.hdr` file.
 
-<a href="./getting_started/img/playground/10.jpg">![](./getting_started/img/playground/10.jpg)</a>
+<a href="/getting_started/img/playground/10.jpg">![](/getting_started/img/playground/10.jpg)</a>
 
 ### Physics
 
@@ -86,7 +86,7 @@ In the `Rigid Body` panel, set object mass and type:
 - Select `Active` for objects which are freely affected by physics.
 - Select `Passive` for objects which are animated on the timeline.
 
-<a href="./getting_started/img/playground/11.jpg">![](./getting_started/img/playground/11.jpg)</a>
+<a href="/getting_started/img/playground/11.jpg">![](/getting_started/img/playground/11.jpg)</a>
 
 ### Asset Import
 
@@ -97,7 +97,7 @@ With Blender, we can easily import common asset formats.
 
 In this tutorial, we are using an animated `.fbx` model from [mixamo](http://mixamo.com), imported using the `File - Import` option.
 
-<a href="./getting_started/img/playground/8.jpg">![](./getting_started/img/playground/8.jpg)</a>
+<a href="/getting_started/img/playground/8.jpg">![](/getting_started/img/playground/8.jpg)</a>
 
 ### Logic Nodes
 
@@ -124,7 +124,7 @@ You can browse all available nodes through `Add` menu item, or simply hit `Shift
 
 Each node tree has to be attached to an object. Select Cylinder and create new trait in `Properties - Object - Armory Traits`. Set type to `Nodes` and enter our newly created node tree as `Tree` entry.
 
-<a href="./getting_started/img/playground/12.jpg">![](./getting_started/img/playground/12.jpg)</a>
+<a href="/getting_started/img/playground/12.jpg">![](/getting_started/img/playground/12.jpg)</a>
 
 Note: To see the output of `Print` node, enable `Armory Project - Debug Console`.
 
@@ -171,13 +171,13 @@ class SpawnBox extends iron.Trait {
 }
 ```
 
-<a href="./getting_started/img/playground/13.jpg">![](./getting_started/img/playground/13.jpg)</a>
+<a href="/getting_started/img/playground/13.jpg">![](/getting_started/img/playground/13.jpg)</a>
 
 ### Bundled Scripts
 
 Armory comes with a set of pre-created bundled scripts. Similar to regular script, bundled script can be attached to an object as a trait. In this tutorial, we will use the `PhysicsDrag` trait. When this trait is attached to physics-enabled object, it lets us drag this object around using the mouse.
 
-<a href="./getting_started/img/playground/14.jpg">![](./getting_started/img/playground/14.jpg)</a>
+<a href="/getting_started/img/playground/14.jpg">![](/getting_started/img/playground/14.jpg)</a>
 
 ### UI Canvas
 
@@ -187,7 +187,7 @@ Apart from objects, scene itself can contain traits as well. This is a good fit 
 
 In `ArmorUI`, press `Text` button to spawn a text object. Adjust the text in `Properties` panel and hit `Save`. If you launch the game now, canvas will get displayed.
 
-<a href="./getting_started/img/playground/15.jpg">![](./getting_started/img/playground/15.jpg)</a>
+<a href="/getting_started/img/playground/15.jpg">![](/getting_started/img/playground/15.jpg)</a>
 
 ### Render Path
 
@@ -197,7 +197,7 @@ Multiple render paths can be created. When exporting the project, you can use th
 
 If you run on a modern GPU (OpenGL 4.5+), select `Max (Game)` preset to enable more advanced effects like voxel-based ambient occlusion. Note that Voxel AO needs to run in standalone window - simply press `F5` to launch.
 
-<a href="">![](./getting_started/img/playground/16.png)</a>
+<a href="">![](/getting_started/img/playground/16.png)</a>
 
 ### Exporter
 
@@ -205,6 +205,6 @@ When we are ready to publish our project, `Properties - Render - Armory Exporter
 
 You can create multiple export presets, each specifying a target platform, graphics API, render path and start-up scene. Select desired platform and hit `Publish` button. Once finished, hit `Triangle - Open Folder` to view the exported files.
 
-<a href="">![](./getting_started/img/playground/17.png)</a>
+<a href="">![](/getting_started/img/playground/17.png)</a>
 
-- Continue to the [Tanks tutorial](./getting_started/tanks.md)
+- Continue to the [Tanks tutorial](/getting_started/tanks.md)

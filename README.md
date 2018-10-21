@@ -12,21 +12,21 @@ Armory SDK can be used on **Windows**, **Linux** and **macOS**. Projects can be 
 
 ### Get Started
 
-<img src="./getting_started/img/templ.jpg" width="50%">
+<img src="/getting_started/img/templ.jpg" width="50%">
 
 - [Download SDK](http://armory3d.org/download.html)
-- [Setup](./getting_started/setup.md)
-- [Playground Tutorial](./getting_started/playground.md)
-- [Tanks Tutorial](./getting_started/tanks.md)
+- [Setup](/getting_started/setup.md)
+- [Playground Tutorial](/getting_started/playground.md)
+- [Tanks Tutorial](/getting_started/tanks.md)
 
 ### Essentials
 
-<img src="./getting_started/img/essen.jpg" width="50%">
+<img src="/getting_started/img/essen.jpg" width="50%">
 
 - [Game Templates](https://github.com/armory3d/armory_templates/releases)
 - [Archviz Templates](https://github.com/armory3d/archviz_templates/releases)
 - [Examples](https://github.com/armory3d/armory_examples/releases)
-- [Global Illumination](./graphics/global_illumination)
+- [Global Illumination](/graphics/global_illumination)
 - [Voxel World](https://github.com/armory3d/voxel_world)
 - [Material Vault](https://github.com/armory3d/material_vault)
 
