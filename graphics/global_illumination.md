@@ -28,7 +28,7 @@ The cheapest way of utilizing voxels, usable for **ambient occlusion and shadows
 - Control the intensity using the `Occlusion` property.
 - Tweak tracing parameters using the `Step, Range, Offset` properties.
 
-<img src="/graphics/img/gi/ao.jpg" width="50%">
+<div style="width:50%">![](/graphics/img/gi/ao.jpg)</div>
 
 ## Voxel GI
 
@@ -41,7 +41,7 @@ Voxel GI enables **indirect diffuse and specular lighting**. This is still a per
 - Tweak tracing parameters using the `Step, Range, Offset` properties.
 - Control environment map contribution to indirect lighting using `Env Map` property.
 
-<img src="/graphics/img/gi/game.jpg" width="50%">
+<div style="width:50%">![](/graphics/img/gi/game.jpg)</div>
 
 ## Voxel Volume Setup
 

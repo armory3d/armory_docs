@@ -12,7 +12,7 @@ Armory SDK can be used on **Windows**, **Linux** and **macOS**. Projects can be 
 
 ### Get Started
 
-<img src="/getting_started/img/templ.jpg" width="50%">
+<div style="width:50%">![](/getting_started/img/templ.jpg)</div>
 
 - [Download SDK](http://armory3d.org/download.html)
 - [Setup](/getting_started/setup.md)
@@ -21,7 +21,7 @@ Armory SDK can be used on **Windows**, **Linux** and **macOS**. Projects can be 
 
 ### Essentials
 
-<img src="/getting_started/img/essen.jpg" width="50%">
+<div style="width:50%">![](/getting_started/img/essen.jpg)</div>
 
 - [Game Templates](https://github.com/armory3d/armory_templates/releases)
 - [Archviz Templates](https://github.com/armory3d/archviz_templates/releases)
