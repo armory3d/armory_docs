@@ -54,14 +54,14 @@ Overlap-mode: Activates the connected nodes on the frame the object overlaps wit
 
 ### Array loop
 
-Its loop through each item assingned in array."Value" give item specified by index's value."Done" calls connectors when its is done looping through array.
+Loops through each item contained in array. "Value" returns currently iterated item. "Done" is called when looping is finished.
 
 ![](/assets/array-loop.JPG)
 
 
 ### Loop
 
-Its is basically for(i in from...to) loop. "Index" give value specified by index value."Done" is called when it is done looping.
+It is basically for(i in from...to) loop. "Index" returns current iteration count. "Done" is called when looping is finished.
 
 ![](/assets/Loop.JPG)
 
@@ -83,28 +83,28 @@ Logic nodes way to do "if" statements. When activated, it compares if its two in
 
 ### Is None
 
-Give bool value of null i.e., If it is null then its output true(Doesn't have value), if it is not null then it output false(Have value).
+Checks if the value is null. If the value is null, execution continues.
 
 ![](/assets/is-none.JPG)
 
 
 ### Is Not None
 
-Give opposite bool value of null i.e., If it is not null then its output true(Have value), if it is null then it output false(Doesn't have value).
+Checks if the value is not null. If the value is not null, execution continues.
 
 ![](/assets/is-not-none.JPG)
 
 
 ### Sequence
 
-Its call output in sequential order.
+Calls outputs in sequential order.
 
 ![](/assets/Sequence.JPG)
 
 
 ### While
 
-Its loop through as long as bool specified in "Condition" is same.(i.e., like  while(jumping == true){do domething}).
+Loops while the "Condition" input is true. "Done" is called when looping is finished.
 
 ![](/assets/While.JPG)
 

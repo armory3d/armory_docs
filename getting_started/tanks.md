@@ -6,7 +6,7 @@ Let's build a mini-game! It will consist of 2 players handling a tank and battli
 
 ![](/getting_started/img/tanks/1.jpg)
 
-Red tank acts as a player 1. We allow both keyboard and gamepad controls, but hard-code the actual keys used for simplicity. In a **Player1Controls** tree, the left key on keyboard or gamepad is set to send an event named **'turn_left'**. Later on, we use Send Global Event (It is renamed, Send Global Event is not same as Send Event, So use Send Global Event) to rotate the player controlled tank.
+Red tank acts as a player 1. We allow both keyboard and gamepad controls, but hard-code the actual keys used for simplicity. In a **Player1Controls** tree, the left key on keyboard or gamepad is set to send an event named **'turn_left'**. Later on, we use this event to rotate the player controlled tank.
 
 ![](/getting_started/img/tanks/2.jpg)
 
