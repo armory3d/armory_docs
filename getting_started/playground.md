@@ -134,7 +134,7 @@ We can program the object traits directly using the `Haxe` programming language.
 
 Create an empty object in the scene (`Space - Add Empty`). The location of this object will serve as the spawning point. Create a new trait in `Properties - Object - Armory Traits`. Set type to `Haxe` and press the `New Script` button.
 
-Press the `Edit Script` to open script file in Kode Studio. Kode Studio is a dedicated code editor which includes code completition and debugging support.
+Press the `Edit Script` to open script file in Kode Studio. Kode Studio is a dedicated code editor which includes code completion and debugging support.
 
 ```haxe
 package arm;

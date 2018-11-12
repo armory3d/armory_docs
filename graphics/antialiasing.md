@@ -30,7 +30,7 @@ Used in Deferred path.
 ![](/graphics/img/aa/smaa.jpg)
 
 ### Temporal AA
-Used in Deferred High path. For dynamic scenes, velocity buffer is required for repojection.
+Used in Deferred High path. For dynamic scenes, a velocity buffer is required for reprojection.
 ![](/graphics/img/aa/taa_smaa.jpg)
 
 ### Super-sampling

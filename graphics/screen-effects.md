@@ -28,7 +28,7 @@ _Please note that some of these effects have their own articles for further docu
 
 ## Auto Exposure {#auto-exposure}
 
-Auto Exposure or Eye Adaption is an effect where the the exposure in a scene is automatically adjusted based on the luminance in a frame. This effect mimicks the ocular ability of the eye to adjust to various levels of darkness and light.
+Auto Exposure or Eye Adaption is an effect where the the exposure in a scene is automatically adjusted based on the luminance in a frame. This effect mimics the ocular ability of the eye to adjust to various levels of darkness and light.
 
 |  |
 | :--- |
@@ -44,7 +44,7 @@ Toggle the boolean property located at: **Armory Render Path** &gt; **Auto Expos
 
 ## Bloom {#bloom}
 
-Bloom or Glow is a screen-effect that reproduces artifacts occuring in real world cameras, and helps giving the illusion of bright light seen through a camera. Due to the limitations of typical display sets not supporting HDR \(High Dynamic Range\), the possibility to render exceptionally bright objects is not available and thus clamped to an ordinary white color on SDR \(Standard Dynamic Range\). Despite this, game engines can still take HDR into account in terms of effects, where the HDR values are made available for shaders, with bloom being one of them.
+Bloom or Glow is a screen-effect that reproduces artifacts occurring in real world cameras, and helps giving the illusion of bright light seen through a camera. Due to the limitations of typical display sets not supporting HDR \(High Dynamic Range\), the possibility to render exceptionally bright objects is not available and thus clamped to an ordinary white color on SDR \(Standard Dynamic Range\). Despite this, game engines can still take HDR into account in terms of effects, where the HDR values are made available for shaders, with bloom being one of them.
 
 With the default settings Armory Engine adds bloom for elements that have a brightness higher than what an SDR display set is capable of rendering \(A value of 1 being equal to white\).  
 ![](/graphics/img/se/Bloom_Image.jpg)
@@ -69,7 +69,7 @@ Toggle the boolean property located at: **Armory Render Path** &gt; **Bloom**.
 
 ## Film Grain {#film-grain}
 
-Film Grain or Granularity is a screen effect typically seen in film and photography occuring due to small particles during the film processing. In Armory the effect is simulated by a shader adding noise each frame.
+Film Grain or Granularity is a screen effect typically seen in film and photography occurring due to small particles during the film processing. In Armory the effect is simulated by a shader adding noise each frame.
 
 | Without grain | With grain |
 | :--- | :--- |
@@ -188,7 +188,7 @@ Select the tonemapping option located at: **Armory Render Props** &gt; **Tonemap
 
 ## Vignette {#vignette}
 
-Vignette is a screen-effect where the brightness is reduced at the periphery of a frame. It's often an unintended effect occuring in photography and optics due to lens limitations. In gaming, it's often used to create more focus on central points of the screen.
+Vignette is a screen-effect where the brightness is reduced at the periphery of a frame. It's often an unintended effect occurring in photography and optics due to lens limitations. In gaming, it's often used to create more focus on central points of the screen.
 
 |  |
 | :--- |

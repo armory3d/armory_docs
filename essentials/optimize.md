@@ -9,7 +9,7 @@ To keep the builds times low:
 - Enable `Armory Project - Cache Shaders`
 - Enable `Armory Project - Cache Compiler`
 
-`Khamake Threads` will enable multi-threaded shader/asset compiling. `Cache Shaders/Compiler` will allow Armory to reuse data from previouse compilation.
+`Khamake Threads` will enable multi-threaded shader/asset compiling. `Cache Shaders/Compiler` will allow Armory to reuse data from previous compilation.
 
 Depending on the CPU, the repeated builds of scenes like the [first_person](https://github.com/armory3d/armory_templates/tree/master/first_person) template should fit into one second.
 

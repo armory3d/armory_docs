@@ -2,7 +2,7 @@
 
 *This page is work in progress - most of the manual labor described here is to be automated.*
 
-Armory is powered by a scriptable render path system. This allows us to manage both forward & deferred renderers and easily extend it with addional passes while introducing the least possible overhead and reusing existing resources. The engine is also prepared for adding new renderer types.
+Armory is powered by a scriptable render path system. This allows us to manage both forward & deferred renderers and easily extend it with additional passes while introducing the least possible overhead and reusing existing resources. The engine is also prepared for adding new renderer types.
 
 Render path is built when the game itself is being compiled. When a specific pass is disabled, it's completely gone to save resources.
 
@@ -14,7 +14,7 @@ If possible, perform additional post processing directly in compositor. This way
 
 For effects which do not fit into a single pass
 
-- In [make_renderpath.py](https://github.com/armory3d/armory/blob/master/blender/arm/make_renderpath.py) - include additonal shader files(`assets.add_shader_pass()`) and add defines(`assets.add_khafile_def()`)
+- In [make_renderpath.py](https://github.com/armory3d/armory/blob/master/blender/arm/make_renderpath.py) - include additional shader files(`assets.add_shader_pass()`) and add defines(`assets.add_khafile_def()`)
 
 - In [RenderPathCreator.hx](https://github.com/armory3d/armory/blob/master/Sources/armory/renderpath/RenderPathCreator.hx) - load shaders (`path.loadShader()`), create render targets(`path.createRenderTarget()`) and [add new commands](https://github.com/armory3d/armory/blob/master/Sources/armory/renderpath/RenderPathCreator.hx#L891)
 
