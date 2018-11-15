@@ -16,7 +16,7 @@ For effects which do not fit into a single pass
 
 - In [make_renderpath.py](https://github.com/armory3d/armory/blob/master/blender/arm/make_renderpath.py) - include additional shader files(`assets.add_shader_pass()`) and add defines(`assets.add_khafile_def()`)
 
-- In [RenderPathCreator.hx](https://github.com/armory3d/armory/blob/master/Sources/armory/renderpath/RenderPathCreator.hx) - load shaders (`path.loadShader()`), create render targets(`path.createRenderTarget()`) and [add new commands](https://github.com/armory3d/armory/blob/master/Sources/armory/renderpath/RenderPathCreator.hx#L891)
+- In [RenderPathForward.hx](https://github.com/armory3d/armory/blob/master/Sources/armory/renderpath/RenderPathForward.hx) / [RenderPathDeferred.hx](https://github.com/armory3d/armory/blob/master/Sources/armory/renderpath/RenderPathDeferred.hx) - load shaders (`path.loadShader()`), create render targets(`path.createRenderTarget()`) and [add new commands](https://github.com/armory3d/armory/blob/master/Sources/armory/renderpath/RenderPathDeferred.hx#L832)
 
 ```haxe
 #if rp_custom_pass
@@ -44,7 +44,7 @@ For effects which do not fit into a single pass
 
 See [material_shaders](https://github.com/armory3d/armory_examples/tree/master/material_shaders) example.
 
-- Create new [material definition](https://github.com/armory3d/armory_examples/blob/master/material_shaders/Bundled/MyMaterial/MyMaterial.arm) in `blend_root/Bundled/your_material`
+- Create new [material definition](https://github.com/armory3d/armory_examples/blob/master/material_shaders/Bundled/MyMaterial/MyMaterial.json) in `blend_root/Bundled/your_material`
 - In Blender, select material and set `Properties - Material - Armory Props - Custom Material` to `your_material`
 - Create `your_material.vert.glsl` and `your_material.frag.glsl` shaders (.geom, .tesc, .tese are optional) in `blend_root/Shaders`
 
@@ -114,9 +114,11 @@ void main() {
 }
 ```
 
+See [voxel_world](https://github.com/armory3d/voxel_world) example.
+
 ## Writing custom render path
 
-Create a new `blend_root/Sources/arm/renderpath/RenderPathCreator.hx`. This will make Armory overwrite the internal render path with your own.
+Create a new `blend_root/Sources/arm/renderpath/RenderPathCreator.hx` file. This will make Armory overwrite the internal render path with your own.
 
 ```haxe
 package arm.renderpath;
@@ -134,5 +136,7 @@ class RenderPathCreator {
 	}
 }
 ```
+
+See [celshade](https://github.com/armory3d/armory_templates/tree/master/celshade) example.
 
 It is also possible to replace/manipulate render path at runtime using the `iron.RenderPath.setActive(path)` command.

@@ -29,7 +29,7 @@ Armory bundle comes with everything you need.
 
 ### Linux
 
-- To see error messages, start Blender from console.
+- To see error messages, start Blender from terminal using './blender'.
 
 ### macOS
 
