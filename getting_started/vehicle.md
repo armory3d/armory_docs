@@ -168,7 +168,9 @@ The index is based on the order that the wheel is added to the vehicle
 vehicle.setBrake(breakingForce, i);
 ```
 
-Negative Engine Force (-1 * engineforce) can also use to decelerate vehicle. But the behavior of brake/negative engine force may suit different situations. Please feel free to experiment and find best suitable approach.
+Negative Engine Force (-1 * engineForce) can also use to decelerate vehicle. But the behavior of brake/negative engine force may suit different situations. 
+
+Please feel free to experiment and find best suitable approach.
 
 Brake will cause the vehicle to stop at 0 eventually, while negative engine force will start to reverse.
 
@@ -246,13 +248,15 @@ camera.buildMatrix();
 #### Vehicle Wheels/Chassis Are Off During High Speed
 *This is an optional suggestion*
 
-Out of box vehicle template, if one moves the vehicle at very high speed, one may notices wheels are rotating slower than chasis (at least graphically).
+Out of box vehicle template, if one moves the vehicle at very high speed, one may notice wheels are rotating slower than chassis (at least graphically).
 
 While it may works for some game, but may not work for other games.
 
-The reason that the behavior occurs is because physic rotation logic seem happen on another thread, so there is some delay between the actual wheel rotation/location responds vs chasis.
+The reason that the behavior occurs is because physic wheel physic calculation logic seem happen on another thread, so there is some delay between the actual wheel rotation/location responds vs chassis physic calculation.
 
 To force the wheels, one logic need to be changed above
+
+On updateWheelTransform, updated to false for the wheel(i)
 
 ```
 // Synchronize the wheels with the chassis worldtransform
