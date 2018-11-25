@@ -208,3 +208,4 @@ You can create multiple export presets, each specifying a target platform, graph
 <a href="">![](/getting_started/img/playground/17.png)</a>
 
 - Continue to the [Tanks tutorial](/getting_started/tanks.md)
+- Continue to the [Vehicle tutorial](/getting_started/vehicle.md)
