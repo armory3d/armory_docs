@@ -38,7 +38,22 @@
 
 * Logic Nodes
 
-  * [Reference](logic_nodes/reference.md)
+  * [Main](logic_nodes/logic_nodes_Main.md)
+     * [Action(part1)](logic_nodes/logic_nodes_action1.md)
+     * [Action(part2)](logic_nodes/logic_nodes_action2.md)
+     * [Animation](logic_nodes/logic_nodes_animation.md)
+     * [Array](logic_nodes/logic_nodes_array.md)
+     * [Canvas](logic_nodes/logic_nodes_canvas.md)
+     * [Event](logic_nodes/logic_nodes_event.md)
+     * [Input](logic_nodes/logic_nodes_input.md)
+     * [Logic](logic_nodes/logic_nodes_logic.md)
+     * [Native](logic_nodes/logic_nodes_native.md)
+     * [NavMesh](logic_nodes/logic_nodes_navmesh.md)
+     * [Physics](logic_nodes/logic_nodes_physics.md)
+     * [Sound](logic_nodes/logic_nodes_sound.md)
+     * [Value(part1)](logic_nodes/logic_nodes_value1.md)
+     * [Value(part2)](logic_nodes/logic_nodes_value2.md)
+     * [Variables](logic_nodes/logic_nodes_variables.md)
 
 * Platforms
 
