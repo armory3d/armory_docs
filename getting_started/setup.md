@@ -19,6 +19,7 @@ Armory bundle comes with everything you need.
 - For old graphics cards, select `Low` preset in `Blender - Properties - Render - Armory Render Path`.
 - When naming things, prefer unaccented alphabetical letters `A-Z`.
 - If you wish to isolate config for the bundled Blender, create empty `config` folder in `Armory/2.80`.
+- If you have problem with loading of addon, then go to debug console to catch the error.
 - If you have any trouble setting things up, [let us know](http://armory3d.org/community.html)!
 
 ### Windows
@@ -33,8 +34,8 @@ Armory bundle comes with everything you need.
 
 ### macOS
 
+- Due to security elements of macOS, you may get a `file corrupted` error. Try opening blender from terminal by typing `/path/to/Armory/blender.app/Contents/MacOS/blender` (right click on blender.app to open it contents).
 - To see error messages, start Blender from terminal using `/path/to/Armory/blender.app/Contents/MacOS/blender`.
-- Due to security elements of macOS, you may get a `file corrupted` error. Try starting Blender from terminal like described above.
 
 
 ## Using Armory as add-on

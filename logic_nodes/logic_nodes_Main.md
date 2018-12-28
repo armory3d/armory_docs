@@ -21,12 +21,19 @@ Now, let study about it!
 ![](/assets/.JPG)
 
 White: String. This is String value.
+
 Red: In and Out Socket. This is connected to other logic nodes, it handle execution order.
+
 Orange: Array. This is Array and it value.
+
 Yellow: Bool. This is Boolean value such as true/false.
+
 Darker Green: Integer. This is Integer value such as -8 or 8.
+
 Green: Transform. This is Transform value such as Location, Rotaion, Scale.
+
 Purple: Vector. This is Vector value such as X-Axis, Y-Axis, Z-Axis.
+
 Blue: Object. This reference of Object.
 
 ## There are 13 different Logic Nodes group:
