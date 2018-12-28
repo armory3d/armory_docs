@@ -80,4 +80,4 @@ Variables: This Logic Nodes group give all variable types, i.e., give value of F
 Logic Pack Nodes: This Logic Nodes group are made by Armory community, this pack may have varying type of nodes. Follow this link to know more about it -> [Logic Pack Nodes](/logic_nodes/logic_nodes_logicpack.md).
 
 ### Example
-Logic Node Example: [Example](/logic_nodes/temp.md).
+Logic Node Example: [In-Browser example](/logic_nodes/temp.md).
