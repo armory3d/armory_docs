@@ -1,11 +1,11 @@
 # Logic Nodes (Visual Scripting)
 
 There are two option for scripting in Armory:
-* [Haxe]
-* [Logic Nodes]
+* Haxe
+* Logic Nodes
 
-Logic Nodes or visual scripting is full-fledged(It lack lot of features, not for now) scripting system based on nodes interface in Armory3D.
-It can be used to used to create complex gameplay, This is ideal for people who dont have much programming experience.
+Logic Nodes or visual scripting is full-fledged(It lack lot of features for now) scripting system based on nodes interface in Armory3D.
+It can be used to used to create complex gameplay, This is ideal for people who don't have much programming experience.
 It use Haxe Programming Language under the hood and Python for it UI.
 You might be comfortable using Logic Nodes if you have good knowledge of blender and might have previously used Blender Game Engine or Unreal Engine 4.
 
@@ -13,20 +13,20 @@ Below is a screenshot of what Logic Nodes look like:
 
 ![](/assets/logic_nodes_nodesgrouplook.JPG)
 
-As Armory3D is Open-Source 3D game enigne, It is possible for anybody to create their own Logic Node.
+As Armory3D is "Open-Source" 3D game enigne, It is possible for anybody to create their own Logic Node.
 If you want to learn about how to create your own Logic Nodes, then follow this link ->[Custom Logic Nodes](/dev/logicnodes.md).
 
 Now, let study about it!
 
 ![](/assets/.JPG)
 
-White: String. This is String value.
+White: This can be either float or string.
 
 Red: In and Out Socket. This is connected to other logic nodes, it handle execution order.
 
 Orange: Array. This is Array and it value.
 
-Yellow: Bool. This is Boolean value such as true/false.
+Yellow: Bool. This is Boolean value such as True/False.
 
 Darker Green: Integer. This is Integer value such as -8 or 8.
 
@@ -34,7 +34,7 @@ Green: Transform. This is Transform value such as Location, Rotaion, Scale.
 
 Purple: Vector. This is Vector value such as X-Axis, Y-Axis, Z-Axis.
 
-Blue: Object. This reference of Object.
+Blue: Object. This is reference of Object.
 
 ## There are 13 different Logic Nodes group:
 
@@ -78,3 +78,6 @@ Variables: This Logic Nodes group give all variable types, i.e., give value of F
 [Variables](/logic_nodes/logic_nodes_variables.md).
 
 Logic Pack Nodes: This Logic Nodes group are made by Armory community, this pack may have varying type of nodes. Follow this link to know more about it -> [Logic Pack Nodes](/logic_nodes/logic_nodes_logicpack.md).
+
+### Example
+Logic Node Example: [Example](/logic_nodes/temp.md).
