@@ -14,6 +14,7 @@
   * [Optimize](essentials/optimize.md)
   * [Krom](essentials/krom.md)
   * [Physics](essentials/physics.md)
+  * [Sound](essentials/sound.md)
   * [Navmesh](essentials/navmesh.md)
   * [UI Editor](essentials/ui_editor.md)
   * [Debug](essentials/debug.md)
