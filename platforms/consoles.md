@@ -2,7 +2,8 @@
 
 ## Native
 
-If you have access to the PS4, Xbox One or Switch console SDK, contact us to get access to the Kha backend.
+If you have access to the PS4, Xbox One or Switch console SDK, contact us to get access to the Kha backends. Due to the nature of console development, a proof that you are a registered Microsoft / Nintendo / Sony developer is required. Afterwards, the Kha console backends are provided for free.
+
 
 ## Xbox UWP (Universal Windows Platform)
 
