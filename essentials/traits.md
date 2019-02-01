@@ -35,7 +35,7 @@ By default all traits are created into your project's "Sources/arm" folder when 
 
 In general it's desirable to create a folder structure that matches logically your game division. For example you could decide to split your game in multiple scenes, and ideally keep the code of each Scene in separate subfolders (one per scene) so that it's easy to maintain later on.
 
-In order to achieve to create a folder hierarchy tree in armory, you can use the `Haxe package syntax` when assigning a name to your new trait. Therefore if you assign a name such as `general.BoxBehavior`, a new trait will be created under "Sources/arm/general" subfolder, with name "BoxBehavior.hx".
+In order to create a folder hierarchy tree in armory, you can use the `Haxe package syntax` when assigning a name to your new trait. Therefore if you assign a name such as `general.BoxBehavior`, a new trait will be created under "Sources/arm/general" subfolder, with name "BoxBehavior.hx".
 
 ![](/essentials/img/subfolders/3-Subfolder_Trait.png)
 ![](/essentials/img/subfolders/4-Subfolder_Trait_List.png)
