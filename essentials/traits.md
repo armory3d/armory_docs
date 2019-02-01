@@ -48,4 +48,4 @@ If at some point you want to assign a different trait to your object, you simply
 ![](/essentials/img/subfolders/6-Trait_List.png)
 ![](/essentials/img/subfolders/7-Subfolder_Trait_Assigned.png)
 
-Not: Please bear in mind that some reserved words won't be allowed to be used as package names, therefore trait names such as "my.new.Trait" won't be valid due to `new` being a reserved word.
+Note: Please bear in mind that some reserved words won't be allowed to be used as package names, therefore trait names such as "my.new.Trait" won't be valid due to `new` being a reserved word.
