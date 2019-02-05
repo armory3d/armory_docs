@@ -32,7 +32,6 @@
 
   * [WebAssembly](code/wasm.md)
   * [JS](code/js.md)
-  * [C++](code/cpp.md)
   * [Machine Learning](code/machine_learning.md)
   * [Generate Mesh](code/generate_mesh.md)
   * [Transform](code/transform.md)
@@ -41,15 +40,15 @@
 
   * [Reference](logic_nodes/reference.md)
 
-* Platforms
+* Deployment
 
-  * [Windows](platforms/windows.md)
-  * [Linux](platforms/linux.md)
-  * [MacOS](platforms/macos.md)
-  * [HTML5](platforms/html5.md)
-  * [Android](platforms/android.md)
-  * [iOS](platforms/ios.md)
-  * [Consoles](platforms/consoles.md)
+  * [Windows](deploy/windows.md)
+  * [Linux](deploy/linux.md)
+  * [MacOS](deploy/macos.md)
+  * [HTML5](deploy/html5.md)
+  * [Android](deploy/android.md)
+  * [iOS](deploy/ios.md)
+  * [Consoles](deploy/consoles.md)
 
 * Engine Development
 
@@ -57,12 +56,6 @@
   * [Logic Nodes](dev/logicnodes.md)
   * [Render Path](dev/renderpath.md)
   * [Contribute](dev/contribute.md)
-
-* Tooling
-
-  * [ArmorPaint](http://armorpaint.org/manual)
-  * [Substance Painter](tooling/substancepainter.md)
-  * [RenderDoc](tooling/renderdoc.md)
 
 * Remarks
 
@@ -73,7 +66,7 @@
 
 * Links
 
-  * [Blender Essentials](https://www.youtube.com/watch?v=kes2qmijy7w&list=PLa1F2ddGya_8V90Kd5eC5PeBjySbXWGK1)
+  * [Blender Essentials](https://www.youtube.com/watch?v=jBqYTgaFDxU)
   * [Iron Manual](http://armory3d.org/iron)
   * [Kha Manual](https://github.com/KTXSoftware/Kha/wiki)
   * [Haxe Cookbook](http://code.haxe.org/category/beginner/)

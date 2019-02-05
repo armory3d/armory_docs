@@ -1,14 +1,14 @@
 # Traits
 
-Armory uses a trait(component) system to insert logic into Blender objects and make them interactive. Traits can be attached to scene objects or scenes itself. To inspect traits placed in the scene, switch to `Groups` view in the `Outliner`.
+Armory uses a trait(component) system to insert logic into Blender objects and make them interactive. Traits can be attached to scene objects or scenes itself. To inspect traits placed in the scene, switch to `Orphan Data` view in the `Outliner` and see Collections.
 
 ![](/essentials/img/traits_groups.png)
 
 There are several trait types:
-- `Haxe Script` - writing script from scratch in Haxe
-- `Bundled Script` - handling common stuff like character controllers, bundled in Armory
-- `Logic Nodes` - assembling logic visually
-- `Canvas` - working with user interface
+- `Haxe` - writing script from scratch in Haxe
+- `Bundled` - handling common stuff like character controllers, bundled in Armory
+- `Nodes` - assembling logic visually
+- `UI` - working with canvas & user interface
 
 For scripts, it is possible to pass parameters or set script properties straight from Blender.
 

@@ -6,7 +6,7 @@ Particle systems are currently in experimental stage and will be further improve
 
 - Armory defaults to GPU particle simulation
 - Accessing `Particle Info` material node requires GPU simulation
-- To use CPU simulation, set `Properties - Armory Render Path - Particles` to `CPU`
+- To use CPU simulation, set `Properties - Render - Armory Render Path - Renderer - Particles` to `CPU`
 - The rendering is always performed using GPU instancing
 
 ## Features

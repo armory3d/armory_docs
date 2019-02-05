@@ -12,16 +12,11 @@ Armory SDK can be used on **Windows**, **Linux** and **macOS**. Projects can be 
 
 ### Get Started
 
-<div style="width:50%">![](/getting_started/img/templ.jpg)</div>
-
 - [Download SDK](http://armory3d.org/download.html)
 - [Setup](/getting_started/setup.md)
-- [Playground Tutorial](/getting_started/playground.md)
-- [Tanks Tutorial](/getting_started/tanks.md)
+- [Tutorial](/getting_started/playground.md)
 
 ### Essentials
-
-<div style="width:50%">![](/getting_started/img/essen.jpg)</div>
 
 - [Game Templates](https://github.com/armory3d/armory_templates/releases)
 - [Examples](https://github.com/armory3d/armory_examples/releases)
@@ -31,4 +26,4 @@ Armory is distributed under [zlib license](https://github.com/armory3d/armory/bl
 
 ### Contributing
 
-Any form of contribution is highly welcome! Please take a look at currently opened [issues](https://github.com/armory3d/armory/issues).
+Any form of [contribution](/dev/contribute.md) is highly welcome! Please take a look at currently opened [issues](https://github.com/armory3d/armory/issues).

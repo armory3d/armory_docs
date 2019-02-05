@@ -2,6 +2,8 @@
 
 ## Intro
 
+Tensorflow library for Kha is available for machine learning experiments.
+
 - Example at [GitHub](https://github.com/armory3d/tensorflow_example)
 
 ```haxe

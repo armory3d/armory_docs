@@ -13,26 +13,26 @@ Aliasing has a big impact on the image quality. To fight it, Armory comes pre-eq
 
 ### No AA
 
-AA can be completely disabled. Currently, Forward Low render path has no AA enabled by default.
+Disabled anti-aliasing.
 
 ![](/graphics/img/aa/noaa.jpg)
 
 ### MSAA
 
-MSAA can be utilized for Forward Low render path, or any custom path that renders directly to framebuffer. MSAA can be enabled by setting **Render** - **Armory Build** - **Samples per Pixel**. Enter a value from 1 (disabled) to 16 (max quality).
+MSAA can be utilized for Forward render path, or any custom path that renders directly to framebuffer. MSAA can be enabled by setting **Armory Render Path** - **Renderer** - **MSAA**. Enter a value from 1 (disabled) to 16 (max quality).
 
 ### FXAA
-The fastest technique, at a cost of blurring some elements. Used in Deferred Low path.
+The fastest technique, at a cost of blurring.
 ![](/graphics/img/aa/fxaa.jpg)
 
 ### Subpixel Morphological AA
-Used in Deferred path.
+More advanced technique producing less blur.
 ![](/graphics/img/aa/smaa.jpg)
 
 ### Temporal AA
-Used in Deferred High path. For dynamic scenes, a velocity buffer is required for reprojection.
+For dynamic scenes, a velocity buffer is required for reprojection.
 ![](/graphics/img/aa/taa_smaa.jpg)
 
 ### Super-sampling
-Very costly method producing very good results.
+Costly method effectively rendering the scene at higher resolution.
 ![](/graphics/img/aa/taa_smaa_2x.jpg)

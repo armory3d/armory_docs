@@ -22,11 +22,7 @@ git push origin master
 
 When working on Armory patches, it is useful to setup the SDK locally and apply your modification there.
 
-*Note [1]: Disable `Armory Project - Cache Compiler` to always recompile the project when you hit `Play`. There is no need to compile Armory itself, you will see the changes in action instantly.*
-
-*Note [2]: If do not want to recompile every time, one can also use use the `Clean` button next to `Play` to manually clean up the project when needed* 
-
-*Note [3]: It is especially important to clean up the project for any Javascripts/relate changes as the project will likely to cache these files, failure to do so may result changes not showing up*
+*Note: Disable `Armory Project - Flags - Cache Build` to always recompile the project when you hit `Play`. There is no need to compile Armory itself, you will see the changes in action instantly.*
 
 #### Armory
 

@@ -10,12 +10,6 @@ To include vertex colors in material, create and connect **Attribute** node to *
 
 ![](/graphics/img/vcols/1.jpg)
 
-Alternatively, using the Armory PBR node connect **Attribute** to **Base Color** socket.
-
-![](/graphics/img/vcols/2.jpg)
-
-Hit **Play in Viewport** to verify results.
+Hit **Play** (F5) to verify results.
 
 ![](/graphics/img/vcols/3.jpg)
-
-If you are having trouble displaying vertex colors in more complex scenes, invalidating mesh cache may help in case Armory failed to register changes. Hit **Properties - Object data - Armory Props - Invalidate Cache**.

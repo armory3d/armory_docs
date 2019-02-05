@@ -30,7 +30,7 @@ On to the handling **'forward'** event. To figure out which direction should the
 
 As before, we do the same for **'backward'** event with translate vector reversed.
 
-Now that the tanks are fully controllable, we make them shoot bullets. To keep scene clear, bullet object is placed in the second scene layer with **Render disabled**. This ensures object will be exported but not visible on its own.
+Now that the tanks are fully controllable, we make them shoot bullets. To keep scene clear, bullet object is placed in separate collection with **Render** icon disabled. This ensures object will be exported but not visible on its own.
 
 ![](/getting_started/img/tanks/6.jpg)
 
@@ -56,4 +56,4 @@ Even though Armory culls out of screen objects, it is important to keep resource
 
 That's it - feel free to experiment further! Get the full blend for this tutorial:
 
-- https://github.com/armory3d/armory_tutorials/tree/master/tanks
+- https://github.com/armory3d/armory_tutorials

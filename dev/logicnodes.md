@@ -21,7 +21,7 @@ class TestNode(Node, ArmLogicTreeNode):
     '''Test node'''
     bl_idname = 'LNTestNode'
     bl_label = 'Test'
-    bl_icon = 'GAME'
+    bl_icon = 'QUESTION'
 
     def init(self, context):
         self.inputs.new('ArmNodeSocketAction', 'In')
@@ -47,34 +47,29 @@ package armory.logicnode;
 
 class TestNode extends LogicNode {
 
-	public function new(tree:LogicTree) {
-		super(tree);
-	}
+    public function new(tree:LogicTree) {
+        super(tree);
+    }
 
-	override function run(from:Int) {
-		// Logic for this node
-		trace("Hello, World!");
+    override function run(from:Int) {
+        // Logic for this node
+        trace("Hello, World!");
 
-		// Execute next action linked to this node
-		runOutput(0);
-	}
+        // Execute next action linked to this node
+        runOutput(0);
+    }
 }
 ```
-
-Done!
 
 ### Where to next
 
 - Example project:
 https://github.com/armory3d/armory_examples/tree/master/dev_logicnode
 
-- Example on adding a `Contains String` node into Armory:
-https://github.com/armory3d/armory/commit/094c0e9597023025eca525d173e6f6d29b5201b6
-
-When implementing new logic nodes, it is easy to browse the sources of existing nodes as a reference.
+When implementing new logic nodes, browse the sources of existing nodes as a reference:
 
 - Python definitions of Armory nodes:
 https://github.com/armory3d/armory/tree/master/blender/arm/logicnode
 
-- Haxe counterparts:
+- Haxe implementation:
 https://github.com/armory3d/armory/tree/master/Sources/armory/logicnode

@@ -46,10 +46,12 @@ var m = Mat4.identity();
 transform.setMatrix(m);
 ```
 
-To retrieve world-space look vector:
+To retrieve world-space up, right and look vectors:
 
 ```haxe
-var look = transform.look();
+var up = transform.up();        // Z axis
+var right = transform.right();  // X axis
+var look = transform.look();    // Y axis
 ```
 
 Example:

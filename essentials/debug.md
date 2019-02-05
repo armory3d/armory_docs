@@ -6,6 +6,19 @@ Armory project can be launched directly from Kode Studio by pressing `F5`. Kode 
 
 ![](/essentials/img/kode.png)
 
-When compiling to one of the C++ targets, native project files are generated. This makes it easy to debug and profile Armory projects in Visual Studio or XCode IDE.
+When compiling to one of the C targets, native project files are generated. This makes it easy to debug and profile Armory projects in Visual Studio or XCode IDE.
 
-For graphics debugging, check out [RenderDoc](https://armory3d.org/manual/#/tooling/renderdoc).
+## RenderDoc
+
+For graphics debugging, check out RenderDoc.
+
+- Install from https://renderdoc.org/
+- On Windows, export to `Windows (Krom)` target using the `Direct3D11` graphics API
+
+![](/essentials/img/rdoc/0.png)
+
+- Press `Publish`
+- Press `Triangle - Open in RenderDoc`
+- Hit `Launch` in RenderDoc to start debugging!
+
+![](/essentials/img/rdoc/1.jpg)

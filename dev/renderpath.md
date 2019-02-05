@@ -2,7 +2,7 @@
 
 *This page is work in progress - most of the manual labor described here is to be automated.*
 
-Armory is powered by a scriptable render path system. This allows us to manage both forward & deferred renderers and easily extend it with additional passes while introducing the least possible overhead and reusing existing resources. The engine is also prepared for adding new renderer types.
+Armory is powered by a programmable render path system. This allows us to manage both forward & deferred renderers and easily extend it with additional passes while introducing the least possible overhead and reusing existing resources. The engine is also prepared for adding new renderers.
 
 Render path is built when the game itself is being compiled. When a specific pass is disabled, it's completely gone to save resources.
 
@@ -16,7 +16,7 @@ For effects which do not fit into a single pass
 
 - In [make_renderpath.py](https://github.com/armory3d/armory/blob/master/blender/arm/make_renderpath.py) - include additional shader files(`assets.add_shader_pass()`) and add defines(`assets.add_khafile_def()`)
 
-- In [RenderPathForward.hx](https://github.com/armory3d/armory/blob/master/Sources/armory/renderpath/RenderPathForward.hx) / [RenderPathDeferred.hx](https://github.com/armory3d/armory/blob/master/Sources/armory/renderpath/RenderPathDeferred.hx) - load shaders (`path.loadShader()`), create render targets(`path.createRenderTarget()`) and [add new commands](https://github.com/armory3d/armory/blob/master/Sources/armory/renderpath/RenderPathDeferred.hx#L832)
+- In [RenderPathForward.hx](https://github.com/armory3d/armory/blob/master/Sources/armory/renderpath/RenderPathForward.hx) / [RenderPathDeferred.hx](https://github.com/armory3d/armory/blob/master/Sources/armory/renderpath/RenderPathDeferred.hx) - load shaders (`path.loadShader()`), create render targets(`path.createRenderTarget()`) and add new commands
 
 ```haxe
 #if rp_custom_pass
@@ -48,14 +48,13 @@ See [material_shaders](https://github.com/armory3d/armory_examples/tree/master/m
 - In Blender, select material and set `Properties - Material - Armory Props - Custom Material` to `your_material`
 - Create `your_material.vert.glsl` and `your_material.frag.glsl` shaders (.geom, .tesc, .tese are optional) in `blend_root/Shaders`
 
-### Forward
+### Forward path
 
 Minimal vertex shader:
 
-```glsl
+```c
 #version 450
 in vec3 pos;
-in vec3 nor;
 uniform mat4 WVP;
 void main() {
 	gl_Position = WVP * vec4(pos, 1.0);
@@ -64,7 +63,7 @@ void main() {
 
 Minimal fragment shader:
 
-```glsl
+```c
 #version 450
 out vec4 fragColor;
 void main() {
@@ -72,13 +71,13 @@ void main() {
 }
 ```
 
-### Deferred
+### Deferred path
 
 For deferred renderer, we need to encode fragment shader output into gbuffer layout.
 
 Minimal vertex shader:
 
-```glsl
+```c
 #version 450
 in vec3 pos;
 in vec3 nor;
@@ -93,11 +92,11 @@ void main() {
 
 Minimal fragment shader:
 
-```glsl
+```c
 #version 450
 #include "std/gbuffer.glsl"
 in vec3 wnormal;
-out vec4[2] fragColor;
+out vec4 fragColor[2];
 void main() {
 	// Pack normal into 2 components
 	vec3 n = normalize(wnormal);
@@ -108,9 +107,11 @@ void main() {
 	float roughness = 0.0;
 	float metallic = 0.0;
 	float occlusion = 1.0;
+	float specular = 1.0;
+	float materialId = 0.0
 	// Store in gbuffer
-	fragColor[0] = vec4(n.xy, packFloat(metallic, roughness), 1.0 - gl_FragCoord.z);
-	fragColor[1] = vec4(basecol.rgb, occlusion);
+	fragColor[0] = vec4(n.xy, packFloat(metallic, roughness), materialId);
+	fragColor[1] = vec4(basecol.rgb, packFloat2(occlusion, specular));
 }
 ```
 
@@ -137,6 +138,6 @@ class RenderPathCreator {
 }
 ```
 
-See [celshade](https://github.com/armory3d/armory_templates/tree/master/celshade) example.
+See [celshade](https://github.com/armory3d/driver_celshade_example) example.
 
 It is also possible to replace/manipulate render path at runtime using the `iron.RenderPath.setActive(path)` command.
