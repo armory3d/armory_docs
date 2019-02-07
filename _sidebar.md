@@ -16,6 +16,7 @@
   * [Physics](essentials/physics.md)
   * [Sound](essentials/sound.md)
   * [Navmesh](essentials/navmesh.md)
+  * [Terrain](essentials/terrain.md)
   * [UI Editor](essentials/ui_editor.md)
   * [Debug](essentials/debug.md)
 
