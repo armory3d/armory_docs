@@ -4,20 +4,14 @@ Before running on mobile device, make sure the project is optimized to consume m
 
 ## HashLink (C)
 
-Create a new preset in *Properties - Render - Armory Exporter* and select Android target. Hit *Publish* to generate android project files.
+Create a new preset in `Properties - Render - Armory Exporter` and select Android target. Hit `Publish` to generate android project files.
 
-To proceed, install and run [Android Studio](https://developer.android.com/studio/index.html). Select `Open an existing Android Studio project`. The project is located at *blend_file_location/build_projectname/android-native-hl-build/projectname*.
+To proceed, install and run [Android Studio](https://developer.android.com/studio/index.html). Select `Open an existing Android Studio project`. The project is located at `blend_file_location/build_projectname/android-native-hl-build/projectname`.
 
-![](/deploy/img/android/2.jpg)
+![](/deploy/img/android/0.jpg)
 
-Once the project is loaded, make sure to install NDK by opening up `SDK Manager - SDK Tools` from Android Studio.
-
-![](/deploy/img/android/3.jpg)
-
-Android Studio may ask you to install additional tools. Continue untill all dependencies are resolved. Connect your device and press `Run`.
-
-*Note: If you experience build errors, make sure the `armv7` target is selected in the `Build Variants` tab.*
+Once the project is loaded, Android Studio will install required dependencies. Make sure to allow installing NDK. Afterwards, connect your device and press `Run`.
 
 *Note: For command line builds, see [Build your app from the command line](https://developer.android.com/studio/build/building-cmdline)*
 
-![](/deploy/img/android/4.jpg)
+![](/deploy/img/android/1.jpg)

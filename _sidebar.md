@@ -45,7 +45,7 @@
 
   * [Windows](deploy/windows.md)
   * [Linux](deploy/linux.md)
-  * [MacOS](deploy/macos.md)
+  * [macOS](deploy/macos.md)
   * [HTML5](deploy/html5.md)
   * [Android](deploy/android.md)
   * [iOS](deploy/ios.md)

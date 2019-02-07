@@ -6,6 +6,4 @@ Before running on mobile device, make sure the project is optimized to consume m
 
 Create a new preset in `Properties - Render - Armory Exporter` and select iOS (C) target. Hit `Publish` to generate iOS project files.
 
-To proceed, install and run XCode from macOS App Store. Launch XCode by opening the generated project located at *blend_file_location/build_projectname/ios-hl-build/projectname.xcodeproj*. Connect your iOS device and press `Run`.
-
-![](/deploy/img/ios/2.jpg)
+To proceed, install [XCode](https://developer.apple.com/xcode/). Launch XCode by opening the generated project located at `blend_file_location/build_projectname/ios-hl-build/projectname.xcodeproj`. Connect your iOS device and press `Run`.

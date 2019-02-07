@@ -4,13 +4,15 @@
 
 Create a new preset in `Properties - Render - Armory Exporter` and select `HTML5 (JS)` target. Hit `Publish` to export HTML5 files.
 
-Resulting files will be located at *blend_file_location/build_projectname/html5*.
+Resulting files will be located at `blend_file_location/build_projectname/html5`.
 
-*Note: You need to copy these files to a web server or start a local server. Otherwise you will get a cross-origin error when opening index.html directly due to security reasons of web browsers. When playing HTML5 project from Blender, Armory starts a local server automatically.*
+*Note: To run the index.html you need to copy these files to a web server or start a local server. When playing HTML5 project from Blender, Armory starts a local server automatically.*
 
 *Note: Armory will target webgl2 by default. If you require webgl1 support, enable `Legacy Shaders` option in Armory add-on preferences.* 
 
-![](/deploy/img/html5/1.png)
+*Note: To further minimize export size, check [Optimize for size](https://armory3d.org/manual/#/essentials/optimize?id=optimize-for-size).* 
+
+<div style="width:75%">![](/deploy/img/html5/0.jpg)</div>
 
 ## Mobile browser
 

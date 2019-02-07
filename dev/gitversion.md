@@ -6,7 +6,7 @@ Navigate to `Edit - Preferences... - Add-ons - Armory`. Before updating, you may
 
 Afterwards, select `Update SDK` and inspect the command line for details - the process should take just a minute. Once done, restart Blender for changes to take effect. If something goes wrong, use `Restore SDK` button to revert the changes.
 
-![](/dev/img/gitversion/updater.png)
+![](/dev/img/gitversion/0.jpg)
 
 ## Manual clone
 

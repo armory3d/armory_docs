@@ -13,12 +13,7 @@ When compiling to one of the C targets, native project files are generated. This
 For graphics debugging, check out RenderDoc.
 
 - Install from https://renderdoc.org/
-- On Windows, export to `Windows (Krom)` target using the `Direct3D11` graphics API
-
-![](/essentials/img/rdoc/0.png)
-
+- Export to `Windows (Krom)`, `Linux (Krom)` or `macOS (Krom)`
 - Press `Publish`
 - Press `Triangle - Open in RenderDoc`
 - Hit `Launch` in RenderDoc to start debugging!
-
-![](/essentials/img/rdoc/1.jpg)

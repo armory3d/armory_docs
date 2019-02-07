@@ -12,4 +12,4 @@ To include vertex colors in material, create and connect **Attribute** node to *
 
 Hit **Play** (F5) to verify results.
 
-![](/graphics/img/vcols/3.jpg)
+![](/graphics/img/vcols/2.jpg)
