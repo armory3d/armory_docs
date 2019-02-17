@@ -12,6 +12,22 @@ To proceed, install and run [Android Studio](https://developer.android.com/studi
 
 Once the project is loaded, Android Studio will install required dependencies. Make sure to allow installing NDK. Afterwards, connect your device and press `Run`.
 
-*Note: For command line builds, see [Build your app from the command line](https://developer.android.com/studio/build/building-cmdline)*
+*Note: Armory will target gles3 by default. If you require gles2 support, enable `Legacy Shaders` option in Armory add-on preferences.* 
 
 ![](/deploy/img/android/1.jpg)
+
+---
+
+By default .apk file will contain all build variants. You can specify the desired ones using `abiFilters` in `build.gradle`. Default scene using mobile render path is expected at `~1.3MB` for the .apk file targetting `arm64-v8a`.
+
+```
+android {
+	buildTypes {
+        release {
+            ndk {
+                abiFilters "arm64-v8a"
+            }
+        }
+    }
+}
+```
