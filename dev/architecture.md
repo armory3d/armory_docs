@@ -73,3 +73,7 @@ Haxe traits allow you to tie any Haxe code to an object in the Blender interface
 #### Logic Nodes
 
 Logic nodes are another way to write traits in Armory. Armory has an ever growing list of logic nodes that allows you to build out logic in a graphical manner right inside of Blender without having to write code. When your game is exported, the logic nodes will be compiled to Haxe to build the traits. This means that logic nodes have no performance disadvantage to other game code. If the shipped logic nodes are not sufficient for a task, it is also very easy to [write your own](/dev/logicnodes) logic nodes.
+
+[//]: # (Keep Credits below everything)
+### Credits
+* Zicklag(For creating this doc)
