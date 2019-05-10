@@ -6,6 +6,8 @@
 - Press `Publish`.
 - Press `Triangle - Open Folder` to view exported files.
 
+*Note: To change executable icon, use [resource hacker](http://www.angusj.com/resourcehacker/).*
+
 <div style="width:75%">![](/deploy/img/windows/0.jpg)</div>
 
 ## HashLink (C)
