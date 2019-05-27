@@ -123,7 +123,7 @@ Note: To see the output of `Print` node, enable `Armory Project - Flags - Debug 
 
 We can program the object traits directly using the `Haxe` programming language. Let's create a trait which spawns a box after pressing a key.
 
-First, create a cube and name it "Box". Enable `Rigid Body` and `Active` for the Box in the `Physics` tab.
+First, create a cube and name it "Box". Enable `Rigid Body` and `Active` for the cube in the `Physics` tab.
 
 Create an empty object in the scene (`F3 - Add Empty`). The location of this object will serve as the spawning point. Create a new `Haxe` trait in `Properties - Object - Armory Traits`. Press the `New Script` button.
 
