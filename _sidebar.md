@@ -5,6 +5,7 @@
   * [Playground](getting_started/playground.md)
   * [Tanks](getting_started/tanks.md)
   * [Video Tutorials](getting_started/video_tutorials.md)
+  * [Common pitfalls](getting_started/common_pitfalls.md)
 
 * Essentials
 
@@ -65,6 +66,7 @@
   * [Project History](remarks/history.md)
   * [Supported Nodes](remarks/supported_nodes.md)
   * [Supported Particles](remarks/supported_particles.md)
+  * [FAQ](remarks/faq.md)
 
 * Links
 

@@ -28,7 +28,7 @@ Examples:
 
 ## Material parameters
 
-`RGB`, `Value` and `Image Texture` material nodes can be controlled at run-time using script or logic nodes. To expose material node, enable `Parameter` property in `Node Editor - Properties - Armory Material Node`.
+`RGB`, `Value` and `Image Texture` material nodes can be controlled at run-time using script or logic nodes. To expose material node, enable `Parameter` property in `Shader Editor - Properties - Armory Material Node`.
 
 Examples:
 - https://github.com/armory3d/armory_examples/tree/master/material_params
